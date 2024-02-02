@@ -1,0 +1,41 @@
+/* * {
+    text-align: right;
+} */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin: 10px 80px 0px 80px;
+}
+
+
+li{
+    display: inline-block;
+    margin: 0px 10rem 0px 10rem;
+}
+
+/* HOW TO REMOVE LINE FROM ACHOR TAGS */
+a{
+    text-decoration: none;
+}
+
+/**
+    .class : mutiple
+    #id : specifice
+    * : for all
+    element: single
+    element , element  : any element selected to have same propertise
+    element element : want a sub element in the element in from to have that properties
+    element > element: select any greater than head
+    element + element: select element directly on 
+    : hover
+    : last-child 
+    : firt-child
+    !important ( it overide all rules)
+
+    WHAT selectors win out in the cascade depends on 
+    -specificity
+    -importance
+    -source order
+    specificity calculator <--- check out
+**/

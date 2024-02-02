@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zxx" class=" mediaqueries csstransitions cssanimations">
+
+<head>
+    <!-- META DATA -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- TITLE OF SITE -->
+    <title>Bizconnect</title>
+
+    <!-- favicon -->
+    <link id="favicon" rel="icon" type="image/png" href="assets/images/favicon.ico">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <!-- Main style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- Main Color -->
+    <link rel="stylesheet" href="assets/css/color_gray.css">
+
+</head>
+
+<body class="small_menu">
+    <div id="page" class="site">
+
+        <!--Start Preloader-->
+        <div class="page-loader startLoad" style="opacity: 0.68892;">
+            <div class="loader startLoad" style="opacity: 0.413248;"></div>
+        </div>
+        <!--End Preloader-->
+
+        <div id="splitlayout" class="splitlayout open-right">
+
+            <div class="intro">
+
+                <div class="mob-menu-overlay"></div>
+                <div class="mob-menu">
+                    <div class="mob-menu-content">
+                        <div class="float-left">
+                            <h3 class="menu-title">
+                                <h5>BIZZCONNECT</h5>
+                            </h3>
+                        </div>
+                        <div class="float-right">
+                            <nav class="navbar navbar-expand-lg container navbar-light bg-light">
+                                <button class="navbar-toggler navbar-toggle collapsed" type="button">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
+                <!--.sidebar-->
+                <div class="side side-right">
+                    <div class="home-lines">
+                        <div class="linesContent">
+                            <span class="home-line"></span>
+                            <span class="home-line"></span>
+                            <span class="home-line"></span>
+                            <span class="home-line"></span>
+                        </div>
+                        <div class="lines--content">
+                            <span class="home--line"></span>
+                            <span class="home--line"></span>
+                            <span class="home--line"></span>
+                            <span class="home---line"></span>
+                            <span class="home---line"></span>
+                            <span class="home---line"></span>
+                        </div>
+                    </div>
+                    <div class="intro-content">
+                        <div class="menu">
+                            <!-- brand -->
+                            <div class="my-4">
+                                <img src="assets/images/logo.jpg" style="width: 100px">
+                                <h6 class=""  style="position: relative; bottom: 20px; font-size: 12px; font-weight: bold;">BIZZCONNECT</h6>
+                            </div>
+                            <!--Menu Items-->
+                            <ul id="menu" class="list-unstyled menu_list">
+                                <li class="menu-item ">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li class="menu-item ">
+                                    <a href="profile-edit.html">Edit Profile</a>
+                                </li>
+                                <li class="menu-item ">
+                                    <a href="upload.html"  class="active_item">Upload</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="feedback.html">Feedback</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--.menu-->
+                    </div>
+                    <!--.intro-content-->
+                </div>
+                <!--.sidebar-->
+
+                <!-- content -->
+                <div class="pag-e page-right page-right-zero-height">
+                    <div id="pt-main" class="pt-perspective page-inner overFlowHidden">
+                        <!--Start About Section-->
+                        <section class="about pt-page pt-page-current" id="about">
+                            <div class="scroll___content">
+                                <div class="scroll__content">
+                                    <div class="sec_title">
+                                        <h2>Upload File</h2>
+                                    </div>
+
+                                    <div class="sec__content">
+                                        <div class="container">
+
+                                            <!-- Edit  Profile form -->
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="mx-auto text-center">
+                                                        <img class="img-avatar" id="img_preview" src="assets/images/avatar.png" alt="">
+                                                        <p> Please select a file you will like to upload </p>
+
+                                                    </div>
+                                                    <form action="" name="basicForm" class="form-horizontal form-bordered" method="POST" novalidate>
+                                                        <div class="card card-default">
+                                                            <div class="card-body">
+                                                                <div class="form-group">
+
+                                                                    <div class="col-sm-12">
+                                                                        <input accept="image/*" type='file' id="img_inp" class="form-control" onchange="readFile();" required />
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-12">
+                                                                    <button type="submit" class="btn btn-default btn-can"> Upload </button>
+                                                                </div>
+                                                            </div>
+
+                                                            <script type="text/javascript">
+                                                                let imgInp = document.getElementById("img_inp");
+                                                                let imgPreview  = document.getElementById("img_preview");
+                                                                imgInp.onchange = evt => {
+                                                                    const [file] = imgInp.files
+                                                                    if (file) {
+                                                                        imgPreview.src = URL.createObjectURL(file)
+                                                                    }
+                                                                }
+
+                                                            // function readFile() {
+                                                            //     var reader = new FileReader();
+                                                            //     var file = document.getElementById("file_upload").file[0];
+                                                            //     // reader.onload = function(e) {
+                                                            //     //     document.getElementsByClassName("img_preview").src = e.target.result;
+                                                            //     // }
+                                                            //     // reader.readAsDataURL(file);
+                                                            // }
+
+                                                            </script>
+                                                        </div>
+                                                    </form>
+                                                </div><!-- col-md-6 -->
+                                            </div>
+                                            <!-- END Edit  Profile info form -->
+
+                                        </div>
+                                        <!--.container-->
+                                    </div>
+                                    <!--.sec__content-->
+                                </div>
+                                <!--.scroll__content-->
+                            </div>
+                        </section>
+                        <!--End About Section-->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--.splitlayout-->
+
+    </div><!-- #page -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <style type="text/css">
+    label {
+        display: block;
+        text-align: left;
+    }
+
+    select {
+        min-height: 50px;
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: #adb5bd;
+        height: 2px;
+        width: 22px;
+        transition: all 0.2s;
+        border: 1px solid white;
+        margin: 0 2px;
+    }
+
+    .card-default {
+        border: none;
+    }
+
+    .img-avatar {
+        width: 150px;
+        border-radius: 50%;
+        height: 150px;
+    }
+
+    </style>
+</body>
+
+</html>
