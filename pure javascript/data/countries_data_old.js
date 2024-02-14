@@ -609,7 +609,7 @@ const countries = [
   },
   {
     name: 'Nigeria',
-    capital: 'Akwa Ibom',
+    capital: 'Nigeria',
     languages: ['Finnish', 'Swedish'],
     population: 5491817,
     flag: 'https://restcountries.eu/data/fin.svg',

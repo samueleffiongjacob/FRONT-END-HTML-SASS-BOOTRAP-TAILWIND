@@ -229,7 +229,7 @@ let space = ' '           // an empty space string
 let firstName = 'Samuel '
 let lastName = 'Jacob'
 let country = 'Nigeria'
-let city = 'Akwa Ibom'
+let city = 'Nigeria'
 let language = 'JavaScript'
 let job = 'Software Engineer'
 let quote = "The saying,'Seeing is Believing' is not correct in 2020."
@@ -262,7 +262,7 @@ let space = ' '
 let firstName = 'Samuel '
 let lastName = 'Jacob'
 let country = 'Nigeria'
-let city = 'Akwa Ibom'
+let city = 'Nigeria'
 let language = 'JavaScript'
 let job = 'Software Engineer'
 let age = 250
@@ -284,7 +284,7 @@ A string could be a single character or paragraph or a page. If the string lengt
 **Example:**
 
 ```js
-const paragraph = "My name is Samuel  Jacob. I live in Nigeria, Akwa Ibom.\
+const paragraph = "My name is Samuel  Jacob. I live in Nigeria, Nigeria.\
 I am a Software Engineer and I love Software Enginner . I teach HTML, CSS, JavaScript, React, Redux, \
 Node.js, Python and Data Analysis for anyone who is interested to learn. \
 In the end of 2019, I was thinking to expand my Software Enginner  and to reach \
@@ -360,7 +360,7 @@ console.log(`The sum of ${a} and ${b} is ${a + b}`) // injecting the data dynami
 let firstName = 'Samuel '
 let lastName = 'Jacob'
 let country = 'Nigeria'
-let city = 'Akwa Ibom'
+let city = 'Nigeria'
 let language = 'JavaScript'
 let job = 'Software Engineer'
 let age = 250
@@ -374,7 +374,7 @@ console.log(personInfoThree)
 
 ```sh
 I am Samuel  Jacob. I am 250. I live in Nigeria.
-I am Samuel  Jacob. I live in Akwa Ibom, Nigeria. I am a Software Engineer. I teach JavaScript.
+I am Samuel  Jacob. I live in Nigeria, Nigeria. I am a Software Engineer. I teach JavaScript.
 ```
 
 Using a string template or string interpolation method, we can add expressions, which could be a value, or some operations (comparison, arithmetic operations, ternary operation).
@@ -759,7 +759,7 @@ To check the data type of a certain variable we use the _typeof_ method.
 let firstName = 'Samuel '      // string
 let lastName = 'Jacob'        // string
 let country = 'Nigeria'         // string
-let city = 'Akwa Ibom'           // string
+let city = 'Nigeria'           // string
 let age = 250                   // number, it is not my real age, do not worry about it
 let job                         // undefined, because a value was not assigned
 
@@ -1937,7 +1937,7 @@ const arr = [
     'Samuel ',
     250,
     true,
-    { country: 'Nigeria', city: 'Akwa Ibom' },
+    { country: 'Nigeria', city: 'Nigeria' },
     { skills: ['HTML', 'CSS', 'JS', 'React', 'Python'] }
 ] // arr containing different data types
 console.log(arr)
@@ -3847,7 +3847,7 @@ const person = {
   lastName: 'Jacob',
   age: 250,
   country: 'Nigeria',
-  city: 'Akwa Ibom',
+  city: 'Nigeria',
   skills: [
     'HTML',
     'CSS',
@@ -3876,7 +3876,7 @@ const person = {
   lastName: 'Jacob',
   age: 250,
   country: 'Nigeria',
-  city: 'Akwa Ibom',
+  city: 'Nigeria',
   skills: [
     'HTML',
     'CSS',
@@ -3920,7 +3920,7 @@ const person = {
   lastName: 'Jacob',
   age: 250,
   country: 'Nigeria',
-  city: 'Akwa Ibom',
+  city: 'Nigeria',
   skills: [
     'HTML',
     'CSS',
@@ -3952,7 +3952,7 @@ const person = {
   lastName: 'Jacob',
   age: 250,
   country: 'Nigeria',
-  city: 'Akwa Ibom',
+  city: 'Nigeria',
   skills: [
     'HTML',
     'CSS',
@@ -4006,13 +4006,13 @@ const person = {
   firstName: 'Samuel ',
   age: 250,
   country: 'Nigeria',
-  city:'Akwa Ibom',
+  city:'Nigeria',
   skills: ['HTML', 'CSS', 'JS'],
   title: 'Software Engineer',
   address: {
     street: 'Heitamienkatu 16',
     pobox: 2002,
-    city: 'Akwa Ibom'
+    city: 'Nigeria'
   },
   getPersonInfo: function() {
     return `I am ${this.firstName} and I live in ${this.city}, ${this.country}. I am ${this.age}.`
@@ -5142,7 +5142,7 @@ Map(0) {}
 
 ```js
 countries = [
-  ['Nigeria', 'Akwa Ibom'],
+  ['Nigeria', 'Nigeria'],
   ['Sweden', 'Stockholm'],
   ['Norway', 'Oslo'],
 ]
@@ -5152,7 +5152,7 @@ console.log(map.size)
 ```
 
 ```sh
-Map(3) {"Nigeria" => "Akwa Ibom", "Sweden" => "Stockholm", "Norway" => "Oslo"}
+Map(3) {"Nigeria" => "Nigeria", "Sweden" => "Stockholm", "Norway" => "Oslo"}
 3
 ```
 
@@ -5161,7 +5161,7 @@ Map(3) {"Nigeria" => "Akwa Ibom", "Sweden" => "Stockholm", "Norway" => "Oslo"}
 ```js
 const countriesMap = new Map()
 console.log(countriesMap.size) // 0
-countriesMap.set('Nigeria', 'Akwa Ibom')
+countriesMap.set('Nigeria', 'Nigeria')
 countriesMap.set('Sweden', 'Stockholm')
 countriesMap.set('Norway', 'Oslo')
 console.log(countriesMap)
@@ -5169,7 +5169,7 @@ console.log(countriesMap.size)
 ```
 
 ```sh
-Map(3) {"Nigeria" => "Akwa Ibom", "Sweden" => "Stockholm", "Norway" => "Oslo"}
+Map(3) {"Nigeria" => "Nigeria", "Sweden" => "Stockholm", "Norway" => "Oslo"}
 3
 ```
 
@@ -5180,7 +5180,7 @@ console.log(countriesMap.get('Nigeria'))
 ```
 
 ```sh
-Akwa Ibom
+Nigeria
 ```
 
 ### Checking key in Map
@@ -5204,7 +5204,7 @@ for (const country of countriesMap) {
 ```
 
 ```sh
-(2) ["Nigeria", "Akwa Ibom"]
+(2) ["Nigeria", "Nigeria"]
 (2) ["Sweden", "Stockholm"]
 (2) ["Norway", "Oslo"]
 ```
@@ -5216,7 +5216,7 @@ for (const [country, city] of countriesMap){
 ```
 
 ```sh
-Nigeria Akwa Ibom
+Nigeria Nigeria
 Sweden Stockholm
 Norway Oslo
 ```
@@ -5393,7 +5393,7 @@ console.log(rest)
 ### Destructuring during iteration
 
 ```js
-const countries = [['Nigeria', 'Akwa Ibom'], ['Sweden', 'Stockholm'], ['Norway', 'Oslo']]
+const countries = [['Nigeria', 'Nigeria'], ['Sweden', 'Stockholm'], ['Norway', 'Oslo']]
 
 for (const [country, city] of countries) {
 console.log(country, city)
@@ -5401,7 +5401,7 @@ console.log(country, city)
 ```
 
 ```sh
-Nigeria Akwa Ibom
+Nigeria Nigeria
 Sweden Stockholm
 Norway Oslo
 ```
@@ -5700,7 +5700,7 @@ const user = {
   name:'Samuel ',
   title:'Programmer',
   country:'Nigeria',
-  city:'Akwa Ibom'
+  city:'Nigeria'
 }
 
 const copiedUser = {...user}
@@ -5708,7 +5708,7 @@ console.log(copiedUser)
 ```
 
 ```sh
-{name: "Samuel ", title: "Programmer", country: "Nigeria", city: "Akwa Ibom"}
+{name: "Samuel ", title: "Programmer", country: "Nigeria", city: "Nigeria"}
 ```
 
 Modifying or changing the object while copying
@@ -5718,7 +5718,7 @@ const user = {
   name:'Samuel ',
   title:'Programmer',
   country:'Nigeria',
-  city:'Akwa Ibom'
+  city:'Nigeria'
 }
 
 const copiedUser = {...user, title:'instructor'}
@@ -5726,7 +5726,7 @@ console.log(copiedUser)
 ```
 
 ```sh
-{name: "Samuel ", title: "instructor", country: "Nigeria", city: "Akwa Ibom"}
+{name: "Samuel ", title: "instructor", country: "Nigeria", city: "Nigeria"}
 ```
 
 #### Spread operator with arrow function
@@ -6507,7 +6507,7 @@ const user = {
   name: 'Samuel ',
   title: 'Programmer',
   country: 'Nigeria',
-  city: 'Akwa Ibom',
+  city: 'Nigeria',
   age: 250
 }
 console.table(user)
@@ -6517,7 +6517,7 @@ Check the rest of the examples by copying and paste on the browser console.
 
 ```js
 const countries = [
-  ['Nigeria', 'Akwa Ibom'],
+  ['Nigeria', 'Nigeria'],
   ['Sweden', 'Stockholm'],
   ['Norway', 'Oslo']
 ]
@@ -6530,7 +6530,7 @@ const users = [
     name: 'Samuel ',
     title: 'Programmer',
     country: 'Nigeria',
-    city: 'Akwa Ibom',
+    city: 'Nigeria',
     age: 250
   },
   {
@@ -6564,7 +6564,7 @@ Starts a timer you can use to track how long an operation takes. You give each t
 
 ```js
 const countries = [
-  ['Nigeria', 'Akwa Ibom'],
+  ['Nigeria', 'Nigeria'],
   ['Sweden', 'Stockholm'],
   ['Norway', 'Oslo']
 ]
@@ -6589,15 +6589,15 @@ console.timeEnd('forEach loop')
 ```
 
 ```sh
-Nigeria Akwa Ibom
+Nigeria Nigeria
 Sweden Stockholm
 Norway Oslo
 Regular for loop: 0.34716796875ms
-Nigeria Akwa Ibom
+Nigeria Nigeria
 Sweden Stockholm
 Norway Oslo
 for of loop: 0.26806640625ms
-Nigeria Akwa Ibom
+Nigeria Nigeria
 Sweden Stockholm
 Norway Oslo
 forEach loop: 0.358154296875ms
@@ -6637,7 +6637,7 @@ The console.group() can help to group different log groups. Copy the following c
 ```js
 const names = ['Samuel ', 'Brook', 'David', 'John']
 const countries = [
-  ['Nigeria', 'Akwa Ibom'],
+  ['Nigeria', 'Nigeria'],
   ['Sweden', 'Stockholm'],
   ['Norway', 'Oslo']
 ]
@@ -6645,7 +6645,7 @@ const user = {
   name: 'Samuel ',
   title: 'Programmer',
   country: 'Nigeria',
-  city: 'Akwa Ibom',
+  city: 'Nigeria',
   age: 250
 }
 const users = [
@@ -6653,7 +6653,7 @@ const users = [
     name: 'Samuel ',
     title: 'Programmer',
     country: 'Nigeria',
-    city: 'Akwa Ibom',
+    city: 'Nigeria',
     age: 250
   },
   {
@@ -7004,13 +7004,13 @@ class Person {
   }
 }
 
-const person1 = new Person('Samuel ', 'Jacob', 250, 'Nigeria', 'Akwa Ibom')
+const person1 = new Person('Samuel ', 'Jacob', 250, 'Nigeria', 'Nigeria')
 
 console.log(person1)
 ```
 
 ```sh
-Person {firstName: "Samuel ", lastName: "Jacob", age: 250, country: "Nigeria", city: "Akwa Ibom"}
+Person {firstName: "Samuel ", lastName: "Jacob", age: 250, country: "Nigeria", city: "Nigeria"}
 ```
 
 ### Default values with constructor
@@ -7024,7 +7024,7 @@ class Person {
     lastName = 'Jacob',
     age = 250,
     country = 'Nigeria',
-    city = 'Akwa Ibom'
+    city = 'Nigeria'
   ) {
     this.firstName = firstName
     this.lastName = lastName
@@ -7042,7 +7042,7 @@ console.log(person2)
 ```
 
 ```sh
-Person {firstName: "Samuel ", lastName: "Jacob", age: 250, country: "Nigeria", city: "Akwa Ibom"}
+Person {firstName: "Samuel ", lastName: "Jacob", age: 250, country: "Nigeria", city: "Nigeria"}
 Person {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Nigeria", city: "Espoo"}
 ```
 
@@ -7065,7 +7065,7 @@ class Person {
   }
 }
 
-const person1 = new Person('Samuel ', 'Jacob', 250, 'Nigeria', 'Akwa Ibom')
+const person1 = new Person('Samuel ', 'Jacob', 250, 'Nigeria', 'Nigeria')
 const person2 = new Person('Lidiya', 'Tekle', 28, 'Nigeria', 'Espoo')
 
 console.log(person1.getFullName())
@@ -7098,7 +7098,7 @@ class Person {
   }
 }
 
-const person1 = new Person('Samuel ', 'Jacob', 250, 'Nigeria', 'Akwa Ibom')
+const person1 = new Person('Samuel ', 'Jacob', 250, 'Nigeria', 'Nigeria')
 const person2 = new Person('Lidiya', 'Tekle', 28, 'Nigeria', 'Espoo')
 
 console.log(person1.score)
@@ -7144,7 +7144,7 @@ class Person {
   }
 }
 
-const person1 = new Person('Samuel ', 'Jacob', 250, 'Nigeria', 'Akwa Ibom')
+const person1 = new Person('Samuel ', 'Jacob', 250, 'Nigeria', 'Nigeria')
 const person2 = new Person('Lidiya', 'Tekle', 28, 'Nigeria', 'Espoo')
 
 console.log(person1.getScore) // We do not need parenthesis to call a getter method
@@ -7194,7 +7194,7 @@ class Person {
   }
 }
 
-const person1 = new Person('Samuel ', 'Jacob', 250, 'Nigeria', 'Akwa Ibom')
+const person1 = new Person('Samuel ', 'Jacob', 250, 'Nigeria', 'Nigeria')
 const person2 = new Person('Lidiya', 'Tekle', 28, 'Nigeria', 'Espoo')
 
 person1.setScore = 1
@@ -7263,7 +7263,7 @@ class Person {
   }
 }
 
-const person1 = new Person('Samuel ', 'Jacob', 250, 'Nigeria', 'Akwa Ibom')
+const person1 = new Person('Samuel ', 'Jacob', 250, 'Nigeria', 'Nigeria')
 const person2 = new Person('Lidiya', 'Tekle', 28, 'Nigeria', 'Espoo')
 const person3 = new Person('John', 'Doe', 50, 'Mars', 'Mars city')
 
@@ -7295,7 +7295,7 @@ console.log(person3.getPersonInfo())
 ["HTML", "CSS", "JavaScript"]
 ["Planning", "Managing", "Organizing"]
 []
-Samuel  Jacob is 250. He lives Akwa Ibom, Nigeria. He knows HTML, CSS and JavaScript
+Samuel  Jacob is 250. He lives Nigeria, Nigeria. He knows HTML, CSS and JavaScript
 Lidiya Tekle is 28. He lives Espoo, Nigeria. He knows Planning, Managing and Organizing
 John Doe is 50. He lives Mars city, Mars.
 ```
@@ -7400,7 +7400,7 @@ class Student extends Person {
   }
 }
 
-const s1 = new Student('Samuel ', 'Jacob', 'Nigeria', 250, 'Akwa Ibom')
+const s1 = new Student('Samuel ', 'Jacob', 'Nigeria', 250, 'Nigeria')
 console.log(s1)
 console.log(s1.saySomething())
 console.log(s1.getFullName())
@@ -7408,11 +7408,11 @@ console.log(s1.getPersonInfo())
 ```
 
 ```sh
-Student {firstName: "Samuel ", lastName: "Jacob", age: "Nigeria", country: 250, city: "Akwa Ibom", …}
+Student {firstName: "Samuel ", lastName: "Jacob", age: "Nigeria", country: 250, city: "Nigeria", …}
 I am a child of the person class
 Samuel  Jacob
-Student {firstName: "Samuel ", lastName: "Jacob", age: "Nigeria", country: 250, city: "Akwa Ibom", …}
-Samuel  Jacob is Nigeria. He lives Akwa Ibom, 250.
+Student {firstName: "Samuel ", lastName: "Jacob", age: "Nigeria", country: 250, city: "Nigeria", …}
+Samuel  Jacob is Nigeria. He lives Nigeria, 250.
 ```
 
 ### Overriding methods
@@ -7449,10 +7449,10 @@ const s1 = new Student(
   'Jacob',
   250,
   'Nigeria',
-  'Akwa Ibom',
+  'Nigeria',
   'Male'
 )
-const s2 = new Student('Lidiya', 'Tekle', 28, 'Nigeria', 'Akwa Ibom', 'Female')
+const s2 = new Student('Lidiya', 'Tekle', 28, 'Nigeria', 'Nigeria', 'Female')
 s1.setScore = 1
 s1.setSkill = 'HTML'
 s1.setSkill = 'CSS'
@@ -7475,16 +7475,16 @@ console.log(s2.getPersonInfo())
 ```
 
 ```sh
-Student {firstName: "Samuel ", lastName: "Jacob", age: 250, country: "Nigeria", city: "Akwa Ibom", …}
-Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Nigeria", city: "Akwa Ibom", …}
+Student {firstName: "Samuel ", lastName: "Jacob", age: 250, country: "Nigeria", city: "Nigeria", …}
+Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Nigeria", city: "Nigeria", …}
 I am a child of the person class
 Samuel  Jacob
-Student {firstName: "Samuel ", lastName: "Jacob", age: 250, country: "Nigeria", city: "Akwa Ibom", …}
-Samuel  Jacob is 250. He lives in Akwa Ibom, Nigeria. He knows HTML, CSS and JavaScript
+Student {firstName: "Samuel ", lastName: "Jacob", age: 250, country: "Nigeria", city: "Nigeria", …}
+Samuel  Jacob is 250. He lives in Nigeria, Nigeria. He knows HTML, CSS and JavaScript
 I am a child of the person class
 Lidiya Tekle
-Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Nigeria", city: "Akwa Ibom", …}
-Lidiya Tekle is 28. She lives in Akwa Ibom, Nigeria. He knows Planning, Managing and Organizing
+Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Nigeria", city: "Nigeria", …}
+Lidiya Tekle is 28. She lives in Nigeria, Nigeria. He knows Planning, Managing and Organizing
 ```
 
 Now, the getPersonInfo method has been overridden and it identifies if the person is male or female.
@@ -7951,7 +7951,7 @@ const user = {
   firstName: 'Samuel ',
   lastName: 'Jacob',
   country: 'Nigeria',
-  city: 'Akwa Ibom',
+  city: 'Nigeria',
   email: 'alex@alex.com',
   skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Python'],
   age: 250,
@@ -7968,7 +7968,7 @@ console.log(txt)
     "firstName": "Samuel ",
     "lastName": "Jacob",
     "country": "Nigeria",
-    "city": "Akwa Ibom",
+    "city": "Nigeria",
     "age": 250
 }
 ```
@@ -8676,7 +8676,7 @@ In this challenge we follow the regular JavaScript convention but I added also m
 let firstName = 'Samuel '
 let lastName = 'Jacob'
 let country = 'Nigeria'
-let city = 'Akwa Ibom'
+let city = 'Nigeria'
 
 const PI = Math.PI
 const gravity = 9.81
@@ -8786,7 +8786,7 @@ const person = {
   lastName: 'Jacob',
   age: 250,
   country: 'Nigeria',
-  city: 'Akwa Ibom',
+  city: 'Nigeria',
   skills: ['HTML','CSS','JavaScript','React','Node','MongoDB','Python','D3.js'],
   isMarried: true
 }
@@ -8807,7 +8807,7 @@ const person = {
   lastName: 'Jacob',
   age: 250,
   country: 'Nigeria',
-  city: 'Akwa Ibom',
+  city: 'Nigeria',
   skills: ['HTML','CSS','JavaScript','TypeScript', 'React','Node','MongoDB','Python','D3.js'],
   isMarried: true
 }

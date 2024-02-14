@@ -1,6 +1,6 @@
 # Data Types
 
-In the previous section, we mentioned a little bit about data types. Data or values have data types. Data types describe the characteristics of data. Data types can be divided into two:
+Data or values have data types. Data types describe the characteristics of data. Data types can be divided into two:
 
 1. Primitive data types
 2. Non-primitive data types(Object References)
@@ -77,15 +77,15 @@ let numbers = [1, 2, 3]
 console.log(nums == numbers)  // false
 
 let userOne = {
-name:'Asabeneh',
-role:'teaching',
-country:'Finland'
+name:'Effiong',
+role:'Sofware enginner',
+country:'Nigeria'
 }
 
 let userTwo = {
-name:'Asabeneh',
-role:'teaching',
-country:'Finland'
+name:'Effiong',
+role:'Sofware enginner',
+country:'Nigeria'
 }
 
 console.log(userOne == userTwo) // false
@@ -101,9 +101,9 @@ let numbers = nums
 console.log(nums == numbers)  // true
 
 let userOne = {
-name:'Asabeneh',
-role:'teaching',
-country:'Finland'
+name:'Effiong',
+role:'Sofware enginner',
+country:'Nigeria'
 }
 
 let userTwo = userOne
@@ -222,12 +222,12 @@ Let's see some examples of strings:
 
 ```js
 let space = ' '           // an empty space string
-let firstName = 'Asabeneh'
-let lastName = 'Yetayeh'
-let country = 'Finland'
-let city = 'Helsinki'
+let firstName = 'Effiong'
+let lastName = 'samuel'
+let country = 'Nigeria'
+let city = 'Akwa Ibom'
 let language = 'JavaScript'
-let job = 'teacher'
+let job = 'Software Engineer'
 let quote = "The saying,'Seeing is Believing' is not correct in 2020."
 let quotWithBackTick = `The saying,'Seeing is Believing' is not correct in 2020.`
 ```
@@ -243,7 +243,7 @@ console.log(fullName);
 ```
 
 ```sh
-Asabeneh Yetayeh
+Effiong samuel
 ```
 
 We can concatenate strings in different ways.
@@ -255,12 +255,12 @@ Concatenating using the addition operator is an old way. This way of concatenati
 ```js
 // Declaring different variables of different data types
 let space = ' '
-let firstName = 'Asabeneh'
-let lastName = 'Yetayeh'
-let country = 'Finland'
-let city = 'Helsinki'
+let firstName = 'Effiong'
+let lastName = 'samuel'
+let country = 'Nigeria'
+let city = 'Akwa Ibom'
 let language = 'JavaScript'
-let job = 'teacher'
+let job = 'Software Engineer'
 let age = 250
 
 
@@ -271,7 +271,7 @@ console.log(personInfoOne)
 ```
 
 ```sh
-Asabeneh Yetayeh. I am 250. I live in Finland
+Effiong samuel. I am 2500. I live in Nigeria
 ```
 
 #### Long Literal Strings
@@ -280,13 +280,13 @@ A string could be a single character or paragraph or a page. If the string lengt
 **Example:**
 
 ```js
-const paragraph = "My name is Asabeneh Yetayeh. I live in Finland, Helsinki.\
-I am a teacher and I love teaching. I teach HTML, CSS, JavaScript, React, Redux, \
-Node.js, Python, Data Analysis and D3.js for anyone who is interested to learn. \
-In the end of 2019, I was thinking to expand my teaching and to reach \
-to global audience and I started a Python challenge from November 20 - December 19.\
+const paragraph = "My name is Effiong samuel. I live in Nigeria, Akwa Ibom.\
+I am a Software Engineer and I love Sofware engineering. I teach HTML, CSS, JavaScript, React, Redux, \
+Node.js, Python, Data Analysis for anyone who is interested to learn. \
+In the end of 2023, I was thinking to expand my Sofware enginner and to reach \
+to global audience and I started a Python challenge from November 20 - December 30.\
 It was one of the most rewarding and inspiring experience.\
-Now, we are in 2020. I am enjoying preparing the 30DaysOfJavaScript challenge and \
+Now, we are in 2024. I am enjoying preparing the DaysOfJavaScript challenge and \
 I hope you are enjoying too."
 
 console.log(paragraph)
@@ -318,7 +318,7 @@ console.log('The saying \'Seeing is Believing\' isn\'t correct in 2020')
 Output in console:
 
 ```sh
-I hope everyone is enjoying the 30 Days Of JavaScript challenge.
+I hope everyone is enjoying the Days Of JavaScript challenge.
 Do you ?
 Days  Topics  Exercises
 Day 1 3 5
@@ -353,12 +353,12 @@ console.log(`The sum of ${a} and ${b} is ${a + b}`) // injecting the data dynami
 Example:2
 
 ```js
-let firstName = 'Asabeneh'
-let lastName = 'Yetayeh'
-let country = 'Finland'
-let city = 'Helsinki'
+let firstName = 'Effiong'
+let lastName = 'samuel'
+let country = 'Nigeria'
+let city = 'Akwa Ibom'
 let language = 'JavaScript'
-let job = 'teacher'
+let job = 'Software Engineer'
 let age = 250
 let fullName = firstName + ' ' + lastName
 
@@ -369,8 +369,8 @@ console.log(personInfoThree)
 ```
 
 ```sh
-I am Asabeneh Yetayeh. I am 250. I live in Finland.
-I am Asabeneh Yetayeh. I live in Helsinki, Finland. I am a teacher. I teach JavaScript.
+I am Effiong samuel. I am 250. I live in Nigeria.
+I am Effiong samuel. I live in Akwa Ibom, Nigeria. I am a Software Engineer. I teach JavaScript.
 ```
 
 Using a string template or string interpolation method, we can add expressions, which could be a value, or some operations (comparison, arithmetic operations, ternary operation).
@@ -389,386 +389,388 @@ console.log(`${a} is greater than ${b}: ${a > b}`)
 
 Everything in JavaScript is an object. A string is a primitive data type that means we can not modify it once it is created. The string object has many string methods. There are different string methods that can help us to work with strings.
 
-1. *length*: The string *length* method returns the number of characters in a string included empty space.
+0. *length*: The string *length* method returns the number of characters in a string included empty space.
 
-**Example:**
+    **Example:**
 
-```js
-let js = 'JavaScript'
-console.log(js.length)         // 10
-let firstName = 'Asabeneh'
-console.log(firstName.length)  // 8
-```
+    ```js
+    let js = 'JavaScript'
+    console.log(js.length)         // 10
+    let firstName = 'Effiong'
+    console.log(firstName.length)  // 8
+    ```
 
-2. *Accessing characters in a string*: We can access each character in a string using its index. In programming, counting starts from 0. The first index of the string is zero, and the last index is the length of the string minus one.
+1. *Accessing characters in a string*: We can access each character in a string using its index.In programming,
+    counting starts from 0. The first index of the string is zero, and the last index is the length of the string minus one.
 
-  ![Accessing sting by index](../images/string_indexes.png)
+  ![Accessing sting by index](/pure%20javascript/images/string_indexes.png)
   
-Let us access different characters in 'JavaScript' string.
+  **Let us access different characters in 'JavaScript' string.**
+  
+  ```js
+    let string = 'JavaScript'
+    let firstLetter = string[0]
 
-```js
-let string = 'JavaScript'
-let firstLetter = string[0]
+    console.log(firstLetter)           // J
 
-console.log(firstLetter)           // J
+    let secondLetter = string[1]       // a
+    let thirdLetter = string[2]
+    let lastLetter = string[9]
 
-let secondLetter = string[1]       // a
-let thirdLetter = string[2]
-let lastLetter = string[9]
+    console.log(lastLetter)            // t
 
-console.log(lastLetter)            // t
+    let lastIndex = string.length - 1
 
-let lastIndex = string.length - 1
+    console.log(lastIndex)  // 9
+    console.log(string[lastIndex])    // t
+  ```
 
-console.log(lastIndex)  // 9
-console.log(string[lastIndex])    // t
-```
+2. *toUpperCase()*: this method changes the string to uppercase letters.
 
-3. *toUpperCase()*: this method changes the string to uppercase letters.
+    ```js
+    let string = 'JavaScript'
 
-```js
-let string = 'JavaScript'
+    console.log(string.toUpperCase())     // JAVASCRIPT
 
-console.log(string.toUpperCase())     // JAVASCRIPT
+    let firstName = 'Effiong'
 
-let firstName = 'Asabeneh'
+    console.log(firstName.toUpperCase())  // Effiong
 
-console.log(firstName.toUpperCase())  // ASABENEH
+    let country = 'Nigeria'
 
-let country = 'Finland'
+    console.log(country.toUpperCase())    // Nigeria
+    ```
 
-console.log(country.toUpperCase())    // FINLAND
-```
+3. *toLowerCase()*: this method changes the string to lowercase letters.
 
-4. *toLowerCase()*: this method changes the string to lowercase letters.
+    ```js
+    let string = 'JavasCript'
 
-```js
-let string = 'JavasCript'
+    console.log(string.toLowerCase())     // javascript
 
-console.log(string.toLowerCase())     // javascript
+    let firstName = 'Effiong'
 
-let firstName = 'Asabeneh'
+    console.log(firstName.toLowerCase())  // Effiong
 
-console.log(firstName.toLowerCase())  // asabeneh
+    let country = 'Nigeria'
 
-let country = 'Finland'
-
-console.log(country.toLowerCase())   // finland
-```
+    console.log(country.toLowerCase())   // Nigeria
+    ```
 
 5. *substr()*: It takes two arguments, the starting index and number of characters to slice.
 
-```js
-let string = 'JavaScript'
-console.log(string.substr(4,6))    // Script
+    ```js
+    let string = 'JavaScript'
+    console.log(string.substr(4,6))    // Script
 
-let country = 'Finland'
-console.log(country.substr(3, 4))   // land
-```
+    let country = 'Nigeria'
+    console.log(country.substr(3, 4))   // land
+    ```
 
-6. *substring()*: It takes two arguments, the starting index and the stopping index but it doesn't include the character at the stopping index.
+6. *substring()*: It takes two arguments, the starting index and the stopping index but it doesn't include the character at the stopping
+    index.
 
-```js
-let string = 'JavaScript'
+    ```js
+    let string = 'JavaScript'
 
-console.log(string.substring(0,4))     // Java
-console.log(string.substring(4,10))    // Script
-console.log(string.substring(4))       // Script
+    console.log(string.substring(0,4))     // Java
+    console.log(string.substring(4,10))    // Script
+    console.log(string.substring(4))       // Script
 
-let country = 'Finland'
+    let country = 'Nigeria'
 
-console.log(country.substring(0, 3))   // Fin
-console.log(country.substring(3, 7))   // land
-console.log(country.substring(3))      // land
-```
+    console.log(country.substring(0, 3))   // Fin
+    console.log(country.substring(3, 7))   // land
+    console.log(country.substring(3))      // land
+    ```
 
 7. *split()*: The split method splits a string at a specified place.
 
-```js
-let string = '30 Days Of JavaScript'
+    ```js
+    let string = 'Days Of JavaScript'
 
-console.log(string.split())     // Changes to an array -> ["30 Days Of JavaScript"]
-console.log(string.split(' '))  // Split to an array at space -> ["30", "Days", "Of", "JavaScript"]
+    console.log(string.split())     // Changes to an array -> ["30 Days Of JavaScript"]
+    console.log(string.split(' '))  // Split to an array at space -> ["30", "Days", "Of", "JavaScript"]
 
-let firstName = 'Asabeneh'
+    let firstName = 'Effiong'
 
-console.log(firstName.split())    // Change to an array - > ["Asabeneh"]
-console.log(firstName.split(''))  // Split to an array at each letter ->  ["A", "s", "a", "b", "e", "n", "e", "h"]
+    console.log(firstName.split())    // Change to an array - > ["Effiong"]
+    console.log(firstName.split(''))  // Split to an array at each letter ->  ["A", "s", "a", "b", "e", "n", "e", "h"]
 
-let countries = 'Finland, Sweden, Norway, Denmark, and Iceland'
+    let countries = 'Nigeria, Sweden, Norway, Denmark, and Iceland'
 
-console.log(countries.split(','))  // split to any array at comma -> ["Finland", " Sweden", " Norway", " Denmark", " and Iceland"]
-console.log(countries.split(', ')) //  ["Finland", "Sweden", "Norway", "Denmark", "and Iceland"]
-```
+    console.log(countries.split(','))  // split to any array at comma -> ["Nigeria", " Sweden", " Norway", " Denmark", " and Iceland"]
+    console.log(countries.split(', ')) //  ["Nigeria", "Sweden", "Norway", "Denmark", "and Iceland"]
+    ```
 
 8. *trim()*: Removes trailing space in the beginning or the end of a string.
 
-```js
-let string = '   30 Days Of JavaScript   '
+    ```js
+    let string = '    Days Of JavaScript   '
 
-console.log(string)
-console.log(string.trim(' '))
+    console.log(string)
+    console.log(string.trim(' '))
 
-let firstName = ' Asabeneh '
+    let firstName = ' Effiong '
 
-console.log(firstName)
-console.log(firstName.trim())  // still removes spaces at the beginning and the end of the string
-```
+    console.log(firstName)
+    console.log(firstName.trim())  // still removes spaces at the beginning and the end of the string
+    ```
 
-```sh
-    Days Of JavasCript   
-    Days Of JavasCript
-  Asabeneh 
-Asabeneh
-```
+    ```sh
+        Days Of JavasCript   
+        Days Of JavasCript
+    Effiong 
+    Effiong
+    ```
 
 9. *includes()*: It takes a substring argument and it checks if substring argument exists in the string. *includes()* returns a boolean. If a substring exist in a string, it returns true, otherwise it returns false.
 
-```js
-let string = '30 Days Of JavaScript'
+    ```js
+    let string = '30 Days Of JavaScript'
 
-console.log(string.includes('Days'))     // true
-console.log(string.includes('days'))     // false - it is case sensitive!
-console.log(string.includes('Script'))   // true
-console.log(string.includes('script'))   // false
-console.log(string.includes('java'))     // false
-console.log(string.includes('Java'))     // true
+    console.log(string.includes('Days'))     // true
+    console.log(string.includes('days'))     // false - it is case sensitive!
+    console.log(string.includes('Script'))   // true
+    console.log(string.includes('script'))   // false
+    console.log(string.includes('java'))     // false
+    console.log(string.includes('Java'))     // true
 
-let country = 'Finland'
+    let country = 'Nigeria'
 
-console.log(country.includes('fin'))     // false
-console.log(country.includes('Fin'))     // true
-console.log(country.includes('land'))    // true
-console.log(country.includes('Land'))    // false
-```
+    console.log(country.includes('fin'))     // false
+    console.log(country.includes('Fin'))     // true
+    console.log(country.includes('land'))    // true
+    console.log(country.includes('Land'))    // false
+    ```
 
 10. *replace()*: takes as a parameter the old substring and a new substring.
 
-```js
-string.replace(oldsubstring, newsubstring)
-```
+    ```js
+    string.replace(oldsubstring, newsubstring)
+    ```
 
-```js
-let string = '30 Days Of JavaScript'
-console.log(string.replace('JavaScript', 'Python')) // 30 Days Of Python
+    ```js
+    let string = '30 Days Of JavaScript'
+    console.log(string.replace('JavaScript', 'Python')) // 30 Days Of Python
 
-let country = 'Finland'
-console.log(country.replace('Fin', 'Noman'))       // Nomanland
-```
+    let country = 'Nigeria'
+    console.log(country.replace('Fin', 'Noman'))       // Nomanland
+    ```
 
 11. *charAt()*: Takes index and it returns the value at that index
 
-```js
-string.charAt(index)
-```
+    ```js
+    string.charAt(index)
+    ```
 
-```js
-let string = '30 Days Of JavaScript'
-console.log(string.charAt(0))        // 3
+    ```js
+    let string = '30 Days Of JavaScript'
+    console.log(string.charAt(0))        // 3
 
-let lastIndex = string.length - 1
-console.log(string.charAt(lastIndex)) // t
-```
+    let lastIndex = string.length - 1
+    console.log(string.charAt(lastIndex)) // t
+    ```
 
 12. *charCodeAt()*: Takes index and it returns char code (ASCII number) of the value at that index
 
-```js
-string.charCodeAt(index)
-```
+    ```js
+    string.charCodeAt(index)
+    ```
 
-```js
-let string = '30 Days Of JavaScript'
-console.log(string.charCodeAt(3))        // D ASCII number is 68
+    ```js
+    let string = '30 Days Of JavaScript'
+    console.log(string.charCodeAt(3))        // D ASCII number is 68
 
-let lastIndex = string.length - 1
-console.log(string.charCodeAt(lastIndex)) // t ASCII is 116
+    let lastIndex = string.length - 1
+    console.log(string.charCodeAt(lastIndex)) // t ASCII is 116
 
-```
+    ```
 
 13. *indexOf()*: Takes a substring and if the substring exists in a string it returns the first position of the substring if does not exist it returns -1
 
-```js
-string.indexOf(substring)
-```
+    ```js
+    string.indexOf(substring)
+    ```
 
-```js
-let string = '30 Days Of JavaScript'
+    ```js
+    let string = ' Days Of JavaScript'
 
-console.log(string.indexOf('D'))          // 3
-console.log(string.indexOf('Days'))       // 3
-console.log(string.indexOf('days'))       // -1
-console.log(string.indexOf('a'))          // 4
-console.log(string.indexOf('JavaScript')) // 11
-console.log(string.indexOf('Script'))     //15
-console.log(string.indexOf('script'))     // -1
-```
+    console.log(string.indexOf('D'))          // 3
+    console.log(string.indexOf('Days'))       // 3
+    console.log(string.indexOf('days'))       // -1
+    console.log(string.indexOf('a'))          // 4
+    console.log(string.indexOf('JavaScript')) // 11
+    console.log(string.indexOf('Script'))     //15
+    console.log(string.indexOf('script'))     // -1
+    ```
 
 14. *lastIndexOf()*: Takes a substring and if the substring exists in a string it returns the last position of the substring if it does not exist it returns -1
 
-```js
-//syntax
-string.lastIndexOf(substring)
-```
+    ```js
+    //syntax
+    string.lastIndexOf(substring)
+    ```
 
-```js
-let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
+    ```js
+    let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
 
-console.log(string.lastIndexOf('love'))       // 67
-console.log(string.lastIndexOf('you'))        // 63
-console.log(string.lastIndexOf('JavaScript')) // 38
-```
+    console.log(string.lastIndexOf('love'))       // 67
+    console.log(string.lastIndexOf('you'))        // 63
+    console.log(string.lastIndexOf('JavaScript')) // 38
+    ```
 
 15. *concat()*: it takes many substrings and joins them.
 
-```js
-string.concat(substring, substring, substring)
-```
+    ```js
+    string.concat(substring, substring, substring)
+    ```
 
-```js
-let string = '30'
-console.log(string.concat("Days", "Of", "JavaScript")) // 30DaysOfJavaScript
+    ```js
+    let string = '30'
+    console.log(string.concat("Days", "Of", "JavaScript")) // 30DaysOfJavaScript
 
-let country = 'Fin'
-console.log(country.concat("land")) // Finland
-```
+    let country = 'Aks'
+    console.log(country.concat("land")) // Nigeria
+    ```
 
 16. *startsWith*: it takes a substring as an argument and it checks if the string starts with that specified substring. It returns a boolean(true or false).
 
-```js
-//syntax
-string.startsWith(substring)
-```
+    ```js
+    //syntax
+    string.startsWith(substring)
+    ```
 
-```js
-let string = 'Love is the best to in this world'
+    ```js
+    let string = 'Love is the best to in this world'
 
-console.log(string.startsWith('Love'))   // true
-console.log(string.startsWith('love'))   // false
-console.log(string.startsWith('world'))  // false
+    console.log(string.startsWith('Love'))   // true
+    console.log(string.startsWith('love'))   // false
+    console.log(string.startsWith('world'))  // false
 
-let country = 'Finland'
+    let country = 'Nigeria'
 
-console.log(country.startsWith('Fin'))   // true
-console.log(country.startsWith('fin'))   // false
-console.log(country.startsWith('land'))  //  false
-```
+    console.log(country.startsWith('Fin'))   // true
+    console.log(country.startsWith('fin'))   // false
+    console.log(country.startsWith('land'))  //  false
+    ```
 
 17. *endsWith*: it takes a substring as an argument and it checks if the string ends with that specified substring. It returns a boolean(true or false).
 
-```js
-string.endsWith(substring)
-```
+    ```js
+    string.endsWith(substring)
+    ```
 
-```js
-let string = 'Love is the most powerful feeling in the world'
+    ```js
+    let string = 'Love is the most powerful feeling in the world'
 
-console.log(string.endsWith('world'))         // true
-console.log(string.endsWith('love'))          // false
-console.log(string.endsWith('in the world')) // true
+    console.log(string.endsWith('world'))         // true
+    console.log(string.endsWith('love'))          // false
+    console.log(string.endsWith('in the world')) // true
 
-let country = 'Finland'
+    let country = 'Nigeria'
 
-console.log(country.endsWith('land'))         // true
-console.log(country.endsWith('fin'))          // false
-console.log(country.endsWith('Fin'))          //  false
-```
+    console.log(country.endsWith('land'))         // true
+    console.log(country.endsWith('fin'))          // false
+    console.log(country.endsWith('Fin'))          //  false
+    ```
 
 18. *search*: it takes a substring as an argument and it returns the index of the first match. The search value can be a string or  a regular expression pattern.
 
-```js
-string.search(substring)
-```
+    ```js
+    string.search(substring)
+    ```
 
-```js
-let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
-console.log(string.search('love'))          // 2
-console.log(string.search(/javascript/gi))  // 7
-```
+    ```js
+    let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
+    console.log(string.search('love'))          // 2
+    console.log(string.search(/javascript/gi))  // 7
+    ```
 
 19. *match*: it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null. Let us see how a regular expression pattern looks like. It starts with / sign and ends with / sign.
 
-```js
-let string = 'love'
-let patternOne = /love/     // with out any flag
-let patternTwo = /love/gi   // g-means to search in the whole text, i - case insensitive
-```
+    ```js
+    let string = 'love'
+    let patternOne = /love/     // with out any flag
+    let patternTwo = /love/gi   // g-means to search in the whole text, i - case insensitive
+    ```
 
-Match syntax
+    Match syntax
 
-```js
-// syntax
-string.match(substring)
-```
+    ```js
+    // syntax
+    string.match(substring)
+    ```
 
-```js
-let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
-console.log(string.match('love'))
-```
+    ```js
+    let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
+    console.log(string.match('love'))
+    ```
 
-```sh
-["love", index: 2, input: "I love JavaScript. If you do not love JavaScript what else can you love.", groups: undefined]
-```
+    ```sh
+    ["love", index: 2, input: "I love JavaScript. If you do not love JavaScript what else can you love.", groups: undefined]
+    ```
 
-```js
-let pattern = /love/gi
-console.log(string.match(pattern))   // ["love", "love", "love"]
-```
+    ```js
+    let pattern = /love/gi
+    console.log(string.match(pattern))   // ["love", "love", "love"]
+    ```
 
-Let us extract numbers from text using a regular expression. This is not the regular expression section, do not panic! We will cover regular expressions later on.
+    Let us extract numbers from text using a regular expression. This is not the regular expression section, do not panic! We will cover regular expressions later on.
 
-```js
-let txt = 'In 2023, I ran  Days of Python. Now, in 2024 I am super exited to start this challenge'
-let regEx = /\d+/
+    ```js
+    let txt = 'In 2023, I ran  Days of Python. Now, in 2024 I am super exited to start this challenge'
+    let regEx = /\d+/
 
-// d with escape character means d not a normal d instead acts a digit
-// + means one or more digit numbers,
-// if there is g after that it means global, search everywhere.
+    // d with escape character means d not a normal d instead acts a digit
+    // + means one or more digit numbers,
+    // if there is g after that it means global, search everywhere.
 
-console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", "0"]
-console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
-```
+    console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", "0"]
+    console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
+    ```
 
 20. *repeat()*: it takes a number as argument and it returns the repeated version of the string.
 
-```js
-string.repeat(n)
-```
+    ```js
+    string.repeat(n)
+    ```
 
-```js
-let string = 'love'
-console.log(string.repeat(10)) // lovelovelovelovelovelovelovelovelovelove
-```
+    ```js
+    let string = 'love'
+    console.log(string.repeat(10)) // lovelovelovelovelovelovelovelovelovelove
+    ```
 
-## Checking Data Types and Casting
+     **Checking Data Types and Casting**
 
-### Checking Data Types
+     **Checking Data Types**
 
-To check the data type of a certain variable we use the *typeof* method.
+    To check the data type of a certain variable we use the *typeof* method.
 
-**Example:**
+    **Example:**
 
-```js
-// Different javascript data types
-// Let's declare different data types
+    ```js
+    // Different javascript data types
+    // Let's declare different data types
 
-let firstName = 'Asabeneh'      // string
-let lastName = 'Yetayeh'        // string
-let country = 'Finland'         // string
-let city = 'Helsinki'           // string
-let age = 250                   // number, it is not my real age, do not worry about it
-let job                         // undefined, because a value was not assigned
+    let firstName = 'Effiong'      // string
+    let lastName = 'samuel'        // string
+    let country = 'Nigeria'         // string
+    let city = 'Akwa Ibom'           // string
+    let age = 250                   // number, it is not my real age, do not worry about it
+    let job                         // undefined, because a value was not assigned
 
-console.log(typeof 'Asabeneh')  // string
-console.log(typeof firstName)   // string
-console.log(typeof 10)          // number
-console.log(typeof 3.14)        // number
-console.log(typeof true)        // boolean
-console.log(typeof false)       // boolean
-console.log(typeof NaN)         // number
-console.log(typeof job)         // undefined
-console.log(typeof undefined)   // undefined
-console.log(typeof null)        // object
-```
+    console.log(typeof 'Effiong')  // string
+    console.log(typeof firstName)   // string
+    console.log(typeof 10)          // number
+    console.log(typeof 3.14)        // number
+    console.log(typeof true)        // boolean
+    console.log(typeof false)       // boolean
+    console.log(typeof NaN)         // number
+    console.log(typeof job)         // undefined
+    console.log(typeof undefined)   // undefined
+    console.log(typeof null)        // object
+    ```
 
 ### Changing Data Type (Casting)
 
@@ -854,31 +856,31 @@ console.log(numInt) // 9
 
 ### Exercise: Level 1
 
-1. Declare a variable named challenge and assign it to an initial value **'30 Days Of JavaScript'**.
+1. Declare a variable named challenge and assign it to an initial value **' Days Of JavaScript'**.
 2. Print the string on the browser console using **console.log()**
 3. Print the **length** of the string on the browser console using *console.log()*
 4. Change all the string characters to capital letters using **toUpperCase()** method
 5. Change all the string characters to lowercase letters using **toLowerCase()** method
 6. Cut (slice) out the first word of the string using **substr()** or **substring()** method
-7. Slice out the phrase *Days Of JavaScript* from *30 Days Of JavaScript*.
+7. Slice out the phrase *Days Of JavaScript* from *Days Of JavaScript*.
 8. Check if the string contains a word **Script** using **includes()** method
 9. Split the **string** into an **array** using **split()** method
-10. Split the string 30 Days Of JavaScript at the space using **split()** method
+10. Split the string  Days Of JavaScript at the space using **split()** method
 11. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' **split** the string at the comma and change it to an array.
-12. Change 30 Days Of JavaScript to 30 Days Of Python using **replace()** method.
-13. What is character at index 15 in '30 Days Of JavaScript' string? Use **charAt()** method.
-14. What is the character code of J in '30 Days Of JavaScript' string using **charCodeAt()**
-15. Use **indexOf** to determine the position of the first occurrence of **a** in 30 Days Of JavaScript
-16. Use **lastIndexOf** to determine the position of the last occurrence of **a** in 30 Days Of JavaScript.
+12. Change  Days Of JavaScript to  Days Of Python using **replace()** method.
+13. What is character at index 15 in 'Days Of JavaScript' string? Use **charAt()** method.
+14. What is the character code of J in ' Days Of JavaScript' string using **charCodeAt()**
+15. Use **indexOf** to determine the position of the first occurrence of **a** in  Days Of JavaScript
+16. Use **lastIndexOf** to determine the position of the last occurrence of **a** in  Days Of JavaScript.
 17. Use **indexOf** to find the position of the first occurrence of the word **because** in the following sentence:**'You cannot end a sentence with because because because is a conjunction'**
 18. Use **lastIndexOf** to find the position of the last occurrence of the word **because** in the following sentence:**'You cannot end a sentence with because because because is a conjunction'**
 19. Use **search** to find the position of the first occurrence of the word **because** in the following sentence:**'You cannot end a sentence with because because because is a conjunction'**
-20. Use **trim()** to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
-21. Use **startsWith()** method with the string *30 Days Of JavaScript* and make the result true
-22. Use **endsWith()** method with the string *30 Days Of JavaScript* and make the result true
-23. Use **match()** method to find all the **a**’s in 30 Days Of JavaScript
-24. Use **concat()** and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
-25. Use **repeat()** method to print 30 Days Of JavaScript 2 times
+20. Use **trim()** to remove any trailing whitespace at the beginning and the end of a string.E.g '  Days Of JavaScript '.
+21. Use **startsWith()** method with the string *Days Of JavaScript* and make the result true
+22. Use **endsWith()** method with the string *Days Of JavaScript* and make the result true
+23. Use **match()** method to find all the **a**’s in  Days Of JavaScript
+24. Use **concat()** and merge ' Days of' and 'JavaScript' to a single string, 'Days Of JavaScript'
+25. Use **repeat()** method to print  Days Of JavaScript 2 times
 
 ### Exercise: Level 2
 
@@ -921,17 +923,18 @@ console.log(numInt) // 9
 3. Clean the following text and find the most frequent word (hint, use replace and regular expressions).
 
     ```js
-        const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
+        const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is #Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
     ```
 
 4. Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
 
 ===========================================================================================
+
 ## Booleans
 
-A boolean data type represents one of the two values:_true_ or _false_. Boolean value is either true or false. The use of these data types will be clear when you start the comparison operator. Any comparisons return a boolean value which is either true or false.
+A boolean data type represents one of the two values:*true* or *false*. Boolean value is either true or false. The use of these data types will be clear when you start the comparison operator. Any comparisons return a boolean value which is either true or false.
 
-**Example: Boolean Values**
+### Example: Boolean Values
 
 ```js
 let isLightOn = true
@@ -985,13 +988,13 @@ console.log(empty) // -> null , means no value
 An equal sign in JavaScript is an assignment operator. It uses to assign a variable.
 
 ```js
-let firstName = 'Asabeneh'
-let country = 'Finland'
+let firstName = 'Effiong'
+let country = 'Nigeria'
 ```
 
 Assignment Operators
 
-![Assignment operators](../images/assignment_operators.png)
+![Assignment operators](/pure%20javascript/images/assignment_operators.png)
 
 ### Arithmetic Operators
 
@@ -999,10 +1002,10 @@ Arithmetic operators are mathematical operators.
 
 - Addition(+): a + b
 - Subtraction(-): a - b
-- Multiplication(*): a * b
+- Multiplication(*): a* b
 - Division(/): a / b
 - Modulus(%): a % b
-- Exponential(**): a ** b
+- Exponential(**): a** b
 
 ```js
 let numOne = 4
@@ -1053,7 +1056,7 @@ console.log(
 
 In programming we compare values, we use comparison operators to compare two values. We check if a value is greater or less or equal to other value.
 
-![Comparison Operators](../images/comparison_operators.png)
+![Comparison Operators](/pure%20javascript/images/comparison_operators.png)
 **Example: Comparison Operators**
 
 ```js
@@ -1154,19 +1157,19 @@ In JavaScript we use the decrement operator to decrease a value stored in a vari
 
 1. Pre-decrement
 
-```js
-let count = 0
-console.log(--count) // -1
-console.log(count)  // -1
-```
+    ```js
+    let count = 0
+    console.log(--count) // -1
+    console.log(count)  // -1
+    ```
 
 2. Post-decrement
 
-```js
-let count = 0
-console.log(count--) // 0
-console.log(count)   // -1
-```
+    ```js
+    let count = 0
+    console.log(count--) // 0
+    console.log(count)   // -1
+    ```
 
 ### Ternary Operators
 
@@ -1255,10 +1258,10 @@ These are not all the window methods we will have a separate section to go deep 
 
 ## Date Object
 
-Time is an important thing. We like to know the time a certain activity or event. In JavaScript current time and date is created using JavaScript Date Object. The object we create using Date object provides many methods to work with date and time.The methods we use to get date and time information from a date object values are started with a word _get_ because it provide the information.
-_getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()_
+Time is an important thing. We like to know the time a certain activity or event. In JavaScript current time and date is created using JavaScript Date Object. The object we create using Date object provides many methods to work with date and time.The methods we use to get date and time information from a date object values are started with a word *get* because it provide the information.
+*getFullYear(), getMonth(), getDate(), getDay(), getHours(), getMinutes, getSeconds(), getMilliseconds(), getTime(), getDay()*
 
-![Date time Object](../images/date_time_object.png)
+![Date time Object](/pure%20javascript/images/date_time_object.png)
 
 ### Creating a time object
 
@@ -1340,14 +1343,14 @@ console.log(now.getSeconds()) // 41, because the time is 00:56:41
 
 This method give time in milliseconds starting from January 1, 1970. It is also know as Unix time. We can get the unix time in two ways:
 
-1. Using _getTime()_
+1. Using *getTime()*
 
 ```js
 const now = new Date() //
 console.log(now.getTime()) // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
 ```
 
-1. Using _Date.now()_
+1. Using *Date.now()*
 
 ```js
 const allSeconds = Date.now() //
@@ -1457,15 +1460,15 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 1. Compare your first name length and your family name length and you should get this output.
 
     ```js
-    let firstName = 'Asabeneh'
-    let lastName = 'Yetayeh'
+    let firstName = 'Effiong'
+    let lastName = 'samuel'
     ```
 
     ```sh
-    Your first name, Asabeneh is longer than your family name, Yetayeh
+    Your first name, Effiong is longer than your family name, samuel
     ```
 
-1. Declare two variables _myAge_ and _yourAge_ and assign them initial values and myAge and yourAge.
+1. Declare two variables *myAge* and *yourAge* and assign them initial values and myAge and yourAge.
 
    ```js
    let myAge = 250
@@ -1505,13 +1508,14 @@ Exercises: Level 3
    1. YYY-MM-DD HH:mm eg. 20120-01-02 07:05
 
 ==========================================================================================
+
 ## Conditionals
 
 Conditional statements are used for  make decisions based on different conditions.
 By default , statements in JavaScript script executed sequentially from top to bottom. If the processing logic require so, the sequential flow of execution can be altered in two ways:
 
 - Conditional execution: a block of one or more statements will be executed if a certain expression is true
-- Repetitive execution: a block of one or more statements will be repetitively executed as long as a certain expression is true. In this section, we will cover _if_, _else_ , _else if_ statements. The comparison and logical operators we learned in the previous sections will be useful in here.
+- Repetitive execution: a block of one or more statements will be repetitively executed as long as a certain expression is true. In this section, we will cover *if*, *else* , *else if* statements. The comparison and logical operators we learned in the previous sections will be useful in here.
 
 Conditions can be implementing using the following ways:
 
@@ -1523,7 +1527,7 @@ Conditions can be implementing using the following ways:
 
 ### If
 
-In JavaScript and other programming languages the key word _if_ is to used check if a condition is true and to execute the block code. To create an if condition, we need _if_ keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
+In JavaScript and other programming languages the key word *if* is to used check if a condition is true and to execute the block code. To create an if condition, we need *if* keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
 
 ```js
 // syntax
@@ -1551,7 +1555,7 @@ if (isRaining) {
 }
 ```
 
- The same goes for the second condition, if isRaining is false the if block will not be executed and we do not see any output. In order to see the result of a falsy condition, we should have another block, which is going to be _else_.
+ The same goes for the second condition, if isRaining is false the if block will not be executed and we do not see any output. In order to see the result of a falsy condition, we should have another block, which is going to be *else*.
 
 ### If Else
 
@@ -1848,14 +1852,14 @@ Exercises: Level 3
 
 ## Arrays
 
-In contrast to variables, an array can store _multiple values_. Each value in an array has an _index_, and each index has _a reference in a memory address_. Each value can be accessed by using their _indexes_. The index of an array starts from _zero_, and the  index of the last element is less by one from the length of the array.
+In contrast to variables, an array can store *multiple values*. Each value in an array has an *index*, and each index has *a reference in a memory address*. Each value can be accessed by using their *indexes*. The index of an array starts from *zero*, and the  index of the last element is less by one from the length of the array.
 
 An array is a collection of different data types which are ordered and changeable(modifiable). An array allows storing duplicate elements and different data types. An array can be empty, or it may have different data type values.
 
 ### How to create an empty array
 
 In JavaScript, we can create an array in different ways. Let us see different ways to create an array.
-It is very common to use _const_ instead of _let_ to declare an array variable. If you ar using const it means you do not use that variable name again.
+It is very common to use *const* instead of *let* to declare an array variable. If you ar using const it means you do not use that variable name again.
 
 - Using Array constructor
 
@@ -1878,7 +1882,7 @@ console.log(arr)
 
 ### How to create an array with values
 
-Array with initial values. We use _length_ property to find the length of an array.
+Array with initial values. We use *length* property to find the length of an array.
 
 ```js
 const numbers = [0, 3.14, 9.81, 37, 98.6, 100] // array of numbers
@@ -1886,7 +1890,7 @@ const fruits = ['banana', 'orange', 'mango', 'lemon'] // array of strings, fruit
 const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'] // array of strings, vegetables
 const animalProducts = ['milk', 'meat', 'butter', 'yoghurt'] // array of strings, products
 const webTechs = ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'MongDB'] // array of web technologies
-const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland'] // array of strings, countries
+const countries = ['Nigeria', 'Denmark', 'Sweden', 'Norway', 'Iceland'] // array of strings, countries
 
 // Print the array and its length
 
@@ -1920,7 +1924,7 @@ Animal products: ['milk', 'meat', 'butter', 'yoghurt']
 Number of animal products: 4
 Web technologies: ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'MongDB']
 Number of web technologies: 7
-Countries: ['Finland', 'Estonia', 'Denmark', 'Sweden', 'Norway']
+Countries: ['Nigeria', 'Estonia', 'Denmark', 'Sweden', 'Norway']
 Number of countries: 5
 ```
 
@@ -1928,10 +1932,10 @@ Number of countries: 5
 
 ```js
 const arr = [
-    'Asabeneh',
+    'Effiong',
     250,
     true,
-    { country: 'Finland', city: 'Helsinki' },
+    { country: 'Nigeria', city: 'Akwa Ibom' },
     { skills: ['HTML', 'CSS', 'JS', 'React', 'Python'] }
 ] // arr containing different data types
 console.log(arr)
@@ -1952,19 +1956,19 @@ const companies = companiesString.split(',')
 
 console.log(companies) // ["Facebook", " Google", " Microsoft", " Apple", " IBM", " Oracle", " Amazon"]
 let txt =
-  'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+  'I love Sofware enginner and empowering people. I teach HTML, CSS, JS, React, Python.'
 const words = txt.split(' ')
 
 console.log(words)
 // the text has special characters think how you can just get only the words
-// ["I", "love", "teaching", "and", "empowering", "people.", "I", "teach", "HTML,", "CSS,", "JS,", "React,", "Python"]
+// ["I", "love", "Sofware enginner", "and", "empowering", "people.", "I", "teach", "HTML,", "CSS,", "JS,", "React,", "Python"]
 ```
 
 ### Accessing array items using index
 
 We access each element in an array using their index. An array index starts from 0. The picture below clearly shows the index of each element in the array.
 
-![arr index](../images/array_index.png)
+![arr index](/pure%20javascript/images/array_index.png)
 
 ```js
 const fruits = ['banana', 'orange', 'mango', 'lemon']
@@ -2024,7 +2028,7 @@ const countries = [
   'Canada',
   'Denmark',
   'Ethiopia',
-  'Finland',
+  'Nigeria',
   'Germany',
   'Hungary',
   'Ireland',
@@ -2077,7 +2081,7 @@ const countries = [
   'Canada',
   'Denmark',
   'Ethiopia',
-  'Finland',
+  'Nigeria',
   'Germany',
   'Hungary',
   'Ireland',
@@ -2093,12 +2097,12 @@ console.log(countries)
 ```
 
 ```sh
-["Afghanistan", "Bolivia", "Canada", "Denmark", "Ethiopia", "Finland", "Germany", "Hungary", "Ireland", "Japan", "Korea"]
+["Afghanistan", "Bolivia", "Canada", "Denmark", "Ethiopia", "Nigeria", "Germany", "Hungary", "Ireland", "Japan", "Korea"]
 ```
 
 ### Methods to manipulate array
 
-There are different methods to manipulate an array. These are some of the available methods to deal with arrays:_Array, length, concat, indexOf, slice, splice, join, toString, includes, lastIndexOf, isArray, fill, push, pop, shift, unshift_
+There are different methods to manipulate an array. These are some of the available methods to deal with arrays:*Array, length, concat, indexOf, slice, splice, join, toString, includes, lastIndexOf, isArray, fill, push, pop, shift, unshift*
 
 #### Array Constructor
 
@@ -2264,8 +2268,8 @@ toString:Converts array to string
 const numbers = [1, 2, 3, 4, 5]
 console.log(numbers.toString()) // 1,2,3,4,5
 
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
-console.log(names.toString()) // Asabeneh,Mathias,Elias,Brook
+const names = ['Effiong', 'Mathias', 'Elias', 'Brook']
+console.log(names.toString()) // Effiong,Mathias,Elias,Brook
 ```
 
 #### Joining array elements
@@ -2276,13 +2280,13 @@ join: It is used to join the elements of the array, the argument we passed in th
 const numbers = [1, 2, 3, 4, 5]
 console.log(numbers.join()) // 1,2,3,4,5
 
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const names = ['Effiong', 'Mathias', 'Elias', 'Brook']
 
-console.log(names.join()) // Asabeneh,Mathias,Elias,Brook
-console.log(names.join('')) //AsabenehMathiasEliasBrook
-console.log(names.join(' ')) //Asabeneh Mathias Elias Brook
-console.log(names.join(', ')) //Asabeneh, Mathias, Elias, Brook
-console.log(names.join(' # ')) //Asabeneh # Mathias # Elias # Brook
+console.log(names.join()) // Effiong,Mathias,Elias,Brook
+console.log(names.join('')) //EffiongMathiasEliasBrook
+console.log(names.join(' ')) //Effiong Mathias Elias Brook
+console.log(names.join(', ')) //Effiong, Mathias, Elias, Brook
+console.log(names.join(' # ')) //Effiong # Mathias # Elias # Brook
 
 const webTechs = [
   'HTML',
@@ -2324,13 +2328,13 @@ Splice: It takes three parameters:Starting position, number of times to be remov
 
 ```js
   const numbers = [1, 2, 3, 4, 5]
-	numbers.splice(0,1)
+ numbers.splice(0,1)
   console.log(numbers)            // remove the first item
 ```
 
 ```js
   const numbers = [1, 2, 3, 4, 5, 6]
-	numbers.splice(3, 3, 7, 8, 9)
+ numbers.splice(3, 3, 7, 8, 9)
   console.log(numbers.splice(3, 3, 7, 8, 9))  // -> [1, 2, 3, 7, 8, 9] //it removes three item and replace three items
 ```
 
@@ -2453,8 +2457,6 @@ console.log(arrayOfArray[0]) // [1, 2, 3]
 
 ## 💻 Exercise
 
-### Exercise: Level 1
-
 ```js
 const countries = [
   'Albania',
@@ -2462,7 +2464,7 @@ const countries = [
   'Canada',
   'Denmark',
   'Ethiopia',
-  'Finland',
+  'Nigeria',
   'Germany',
   'Hungary',
   'Ireland',
@@ -2481,22 +2483,22 @@ const webTechs = [
 ]
 ```
 
-1. Declare an _empty_ array;
+1. Declare an *empty* array;
 2. Declare an array with more than 5 number of elements
 3. Find the length of your array
 4. Get the first item, the middle item and the last item of the array
-5. Declare an array called _mixedDataTypes_, put different data types in the array and find the length of the array. The array size should  be greater than 5
+5. Declare an array called *mixedDataTypes*, put different data types in the array and find the length of the array. The array size should  be greater than 5
 6. Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
-7. Print the array using _console.log()_
+7. Print the array using *console.log()*
 8. Print the number of companies in the array
 9. Print the first company, middle and last company
 10. Print out each company
 11. Change each company name  to uppercase one by one and print them out
 12. Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
-13. Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is _not found_
+13. Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is *not found*
 14. Filter out companies which have more than one 'o' without the filter method
-15. Sort the array using _sort()_ method
-16. Reverse the array using _reverse()_ method
+15. Sort the array using *sort()* method
+16. Reverse the array using *reverse()* method
 17. Slice out the first 3 companies from the array
 18. Slice out the last 3 companies from the array
 19. Slice out the middle IT company or companies from the array
@@ -2505,20 +2507,20 @@ const webTechs = [
 22. Remove the last IT company from the array
 23. Remove all IT companies
 
-### Exercise: Level 2
+## Excercise: Level 2
 
 1. Create a separate countries.js file and store the countries array in to this file, create a separate file web_techs.js and store the webTechs array in to this file. Access both file in main.js file
 1. First remove all the punctuations and change the string to array and count the number of words in the array
 
     ```js
     let text =
-    'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+    'I love Sofware enginner and empowering people. I teach HTML, CSS, JS, React, Python.'
     console.log(words)
     console.log(words.length)
     ```
 
     ```sh
-    ["I", "love", "teaching", "and", "empowering", "people", "I", "teach", "HTML", "CSS", "JS", "React", "Python"]
+    ["I", "love", "Sofware enginner", "and", "empowering", "people", "I", "teach", "HTML", "CSS", "JS", "React", "Python"]
   
     13
     ```
@@ -2560,13 +2562,15 @@ const webTechs = [
     - Find the median age(one middle item or two middle items divided by two)
     - Find the average age(all items divided by number of items)
     - Find the range of the ages(max minus min)
-    - Compare the value of (min - average) and (max - average), use _abs()_ method
-1.Slice the first ten countries from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
+    - Compare the value of (min - average) and (max - average), use *abs()* method
 
-1. Find the middle country(ies) in the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
+    0. Slice the first ten countries from the [countries array](https://github.com/samueleffiongjacob/FRONT-END-HTML-SASS-BOOTRAP-TAILWIND/blob/main/pure%20javascript/data/countries.js)
 
-2. Divide the countries array into two equal arrays if it is even.  If countries array is not even , one more country for the first half.
+    1. Find the middle country(ies) in the [countries array](https://github.com/samueleffiongjacob/FRONT-END-HTML-SASS-BOOTRAP-TAILWIND/blob/main/pure%20javascript/data/countries.js)
+
+    2. Divide the countries array into two equal arrays if it is even.  If countries array is not even , one more country for the first half.
 ==========================================================================================
+
 ## Loops
 
 Most of the activities we do in life are full of repetitions. Imagine if I ask you to print out from 0 to 100 using console.log(). To implement this simple task it may take you 2 to 5 minutes, such kind of tedious and repetitive task can be carried out using loop. If you prefer watching the videos, you can checkout the [video tutorials](https://www.youtube.com/channel/UCM4xOopkYiPwJqyKsSqL9mw)
@@ -2614,13 +2618,13 @@ for(let i = 0; i <= 5; i++){
 ```
 
 ```js
-const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
+const countries = ['Nigeria', 'Sweden', 'Denmark', 'Norway', 'Iceland']
 const newArr = []
 for(let i = 0; i < countries.length; i++){
   newArr.push(countries[i].toUpperCase())
 }
 
-// ["FINLAND", "SWEDEN", "DENMARK", "NORWAY", "ICELAND"]
+// ["Nigeria", "SWEDEN", "DENMARK", "NORWAY", "ICELAND"]
 ```
 
 Adding all elements in the array
@@ -2651,13 +2655,13 @@ console.log(newArr)  // [1, 4, 9, 16, 25]
 ```
 
 ```js
-const countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
+const countries = ['Nigeria', 'Sweden', 'Norway', 'Denmark', 'Iceland']
 const newArr = []
 for(let i = 0; i < countries.length; i++){
   newArr.push(countries[i].toUpperCase())
 }
 
-console.log(newArr)  // ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
+console.log(newArr)  // ["Nigeria", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
 ```
 
 ### while loop
@@ -2714,7 +2718,7 @@ for (const num of numbers) {
 let sum = 0
 for (const num of numbers) {
   sum = sum + num  
-	// can be also shorten like this, sum += num
+ // can be also shorten like this, sum += num
   // after this we will use the shorter synthax(+=, -=, *=, /= etc)
 }
 console.log(sum) // 15
@@ -2742,13 +2746,13 @@ for (const tech of webTechs) {
 ```
 
 ```js
-const countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
+const countries = ['Nigeria', 'Sweden', 'Norway', 'Denmark', 'Iceland']
 const newArr = []
 for(const country of countries){
   newArr.push(country.toUpperCase())
 }
 
-console.log(newArr)  // ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
+console.log(newArr)  // ["Nigeria", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
 ```
 
 ### break
@@ -2770,7 +2774,7 @@ The above code stops if 3 found in the iteration process.
 
 ### continue
 
-We use the keyword *continue* to skip a certain iterations. 
+We use the keyword *continue* to skip a certain iterations.
 
 ```js
 for(let i = 0; i <= 5; i++){
@@ -2785,9 +2789,7 @@ for(let i = 0; i <= 5; i++){
 
 🌕 You are so brave, you made it to this far. Now, you have gained the power to automate repetitive and tedious tasks. You have just completed day 6 challenges and you are 6 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
-## 💻 Exercises:Day 6
-
-### Exercises: Level 1
+#### Exercises: Level1
 
   ```js
   const countries = [
@@ -2796,7 +2798,7 @@ for(let i = 0; i <= 5; i++){
     'Canada',
     'Denmark',
     'Ethiopia',
-    'Finland',
+    'Nigeria',
     'Germany',
     'Hungary',
     'Ireland',
@@ -2894,7 +2896,7 @@ for(let i = 0; i <= 5; i++){
     5j2khz
     ```
 
-### Exercises: Level 2
+### Exercises: Level2
 
 1. Develop a small script which generate any number of characters random id:
 
@@ -2921,7 +2923,7 @@ for(let i = 0; i <= 5; i++){
 1. Using the above countries array, create the following new array.
 
     ```sh
-    ["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
+    ["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "Nigeria", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
     ```
 
 1. Using the above countries array, create an array for countries length'.
@@ -2939,7 +2941,7 @@ for(let i = 0; i <= 5; i++){
       ['Canada', 'CAN', 6],
       ['Denmark', 'DEN', 7],
       ['Ethiopia', 'ETH', 8],
-      ['Finland', 'FIN', 7],
+      ['Nigeria', 'FIN', 7],
       ['Germany', 'GER', 7],
       ['Hungary', 'HUN', 7],
       ['Ireland', 'IRE', 7],
@@ -2952,7 +2954,7 @@ for(let i = 0; i <= 5; i++){
 2. In above countries array, check if there is a country or countries containing the word 'land'. If there are countries containing 'land', print it as array. If there is no country containing the word 'land', print 'All these countries are without land'.
 
     ```sh
-    ['Finland','Ireland', 'Iceland']
+    ['Nigeria','Ireland', 'Iceland']
     ```
 
 3. In above countries array, check if there is  a country or countries end with a substring 'ia'. If there are countries end with, print it as array. If there is no country containing the word 'ai', print 'These are countries ends without ia'.
@@ -3002,20 +3004,23 @@ for(let i = 0; i <= 5; i++){
       MONGODB
     ```
 
-### Exercises: Level 3
+### Exercises: Level3
 
 1. Copy countries array(Avoid mutation)
 1. Arrays are mutable. Create a copy of array which does not modify the original. Sort the copied array and store in a variable sortedCountries
 1. Sort the webTechs array and mernStack array
-1. Extract all the countries contain the word 'land' from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
-1. Find the country containing the hightest number of characters in the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
-1. Extract all the countries contain the word 'land' from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
-1. Extract all the countries containing only four characters from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
-1. Extract all the countries containing two or more words from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
-1. Reverse the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and capitalize each country and stored it as an array
+1. Extract all the countries contain the word 'land' from the [countries array](https://github.com/Effiong/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
+1. Find the country containing the hightest number of characters in the [countries array](https://github.com/Effiong/30DaysOfJavaScript/tree/master/data/countries.js)
+1. Extract all the countries contain the word 'land' from the [countries array](https://github.com/Effiong/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
+1. Extract all the countries containing only four characters from the [countries array](https://github.com/Effiong/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
+1. Extract all the countries containing two or more words from the [countries array](https://github.com/Effiong/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
+1. Reverse the [countries array](https://github.com/Effiong/30DaysOfJavaScript/tree/master/data/countries.js) and capitalize each country and stored it as an array
 
 ==========================================================================================
-# Functions
+
+## Functions
+
+## Function Basics
 
 So far we have seen many builtin JavaScript functions. In this section, we will focus on custom functions. What is a function? Before we start making functions, lets understand what function is and why we need function?
 
@@ -3029,10 +3034,10 @@ Function makes code:
 
 A function can be declared or created in couple of ways:
 
-- _Declaration function_
-- _Expression function_
-- _Anonymous function_
-- _Arrow function_
+- *Declaration function*
+- *Expression function*
+- *Anonymous function*
+- *Arrow function*
 
 ### Function Declaration
 
@@ -3076,8 +3081,8 @@ addTwoNumbers() // a function has to be called by its name to be executed
 
 ```js
   function printFullName (){
-      let firstName = 'Asabeneh'
-      let lastName = 'Yetayeh'
+      let firstName = 'Effiong'
+      let lastName = 'samuel'
       let space = ' '
       let fullName = firstName + space + lastName
       console.log(fullName)
@@ -3092,8 +3097,8 @@ Function can also return values, if a function does not return values the value 
 
 ```js
 function printFullName (){
-      let firstName = 'Asabeneh'
-      let lastName = 'Yetayeh'
+      let firstName = 'Effiong'
+      let lastName = 'samuel'
       let space = ' '
       let fullName = firstName + space + lastName
       return fullName
@@ -3164,7 +3169,7 @@ console.log(sumTwoNumbers(10, 20))
 function printFullName(firstName, lastName) {
   return `${firstName} ${lastName}`
 }
-console.log(printFullName('Asabeneh', 'Yetayeh'))
+console.log(printFullName('Effiong', 'samuel'))
 ```
 
 ### Function with many parameters
@@ -3344,10 +3349,10 @@ const changeToUpperCase = arr => {
   return newArr
 }
 
-const countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
+const countries = ['Nigeria', 'Sweden', 'Norway', 'Denmark', 'Iceland']
 console.log(changeToUpperCase(countries))
 
-// ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
+// ["Nigeria", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
 ```
 
 ```js
@@ -3355,7 +3360,7 @@ const printFullName = (firstName, lastName) => {
   return `${firstName} ${lastName}`
 }
 
-console.log(printFullName('Asabeneh', 'Yetayeh'))
+console.log(printFullName('Effiong', 'samuel'))
 ```
 
 The above function has only the return statement, therefore, we can explicitly return it as follows.
@@ -3363,7 +3368,7 @@ The above function has only the return statement, therefore, we can explicitly r
 ```js
 const printFullName = (firstName, lastName) => `${firstName} ${lastName}`
 
-console.log(printFullName('Asabeneh', 'Yetayeh'))
+console.log(printFullName('Effiong', 'samuel'))
 ```
 
 ### Function with default parameters
@@ -3391,11 +3396,11 @@ function greetings(name = 'Peter') {
 }
 
 console.log(greetings())
-console.log(greetings('Asabeneh'))
+console.log(greetings('Effiong'))
 ```
 
 ```js
-function generateFullName(firstName = 'Asabeneh', lastName = 'Yetayeh') {
+function generateFullName(firstName = 'Effiong', lastName = 'samuel') {
   let space = ' '
   let fullName = firstName + space + lastName
   return fullName
@@ -3447,11 +3452,11 @@ const greetings = (name = 'Peter') => {
 }
 
 console.log(greetings())
-console.log(greetings('Asabeneh'))
+console.log(greetings('Effiong'))
 ```
 
 ```js
-const generateFullName = (firstName = 'Asabeneh', lastName = 'Yetayeh') => {
+const generateFullName = (firstName = 'Effiong', lastName = 'samuel') => {
   let space = ' '
   let fullName = firstName + space + lastName
   return fullName
@@ -3480,33 +3485,29 @@ It Will be covered in other section.
 
 🌕 You are a rising star, now you knew function . Now, you are super charged with the power of functions. You have just completed day 7 challenges and you are 7 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
+### Exercises:Level 1
 
-
-## 💻 Exercises
-
-### Exercises: Level 1
-
-1. Declare a function _fullName_ and it print out your full name.
-2. Declare a function _fullName_ and now it takes firstName, lastName as a parameter and it returns your full - name.
-3. Declare a function _addNumbers_ and it takes two two parameters and it returns sum.
-4. An area of a rectangle is calculated as follows: _area = length x width_. Write a function which calculates _areaOfRectangle_.
-5. A perimeter of a rectangle is calculated as follows: _perimeter= 2x(length + width)_. Write a function which calculates _perimeterOfRectangle_.
-6. A volume of a rectangular prism is calculated as follows: _volume = length x width x height_. Write a function which calculates _volumeOfRectPrism_.
-7. Area of a circle is calculated as follows: _area = π x r x r_. Write a function which calculates _areaOfCircle_
-8. Circumference of a circle is calculated as follows: _circumference = 2πr_. Write a function which calculates _circumOfCircle_
-9. Density of a substance is calculated as follows:_density= mass/volume_. Write a function which calculates _density_.
-10. Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. Write a function which calculates a speed of a moving object, _speed_.
-11. Weight of a substance is calculated as follows: _weight = mass x gravity_. Write a function which calculates _weight_.
-12. Temperature in oC can be converted to oF using this formula: _oF = (oC x 9/5) + 32_. Write a function which convert oC to oF _convertCelsiusToFahrenheit_.
-13. Body mass index(BMI) is calculated as follows: _bmi = weight in Kg / (height x height) in m2_. Write a function which calculates _bmi_. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is _underweight, normal, overweight_ or _obese_ based the information given below.
+1. Declare a function *fullName* and it print out your full name.
+2. Declare a function *fullName* and now it takes firstName, lastName as a parameter and it returns your full - name.
+3. Declare a function *addNumbers* and it takes two two parameters and it returns sum.
+4. An area of a rectangle is calculated as follows: *area = length x width*. Write a function which calculates *areaOfRectangle*.
+5. A perimeter of a rectangle is calculated as follows: *perimeter= 2x(length + width)*. Write a function which calculates *perimeterOfRectangle*.
+6. A volume of a rectangular prism is calculated as follows: *volume = length x width x height*. Write a function which calculates *volumeOfRectPrism*.
+7. Area of a circle is calculated as follows: *area = π x r x r*. Write a function which calculates *areaOfCircle*
+8. Circumference of a circle is calculated as follows: *circumference = 2πr*. Write a function which calculates *circumOfCircle*
+9. Density of a substance is calculated as follows:*density= mass/volume*. Write a function which calculates *density*.
+10. Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. Write a function which calculates a speed of a moving object, *speed*.
+11. Weight of a substance is calculated as follows: *weight = mass x gravity*. Write a function which calculates *weight*.
+12. Temperature in oC can be converted to oF using this formula: *oF = (oC x 9/5) + 32*. Write a function which convert oC to oF *convertCelsiusToFahrenheit*.
+13. Body mass index(BMI) is calculated as follows: *bmi = weight in Kg / (height x height) in m2*. Write a function which calculates *bmi*. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is *underweight, normal, overweight* or *obese* based the information given below.
 
     - The same groups apply to both men and women.
-    - _Underweight_: BMI is less than 18.5
-    - _Normal weight_: BMI is 18.5 to 24.9
-    - _Overweight_: BMI is 25 to 29.9
-    - _Obese_: BMI is 30 or more
+    - *Underweight*: BMI is less than 18.5
+    - *Normal weight*: BMI is 18.5 to 24.9
+    - *Overweight*: BMI is 25 to 29.9
+    - *Obese*: BMI is 30 or more
 
-14. Write a function called _checkSeason_, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
+14. Write a function called *checkSeason*, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
 15. Math.max returns its largest argument. Write a function findMax that takes three arguments and returns their maximum with out using Math.max method.
 
     ```js
@@ -3516,10 +3517,10 @@ It Will be covered in other section.
     0
     ```
   
-### Exercises: Level 2
+### Exercises:Level 2
 
-1. Linear equation is calculated as follows: _ax + by + c = 0_. Write a function which calculates value of a linear equation, _solveLinEquation_.
-1. Quadratic equation is calculated as follows: _ax2 + bx + c = 0_. Write a function which calculates value or values of a quadratic equation, _solveQuadEquation_.
+1. Linear equation is calculated as follows: *ax + by + c = 0*. Write a function which calculates value of a linear equation, *solveLinEquation*.
+1. Quadratic equation is calculated as follows: *ax2 + bx + c = 0*. Write a function which calculates value or values of a quadratic equation, *solveQuadEquation*.
 
     ```js
     console.log(solveQuadratic()) // {0}
@@ -3530,22 +3531,22 @@ It Will be covered in other section.
     console.log(solveQuadratic(1, -1, 0)) //{1, 0}
     ```
 
-1. Declare a function name _printArray_. It takes array as a parameter and it prints out each value of the array.
-1. Write a function name _showDateTime_ which shows time in this format: 08/01/2020 04:08 using the Date object.
+1. Declare a function name *printArray*. It takes array as a parameter and it prints out each value of the array.
+1. Write a function name *showDateTime* which shows time in this format: 08/01/2020 04:08 using the Date object.
 
     ```sh
     showDateTime()
     08/01/2020 04:08
     ```
 
-1. Declare a function name _swapValues_. This function swaps value of x to y.
+1. Declare a function name *swapValues*. This function swaps value of x to y.
 
     ```js
     swapValues(3, 4) // x => 4, y=>3
     swapValues(4, 5) // x = 5, y = 4
     ```
 
-1. Declare a function name _reverseArray_. It takes array as a parameter and it returns the reverse of the array (don't use method).
+1. Declare a function name *reverseArray*. It takes array as a parameter and it returns the reverse of the array (don't use method).
 
     ```js
     console.log(reverseArray([1, 2, 3, 4, 5]))
@@ -3554,12 +3555,12 @@ It Will be covered in other section.
     //['C', 'B', 'A']
     ```
 
-1. Declare a function name _capitalizeArray_. It takes array as a parameter and it returns the - capitalizedarray.
-1. Declare a function name _addItem_. It takes an item parameter and it returns an array after adding the item
-1. Declare a function name _removeItem_. It takes an index parameter and it returns an array after removing an item
-1. Declare a function name _sumOfNumbers_. It takes a number parameter and it adds all the numbers in that range.
-1. Declare a function name _sumOfOdds_. It takes a number parameter and it adds all the odd numbers in that - range.
-1. Declare a function name _sumOfEven_. It takes a number parameter and it adds all the even numbers in that - range.
+1. Declare a function name *capitalizeArray*. It takes array as a parameter and it returns the - capitalizedarray.
+1. Declare a function name *addItem*. It takes an item parameter and it returns an array after adding the item
+1. Declare a function name *removeItem*. It takes an index parameter and it returns an array after removing an item
+1. Declare a function name *sumOfNumbers*. It takes a number parameter and it adds all the numbers in that range.
+1. Declare a function name *sumOfOdds*. It takes a number parameter and it adds all the odd numbers in that - range.
+1. Declare a function name *sumOfEven*. It takes a number parameter and it adds all the even numbers in that - range.
 1. Declare a function name evensAndOdds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
 
     ```sh
@@ -3575,25 +3576,25 @@ It Will be covered in other section.
     sum(1, 2, 3, 4) // -> 10
     ```
 
-1. Writ a function which generates a _randomUserIp_.
-1. Write a function which generates a _randomMacAddress_
-1. Declare a function name _randomHexaNumberGenerator_. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.
+1. Writ a function which generates a *randomUserIp*.
+1. Write a function which generates a *randomMacAddress*
+1. Declare a function name *randomHexaNumberGenerator*. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.
 
     ```sh
     console.log(randomHexaNumberGenerator());
     '#ee33df'
     ```
 
-1. Declare a function name _userIdGenerator_. When this function is called it generates seven character id. The function return the id.
+1. Declare a function name *userIdGenerator*. When this function is called it generates seven character id. The function return the id.
 
     ```sh
     console.log(userIdGenerator());
     41XTDbE
     ```
 
-### Exercises: Level 3
+### Exercises:Level 3
 
-1. Modify the _userIdGenerator_ function. Declare a function name _userIdGeneratedByUser_. It doesn’t take any parameter but it takes two inputs using prompt(). One of the input is the number of characters and the second input is the number of ids which are supposed to be generated.
+1. Modify the *userIdGenerator* function. Declare a function name *userIdGeneratedByUser*. It doesn’t take any parameter but it takes two inputs using prompt(). One of the input is the number of characters and the second input is the number of ids which are supposed to be generated.
 
     ```sh
     userIdGeneratedByUser()
@@ -3612,18 +3613,18 @@ It Will be covered in other section.
     '
     ```
 
-1. Write a function name _rgbColorGenerator_ and it generates rgb colors.
+1. Write a function name *rgbColorGenerator* and it generates rgb colors.
 
     ```sh
     rgbColorGenerator()
     rgb(125,244,255)
     ```
 
-1. Write a function **_arrayOfHexaColors_** which return any number of hexadecimal colors in an array.
-1. Write a function **_arrayOfRgbColors_** which return any number of RGB colors in an array.
-1. Write a function **_convertHexaToRgb_** which converts hexa color to rgb and it returns an rgb color.
-1. Write a function **_convertRgbToHexa_** which converts rgb to hexa color and it returns an hexa color.
-1. Write a function **_generateColors_** which can generate any number of hexa or rgb colors.
+1. Write a function ***arrayOfHexaColors*** which return any number of hexadecimal colors in an array.
+1. Write a function ***arrayOfRgbColors*** which return any number of RGB colors in an array.
+1. Write a function ***convertHexaToRgb*** which converts hexa color to rgb and it returns an rgb color.
+1. Write a function ***convertRgbToHexa*** which converts rgb to hexa color and it returns an hexa color.
+1. Write a function ***generateColors*** which can generate any number of hexa or rgb colors.
 
     ```js
     console.log(generateColors('hexa', 3)) // ['#a3e12f', '#03ed55', '#eb3d2b']
@@ -3632,13 +3633,13 @@ It Will be covered in other section.
     console.log(generateColors('rgb', 1)) // 'rgb(33,79, 176)'
     ```
 
-1. Call your function _shuffleArray_, it takes an array as a parameter and it returns a shuffled array
-1. Call your function _factorial_, it takes a whole number as a parameter and it return a factorial of the number
-1. Call your function _isEmpty_, it takes a parameter and it checks if it is empty or not
-1. Call your function _sum_, it takes any number of arguments and it returns the sum.
-1. Write a function called _sumOfArrayItems_, it takes an array parameter and return the sum of all the items. Check if all the array items are number types. If not give return reasonable feedback.
-1. Write a function called _average_, it takes an array parameter and returns the average of the items. Check if all the array items are number types. If not give return reasonable feedback.
-1. Write a function called _modifyArray_ takes array as parameter and modifies the fifth item of the array and return the array. If the array length is less than five it return 'item not found'.
+1. Call your function *shuffleArray*, it takes an array as a parameter and it returns a shuffled array
+1. Call your function *factorial*, it takes a whole number as a parameter and it return a factorial of the number
+1. Call your function *isEmpty*, it takes a parameter and it checks if it is empty or not
+1. Call your function *sum*, it takes any number of arguments and it returns the sum.
+1. Write a function called *sumOfArrayItems*, it takes an array parameter and return the sum of all the items. Check if all the array items are number types. If not give return reasonable feedback.
+1. Write a function called *average*, it takes an array parameter and returns the average of the items. Check if all the array items are number types. If not give return reasonable feedback.
+1. Write a function called *modifyArray* takes array as parameter and modifies the fifth item of the array and return the array. If the array length is less than five it return 'item not found'.
 
     ```js
     console.log(modifyArray(['Avocado', 'Tomato', 'Potato','Mango', 'Lemon','Carrot']);
@@ -3664,7 +3665,7 @@ It Will be covered in other section.
       'Not Found'
     ```
 
-1. Write a function called _isPrime_, which checks if a number is prime number.
+1. Write a function called *isPrime*, which checks if a number is prime number.
 1. Write a functions which checks if all items are unique in the array.
 1. Write a function which checks if all the items of the array are the same data type.
 1. JavaScript variable name does not support special characters or symbols except \$ or \_. Write a function **isValidVariable** which check if a variable is valid or invalid variable.
@@ -3678,9 +3679,10 @@ It Will be covered in other section.
 1. Write a function called reverseCountries, it takes countries array and first it copy the array and returns the reverse of the original array
 
 ==========================================================================================
+
 ## Scope
 
-Variable is the fundamental part in programming. We declare variable to store different data types. To declare a variable we use the key word _var_, _let_ and _const_. A variable can be declared at different scope. In this section, we will see the scope variables, scope of variables when we use var or let.
+Variable is the fundamental part in programming. We declare variable to store different data types. To declare a variable we use the key word *var*, *let* and *const*. A variable can be declared at different scope. In this section, we will see the scope variables, scope of variables when we use var or let.
 Variables scopes can be:
 
 - Global
@@ -3840,11 +3842,11 @@ const rectangle = {
 console.log(rectangle) // {length: 20, width: 20}
 
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
+  firstName: 'Effiong',
+  lastName: 'samuel',
   age: 250,
-  country: 'Finland',
-  city: 'Helsinki',
+  country: 'Nigeria',
+  city: 'Akwa Ibom',
   skills: [
     'HTML',
     'CSS',
@@ -3869,11 +3871,11 @@ We can access values of object using two methods:
 
 ```js
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
+  firstName: 'Effiong',
+  lastName: 'samuel',
   age: 250,
-  country: 'Finland',
-  city: 'Helsinki',
+  country: 'Nigeria',
+  city: 'Akwa Ibom',
   skills: [
     'HTML',
     'CSS',
@@ -3909,15 +3911,15 @@ console.log(person['phone number'])
 
 ### Creating object methods
 
-Now, the person object has getFullName properties. The getFullName is function inside the person object and we call it an object method. The _this_ key word refers to the object itself. We can use the word _this_ to access the values of different properties of the object. We can not use an arrow function as object method because the word this refers to the window inside an arrow function instead of the object itself. Example of object:
+Now, the person object has getFullName properties. The getFullName is function inside the person object and we call it an object method. The *this* key word refers to the object itself. We can use the word *this* to access the values of different properties of the object. We can not use an arrow function as object method because the word this refers to the window inside an arrow function instead of the object itself. Example of object:
 
 ```js
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
+  firstName: 'Effiong',
+  lastName: 'samuel',
   age: 250,
-  country: 'Finland',
-  city: 'Helsinki',
+  country: 'Nigeria',
+  city: 'Akwa Ibom',
   skills: [
     'HTML',
     'CSS',
@@ -3934,7 +3936,7 @@ const person = {
 }
 
 console.log(person.getFullName())
-// Asabeneh Yetayeh
+// Effiong samuel
 ```
 
 ### Setting new key for an object
@@ -3945,11 +3947,11 @@ Setting a new keys in an object
 
 ```js
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
+  firstName: 'Effiong',
+  lastName: 'samuel',
   age: 250,
-  country: 'Finland',
-  city: 'Helsinki',
+  country: 'Nigeria',
+  city: 'Akwa Ibom',
   skills: [
     'HTML',
     'CSS',
@@ -3965,8 +3967,8 @@ const person = {
   }
 }
 person.nationality = 'Ethiopian'
-person.country = 'Finland'
-person.title = 'teacher'
+person.country = 'Nigeria'
+person.title = 'Software Engineer'
 person.skills.push('Meteor')
 person.skills.push('SasS')
 person.isMarried = true
@@ -3987,8 +3989,8 @@ console.log(person.getPersonInfo())
 ```
 
 ```sh
-Asabeneh Yetayeh is a teacher.
-He lives in Finland.
+Effiong samuel is a Software Engineer.
+He lives in Nigeria.
 He teaches HTML, CSS, JavaScript, React, Node, MongoDB, Python, D3.js, Meteor, and SasS.
 ```
 
@@ -3996,20 +3998,20 @@ He teaches HTML, CSS, JavaScript, React, Node, MongoDB, Python, D3.js, Meteor, a
 
 There are different methods to manipulate an object. Let us see some of the available methods.
 
-_Object.assign_: To copy an object without modifying the original object
+*Object.assign*: To copy an object without modifying the original object
 
 ```js
 const person = {
-  firstName: 'Asabeneh',
+  firstName: 'Effiong',
   age: 250,
-  country: 'Finland',
-  city:'Helsinki',
+  country: 'Nigeria',
+  city:'Akwa Ibom',
   skills: ['HTML', 'CSS', 'JS'],
-  title: 'teacher',
+  title: 'Software Engineer',
   address: {
     street: 'Heitamienkatu 16',
     pobox: 2002,
-    city: 'Helsinki'
+    city: 'Akwa Ibom'
   },
   getPersonInfo: function() {
     return `I am ${this.firstName} and I live in ${this.city}, ${this.country}. I am ${this.age}.`
@@ -4025,7 +4027,7 @@ console.log(copyPerson)
 
 #### Getting object keys using Object.keys()
 
-_Object.keys_: To get the keys or properties of an object as an array
+*Object.keys*: To get the keys or properties of an object as an array
 
 ```js
 const keys = Object.keys(copyPerson)
@@ -4036,7 +4038,7 @@ console.log(address) //['street', 'pobox', 'city']
 
 #### Getting object values using Object.values()
 
-_Object.values_:To get values of an object as an array
+*Object.values*:To get values of an object as an array
 
 ```js
 const values = Object.values(copyPerson)
@@ -4045,7 +4047,7 @@ console.log(values)
 
 #### Getting object keys and values using Object.entries()
 
-_Object.entries_:To get the keys and values in an array
+*Object.entries*:To get the keys and values in an array
 
 ```js
 const entries = Object.entries(copyPerson)
@@ -4054,7 +4056,7 @@ console.log(entries)
 
 #### Checking properties using hasOwnProperty()
 
-_hasOwnProperty_: To check if a specific key or property exist in an object
+*hasOwnProperty*: To check if a specific key or property exist in an object
 
 ```js
 console.log(copyPerson.hasOwnProperty('name'))
@@ -4063,17 +4065,15 @@ console.log(copyPerson.hasOwnProperty('score'))
 
 🌕 You are astonishing. Now, you are super charged with the power of objects. You have just completed day 8 challenges and you are 8 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
-## 💻 Exercises
-
-### Exercises: Level 1
+### Exercises:Level1
 
 1. Create an empty object called dog
 1. Print the the dog object on the console
-1. Add name, legs, color, age and bark properties for the dog object. The bark property is a method which return _woof woof_
+1. Add name, legs, color, age and bark properties for the dog object. The bark property is a method which return *woof woof*
 1. Get name, legs, color, age and bark value from the dog object
 1. Set new properties the dog object: breed, getDogInfo
 
-### Exercises: Level 2
+### Exercises:Level2
 
 1. Find the person who has many skills in the users object.
 1. Count logged in users, count users having greater than equal to 50 points from the following object.
@@ -4137,9 +4137,9 @@ console.log(copyPerson.hasOwnProperty('score'))
 1. Get all the values of users object
 1. Use the countries object to print a country name, capital, populations and languages.
 
-### Exercises: Level 3
+### Exercises:Level3
 
-1. Create an object literal called _personAccount_. It has _firstName, lastName, incomes, expenses_ properties and it has _totalIncome, totalExpense, accountInfo,addIncome, addExpense_ and _accountBalance_ methods. Incomes is a set of incomes and its description and expenses is a set of incomes and its description.
+1. Create an object literal called *personAccount*. It has *firstName, lastName, incomes, expenses* properties and it has *totalIncome, totalExpense, accountInfo,addIncome, addExpense* and *accountBalance* methods. Incomes is a set of incomes and its description and expenses is a set of incomes and its description.
 2. **** Questions:2, 3 and 4 are based on the following two arrays:users and products ()
 
   ```js
@@ -4227,6 +4227,7 @@ console.log(copyPerson.hasOwnProperty('score'))
 
 4. Create a function called likeProduct. This function will helps to like to the product if it is not liked and remove like if it was liked.
 ==========================================================================================
+
 ## Higher Order Function
 
 Higher order functions are functions which take other function as a parameter or return a function as a value. The function passed as a parameter is called callback.
@@ -4253,6 +4254,7 @@ console.log(cube(callback, 3))
 
 Higher order functions return function as a value
 ​
+
 ```js
 // Higher order function returning an other function
 const higherOrder = n => {
@@ -4267,7 +4269,7 @@ const higherOrder = n => {
 console.log(higherOrder(2)(3)(10))
 ```
 
-Let us see were we use call back functions. For instance the _forEach_ method uses call back.
+Let us see were we use call back functions. For instance the *forEach* method uses call back.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
@@ -4354,11 +4356,11 @@ setTimeout(sayHello, 2000) // it prints hello after it waits for 2 seconds.
 
 ## Functional Programming
 
-Instead of writing regular loop, latest version of JavaScript introduced lots of built in methods which can help us to solve complicated problems. All builtin methods take callback function. In this section, we will see _forEach_, _map_, _filter_, _reduce_, _find_, _every_, _some_, and _sort_.
+Instead of writing regular loop, latest version of JavaScript introduced lots of built in methods which can help us to solve complicated problems. All builtin methods take callback function. In this section, we will see *forEach*, *map*, *filter*, *reduce*, *find*, *every*, *some*, and *sort*.
 
 ### forEach
 
-_forEach_: Iterate an array elements. We use _forEach_ only with arrays. It takes a callback function with elements, index parameter and array itself. The index and the array optional.
+*forEach*: Iterate an array elements. We use *forEach* only with arrays. It takes a callback function with elements, index parameter and array itself. The index and the array optional.
 
 ```js
 arr.forEach(function (element, index, arr) {
@@ -4400,12 +4402,12 @@ console.log(sum)
 ```
 
 ```js
-const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland']
+const countries = ['Nigeria', 'Denmark', 'Sweden', 'Norway', 'Iceland']
 countries.forEach((element) => console.log(element.toUpperCase()))
 ```
 
 ```sh
-FINLAND
+Nigeria
 DENMARK
 SWEDEN
 NORWAY
@@ -4414,7 +4416,7 @@ ICELAND
 
 ### map
 
-_map_: Iterate an array elements and modify the array elements. It takes a callback function with elements,  index , array parameter and return a new array.
+*map*: Iterate an array elements and modify the array elements. It takes a callback function with elements,  index , array parameter and return a new array.
 
 ```js
 const modifiedArray = arr.map(function (element, index, arr) {
@@ -4438,13 +4440,13 @@ console.log(numbersSquare)
 ```
 
 ```js
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const names = ['Effiong', 'Mathias', 'Elias', 'Brook']
 const namesToUpperCase = names.map((name) => name.toUpperCase())
 console.log(namesToUpperCase)
 ```
 
 ```sh
-['ASABENEH', 'MATHIAS', 'ELIAS', 'BROOK']
+['Effiong', 'MATHIAS', 'ELIAS', 'BROOK']
 ```
 
 ```js
@@ -4454,7 +4456,7 @@ const countries = [
   'Canada',
   'Denmark',
   'Ethiopia',
-  'Finland',
+  'Nigeria',
   'Germany',
   'Hungary',
   'Ireland',
@@ -4475,7 +4477,7 @@ const countriesToUpperCase = countries.map(country => country.toUpperCase());
 ```
 
 ```sh
-['ALBANIA', 'BOLIVIA', 'CANADA', 'DENMARK', 'ETHIOPIA', 'FINLAND', 'GERMANY', 'HUNGARY', 'IRELAND', 'JAPAN', 'KENYA']
+['ALBANIA', 'BOLIVIA', 'CANADA', 'DENMARK', 'ETHIOPIA', 'Nigeria', 'GERMANY', 'HUNGARY', 'IRELAND', 'JAPAN', 'KENYA']
 ```
 
 ```js
@@ -4490,7 +4492,7 @@ const countriesFirstThreeLetters = countries.map((country) =>
 
 ### filter
 
-_Filter_: Filter out items which full fill filtering conditions and return a new array.
+*Filter*: Filter out items which full fill filtering conditions and return a new array.
 
 ```js
 //Filter countries containing land
@@ -4501,7 +4503,7 @@ console.log(countriesContainingLand)
 ```
 
 ```sh
-['Finland', 'Ireland']
+['Nigeria', 'Ireland']
 ```
 
 ```js
@@ -4526,7 +4528,7 @@ console.log(countriesHaveFiveLetters)
 
 ```js
 const scores = [
-  { name: 'Asabeneh', score: 95 },
+  { name: 'Effiong', score: 95 },
    { name: 'Lidiya', score: 98 },
   { name: 'Mathias', score: 80 },
   { name: 'Elias', score: 50 },
@@ -4539,12 +4541,12 @@ console.log(scoresGreaterEighty)
 ```
 
 ```sh
-[{name: 'Asabeneh', score: 95}, { name: 'Lidiya', score: 98 },{name: 'Martha', score: 85},{name: 'John', score: 100}]
+[{name: 'Effiong', score: 95}, { name: 'Lidiya', score: 98 },{name: 'Martha', score: 85},{name: 'John', score: 100}]
 ```
 
 ### reduce
 
-_reduce_: Reduce takes a callback function. The call back function takes accumulator,  current, and optional initial value as a parameter and returns a single value. It is a good practice to define an initial value for the accumulator value. If we do not specify this parameter, by default accumulator will get array `first value`. If our array is an _empty array_, then `Javascript` will throw an error.
+*reduce*: Reduce takes a callback function. The call back function takes accumulator,  current, and optional initial value as a parameter and returns a single value. It is a good practice to define an initial value for the accumulator value. If we do not specify this parameter, by default accumulator will get array `first value`. If our array is an *empty array*, then `Javascript` will throw an error.
 
 ```js
 arr.reduce((acc, cur) => {
@@ -4566,10 +4568,10 @@ console.log(sum)
 
 ### every
 
-_every_: Check if all the elements are similar in one aspect. It returns boolean
+*every*: Check if all the elements are similar in one aspect. It returns boolean
 
 ```js
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const names = ['Effiong', 'Mathias', 'Elias', 'Brook']
 const areAllStr = names.every((name) => typeof name === 'string') // Are all strings?
 
 console.log(areAllStr)
@@ -4593,7 +4595,7 @@ true
 
 ### find
 
-_find_: Return the first element which satisfies the condition
+*find*: Return the first element which satisfies the condition
 
 ```js
 const ages = [24, 22, 25, 32, 35, 18]
@@ -4607,18 +4609,18 @@ console.log(age)
 ```
 
 ```js
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const names = ['Effiong', 'Mathias', 'Elias', 'Brook']
 const result = names.find((name) => name.length > 7)
 console.log(result)
 ```
 
 ```sh
-Asabeneh
+Effiong
 ```
 
 ```js
 const scores = [
-  { name: 'Asabeneh', score: 95 },
+  { name: 'Effiong', score: 95 },
   { name: 'Mathias', score: 80 },
   { name: 'Elias', score: 50 },
   { name: 'Martha', score: 85 },
@@ -4630,15 +4632,15 @@ console.log(score)
 ```
 
 ```sh
-{ name: "Asabeneh", score: 95 }
+{ name: "Effiong", score: 95 }
 ```
 
 ### findIndex
 
-_findIndex_: Return the position of the first element which satisfies the condition
+*findIndex*: Return the position of the first element which satisfies the condition
 
 ```js
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const names = ['Effiong', 'Mathias', 'Elias', 'Brook']
 const ages = [24, 22, 25, 32, 35, 18]
 
 const result = names.findIndex((name) => name.length > 7)
@@ -4650,10 +4652,10 @@ console.log(age) // 5
 
 ### some
 
-_some_: Check if some of the elements are similar in one aspect. It returns boolean
+*some*: Check if some of the elements are similar in one aspect. It returns boolean
 
 ```js
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const names = ['Effiong', 'Mathias', 'Elias', 'Brook']
 const bools = [true, true, true, true]
 
 const areSomeTrue = bools.some((b) =>  b === true)
@@ -4668,7 +4670,7 @@ console.log(areAllStr) // false
 
 ### sort
 
-_sort_: The sort methods arranges the array elements either ascending or descending order. By default, the **_sort()_** method sorts values as strings.This works well for string array items but not for numbers. If number values are sorted as strings and it give us wrong result. Sort method modify the original array. It is recommended to copy the original data before you start using _sort_ method.
+*sort*: The sort methods arranges the array elements either ascending or descending order. By default, the ***sort()*** method sorts values as strings.This works well for string array items but not for numbers. If number values are sorted as strings and it give us wrong result. Sort method modify the original array. It is recommended to copy the original data before you start using *sort* method.
 
 #### Sorting string values
 
@@ -4718,7 +4720,7 @@ objArr.sort(function (a, b) {
 })
 
 const users = [
-  { name: 'Asabeneh', age: 150 },
+  { name: 'Effiong', age: 150 },
   { name: 'Brook', age: 50 },
   { name: 'Eyob', age: 100 },
   { name: 'Elias', age: 22 },
@@ -4734,13 +4736,11 @@ console.log(users) // sorted ascending
 
 🌕 You are doing great.Never give up because great things take time. You have just completed day 9 challenges and you are 9 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
-## 💻 Exercises
-
-### Exercises: Level 1
+### Exercises: Level1
 
 ```js
-const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const countries = ['Nigeria', 'Sweden', 'Denmark', 'Norway', 'IceLand']
+const names = ['Effiong', 'Mathias', 'Elias', 'Brook']
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 const products = [
   { product: 'banana', price: 3 },
@@ -4752,42 +4752,42 @@ const products = [
 ]
 ```
 
-1. Explain the difference between **_forEach, map, filter, and reduce_**.
+1. Explain the difference between ***forEach, map, filter, and reduce***.
 2. Define a callback function before you use it in forEach, map, filter or reduce.
-3. Use **_forEach_** to console.log each country in the countries array.
-4. Use **_forEach_** to console.log each name in the names array.
-5. Use **_forEach_** to console.log each number in the numbers array.
-6. Use **_map_** to create a new array by changing each country to uppercase in the countries array.
-7. Use **_map_** to create an array of countries length from countries array.
-8. Use **_map_** to create a new array by changing each number to square in the numbers array
-9. Use **_map_** to change to each name to uppercase in the names array
-10. Use **_map_** to map the products array to its corresponding prices.
-11. Use **_filter_** to filter out countries containing **_land_**.
-12. Use **_filter_** to filter out countries having six character.
-13. Use **_filter_** to filter out countries containing six letters and more in the country array.
-14. Use **_filter_** to filter out country start with 'E';
-15. Use **_filter_** to filter out only prices with values.
+3. Use ***forEach*** to console.log each country in the countries array.
+4. Use ***forEach*** to console.log each name in the names array.
+5. Use ***forEach*** to console.log each number in the numbers array.
+6. Use ***map*** to create a new array by changing each country to uppercase in the countries array.
+7. Use ***map*** to create an array of countries length from countries array.
+8. Use ***map*** to create a new array by changing each number to square in the numbers array
+9. Use ***map*** to change to each name to uppercase in the names array
+10. Use ***map*** to map the products array to its corresponding prices.
+11. Use ***filter*** to filter out countries containing ***land***.
+12. Use ***filter*** to filter out countries having six character.
+13. Use ***filter*** to filter out countries containing six letters and more in the country array.
+14. Use ***filter*** to filter out country start with 'E';
+15. Use ***filter*** to filter out only prices with values.
 16. Declare a function called getStringLists which takes an array as a parameter and then returns an array only with string items.
-17. Use **_reduce_** to sum all the numbers in the numbers array.
-18. Use **_reduce_** to concatenate all the countries and to produce this sentence: **_Estonia, Finland, Sweden, Denmark, Norway, and IceLand are north European countries_**
-19. Explain the difference between **_some_** and **_every_**
-20. Use **_some_** to check if some names' length greater than seven in names array
-21. Use **_every_** to check if all the countries contain the word land
-22. Explain the difference between **_find_** and **_findIndex_**.
-23. Use **_find_** to find the first country containing only six letters in the countries array
-24. Use **_findIndex_** to find the position of the first country containing only six letters in the countries array
-25. Use **_findIndex_** to find the position of **_Norway_** if it doesn't exist in the array you will get -1.
-26. Use **_findIndex_** to find the position of **_Russia_** if it doesn't exist in the array you will get -1.
+17. Use ***reduce*** to sum all the numbers in the numbers array.
+18. Use ***reduce*** to concatenate all the countries and to produce this sentence: ***Estonia, Nigeria, Sweden, Denmark, Norway, and IceLand are north European countries***
+19. Explain the difference between ***some*** and ***every***
+20. Use ***some*** to check if some names' length greater than seven in names array
+21. Use ***every*** to check if all the countries contain the word land
+22. Explain the difference between ***find*** and ***findIndex***.
+23. Use ***find*** to find the first country containing only six letters in the countries array
+24. Use ***findIndex*** to find the position of the first country containing only six letters in the countries array
+25. Use ***findIndex*** to find the position of ***Norway*** if it doesn't exist in the array you will get -1.
+26. Use ***findIndex*** to find the position of ***Russia*** if it doesn't exist in the array you will get -1.
 
 ### Exercises: Level 2
 
 1. Find the total price of products by chaining two or more array iterators(eg. arr.map(callback).filter(callback).reduce(callback))
 1. Find the sum of price of products using only reduce reduce(callback))
-1. Declare a function called **_categorizeCountries_** which returns an array of countries which have some common pattern(you find the countries array in this repository as countries.js(eg 'land', 'ia', 'island','stan')).
+1. Declare a function called ***categorizeCountries*** which returns an array of countries which have some common pattern(you find the countries array in this repository as countries.js(eg 'land', 'ia', 'island','stan')).
 1. Create a function which return an array of objects, which is the letter and the number of times the letter use to start with a name of a country.
-1. Declare a **_getFirstTenCountries_** function and return an array of ten countries. Use different functional programming to work on the countries.js array
-1. Declare a **_getLastTenCountries_** function which which returns the last ten countries in the countries array.
-1. Find out which _letter_ is used many _times_ as initial for a country name from the countries array (eg. Finland, Fiji, France etc)
+1. Declare a ***getFirstTenCountries*** function and return an array of ten countries. Use different functional programming to work on the countries.js array
+1. Declare a ***getLastTenCountries*** function which which returns the last ten countries in the countries array.
+1. Find out which *letter* is used many *times* as initial for a country name from the countries array (eg. Nigeria, Fiji, France etc)
 
 ### Exercises: Level 3
 
@@ -4883,6 +4883,7 @@ const products = [
    ```
 
 =============================================================================================
+
 ## Set
 
 Set is  a collection of elements. Set can only contains unique elements.
@@ -5140,7 +5141,7 @@ Map(0) {}
 
 ```js
 countries = [
-  ['Finland', 'Helsinki'],
+  ['Nigeria', 'Akwa Ibom'],
   ['Sweden', 'Stockholm'],
   ['Norway', 'Oslo'],
 ]
@@ -5150,7 +5151,7 @@ console.log(map.size)
 ```
 
 ```sh
-Map(3) {"Finland" => "Helsinki", "Sweden" => "Stockholm", "Norway" => "Oslo"}
+Map(3) {"Nigeria" => "Akwa Ibom", "Sweden" => "Stockholm", "Norway" => "Oslo"}
 3
 ```
 
@@ -5159,7 +5160,7 @@ Map(3) {"Finland" => "Helsinki", "Sweden" => "Stockholm", "Norway" => "Oslo"}
 ```js
 const countriesMap = new Map()
 console.log(countriesMap.size) // 0
-countriesMap.set('Finland', 'Helsinki')
+countriesMap.set('Nigeria', 'Akwa Ibom')
 countriesMap.set('Sweden', 'Stockholm')
 countriesMap.set('Norway', 'Oslo')
 console.log(countriesMap)
@@ -5167,26 +5168,26 @@ console.log(countriesMap.size)
 ```
 
 ```sh
-Map(3) {"Finland" => "Helsinki", "Sweden" => "Stockholm", "Norway" => "Oslo"}
+Map(3) {"Nigeria" => "Akwa Ibom", "Sweden" => "Stockholm", "Norway" => "Oslo"}
 3
 ```
 
 ### Getting a value from Map
 
 ```js
-console.log(countriesMap.get('Finland'))
+console.log(countriesMap.get('Nigeria'))
 ```
 
 ```sh
-Helsinki
+Akwa Ibom
 ```
 
 ### Checking key in Map
 
-Check if a key exists in a map using _has_ method. It returns _true_ or _false_.
+Check if a key exists in a map using *has* method. It returns *true* or *false*.
 
 ```js
-console.log(countriesMap.has('Finland'))
+console.log(countriesMap.has('Nigeria'))
 ```
 
 ```sh
@@ -5202,7 +5203,7 @@ for (const country of countriesMap) {
 ```
 
 ```sh
-(2) ["Finland", "Helsinki"]
+(2) ["Nigeria", "Akwa Ibom"]
 (2) ["Sweden", "Stockholm"]
 (2) ["Norway", "Oslo"]
 ```
@@ -5214,7 +5215,7 @@ for (const [country, city] of countriesMap){
 ```
 
 ```sh
-Finland Helsinki
+Nigeria Akwa Ibom
 Sweden Stockholm
 Norway Oslo
 ```
@@ -5228,7 +5229,7 @@ Norway Oslo
 ```js
 const a = [4, 5, 8, 9]
 const b = [3, 4, 5, 7]
-const countries = ['Finland', 'Sweden', 'Norway']
+const countries = ['Nigeria', 'Sweden', 'Norway']
 ```
 
 1. create an empty set
@@ -5277,6 +5278,7 @@ const countries = ['Finland', 'Sweden', 'Norway']
 ```
 
 =============================================================================================
+
 ## Destructuring and Spread
 
 Destructuring is a way to unpack arrays, and objects and assigning to a distinct variable.
@@ -5295,14 +5297,14 @@ Destructuring is a way to unpack arrays, and objects and assigning to a distinct
 ```
 
 ```js
-  const names = ['Asabeneh', 'Brook', 'David', 'John']
+  const names = ['Effiong', 'Brook', 'David', 'John']
   let [firstPerson, secondPerson, thirdPerson, fourthPerson] = names
 
   console.log(firstPerson, secondPerson,thirdPerson, fourthPerson)
 ```
 
 ```sh
-Asabeneh Brook David John
+Effiong Brook David John
 ```
 
 ```js
@@ -5346,7 +5348,7 @@ If we like to skip on of the values in the array we use additional comma. The co
 ```
 
 ```js
-  const names = ['Asabeneh', 'Brook', 'David', 'John']
+  const names = ['Effiong', 'Brook', 'David', 'John']
   let [, secondPerson, , fourthPerson] = names // first and third person is omitted
 
   console.log(secondPerson, fourthPerson)
@@ -5361,7 +5363,7 @@ We can use default value in case the value of array for that index is undefined:
 ```js
 const names = [undefined, 'Brook', 'David']
 let [
-  firstPerson = 'Asabeneh',
+  firstPerson = 'Effiong',
   secondPerson,
   thirdPerson,
   fourthPerson = 'John'
@@ -5371,7 +5373,7 @@ console.log(firstPerson, secondPerson, thirdPerson, fourthPerson)
 ```
 
 ```sh
-Asabeneh Brook David John
+Effiong Brook David John
 ```
 
 We can not assign variable to all the elements in the array. We can destructure few of the first and we can get the remaining as array using spread operator(...).
@@ -5392,7 +5394,7 @@ console.log(rest)
 ### Destructuring during iteration
 
 ```js
-const countries = [['Finland', 'Helsinki'], ['Sweden', 'Stockholm'], ['Norway', 'Oslo']]
+const countries = [['Nigeria', 'Akwa Ibom'], ['Sweden', 'Stockholm'], ['Norway', 'Oslo']]
 
 for (const [country, city] of countries) {
 console.log(country, city)
@@ -5400,7 +5402,7 @@ console.log(country, city)
 ```
 
 ```sh
-Finland Helsinki
+Nigeria Akwa Ibom
 Sweden Stockholm
 Norway Oslo
 ```
@@ -5503,10 +5505,10 @@ console.log(calculatePerimeter(rect)) // 60
 ```js
 //Another Example
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
+  firstName: 'Effiong',
+  lastName: 'samuel',
   age: 250,
-  country: 'Finland',
+  country: 'Nigeria',
   job: 'Instructor and Developer',
   skills: [
     'HTML',
@@ -5574,7 +5576,7 @@ const getPersonInfo = ({
 }
 console.log(getPersonInfo(person))
 /*
-Asabeneh Yetayeh lives in Finland. He is  250 years old. He is an Instructor and Developer. He teaches HTML, CSS, JavaScript, React, Redux, Node, MongoDB, Python and D3.js. He speaks Amharic, English and a little bit of Suomi(Finnish)
+Effiong samuel lives in Nigeria. He is  250 years old. He is an Instructor and Developer. He teaches HTML, CSS, JavaScript, React, Redux, Node, MongoDB, Python and D3.js. He speaks Amharic, English and a little bit of Suomi(Finnish)
 */
 ```
 
@@ -5634,7 +5636,7 @@ const countries = [
   'Germany',
   'France',
   'Belgium',
-  'Finland',
+  'Nigeria',
   'Sweden',
   'Norway',
   'Denmark',
@@ -5651,7 +5653,7 @@ console.log(nordicCountries)
 ```sh
 Germany
 France
-["Finland", "Sweden", "Norway", "Denmark", "Iceland"]
+["Nigeria", "Sweden", "Norway", "Denmark", "Iceland"]
 ```
 
 ### Spread operator to copy array
@@ -5696,10 +5698,10 @@ We can copy an object using a spread operator
 
 ```js
 const user = {
-  name:'Asabeneh',
+  name:'Effiong',
   title:'Programmer',
-  country:'Finland',
-  city:'Helsinki'
+  country:'Nigeria',
+  city:'Akwa Ibom'
 }
 
 const copiedUser = {...user}
@@ -5707,17 +5709,17 @@ console.log(copiedUser)
 ```
 
 ```sh
-{name: "Asabeneh", title: "Programmer", country: "Finland", city: "Helsinki"}
+{name: "Effiong", title: "Programmer", country: "Nigeria", city: "Akwa Ibom"}
 ```
 
 Modifying or changing the object while copying
 
 ```js
 const user = {
-  name:'Asabeneh',
+  name:'Effiong',
   title:'Programmer',
-  country:'Finland',
-  city:'Helsinki'
+  country:'Nigeria',
+  city:'Akwa Ibom'
 }
 
 const copiedUser = {...user, title:'instructor'}
@@ -5725,7 +5727,7 @@ console.log(copiedUser)
 ```
 
 ```sh
-{name: "Asabeneh", title: "instructor", country: "Finland", city: "Helsinki"}
+{name: "Effiong", title: "instructor", country: "Nigeria", city: "Akwa Ibom"}
 ```
 
 #### Spread operator with arrow function
@@ -5774,7 +5776,7 @@ console.log(sumAllNums(1, 2, 3, 4, 5))
 
 ```js
 const constants = [2.72, 3.14, 9.81, 37, 100]
-const countries = ['Finland', 'Estonia', 'Sweden', 'Denmark', 'Norway']
+const countries = ['Nigeria', 'Estonia', 'Sweden', 'Denmark', 'Norway']
 const rectangle = {
   width: 20,
   height: 10,
@@ -5931,7 +5933,9 @@ const users = [
   }
 
 ```
+
 =============================================================================================
+
 ## Regular Expressions
 
 A regular expression or RegExp is a small programming language that helps to find pattern in data. A RegExp can be used to check if some pattern exists in a different data types. To use RegExp in JavaScript either we use RegExp constructor or we can declare a RegExp pattern using two forward slashes followed by a flag. We can create a pattern in two ways.
@@ -6104,38 +6108,38 @@ console.log(matches)
 ```
 
 ```sh
-I am teacher and  I love teaching.There is nothing as more rewarding as educating and empowering people.I found teaching more interesting than any other jobs.Does this motivate you to be a teacher.
+I am Software Engineer and  I love Sofware enginner.There is nothing as more rewarding as educating and empowering people.I found Sofware enginner more interesting than any other jobs.Does this motivate you to be a Software Engineer.
 ```
 
-* []:  A set of characters
-  * [a-c] means, a or b or c
-  * [a-z] means, any letter a to z
-  * [A-Z] means, any character A to Z
-  * [0-3] means, 0 or 1 or 2 or 3
-  * [0-9] means any number 0 to 9
-  * [A-Za-z0-9] any character which is a to z, A to Z, 0 to 9
-* \\:  uses to escape special characters
-  * \d mean: match where the string contains digits (numbers from 0-9)
-  * \D mean: match where the string does not contain digits
-* . : any character except new line character(\n)
-* ^: starts with
-  * r'^substring' eg r'^love', a sentence which starts with a word love
-  * r'[^abc] mean not a, not b, not c.
-* $: ends with
-  * r'substring$' eg r'love$', sentence ends with a word love
-* *: zero or more times
-  * r'[a]*' means a optional or it can occur many times.
-* +: one or more times
-  * r'[a]+' means at least once or more times
-* ?: zero or one times
-  *  r'[a]?' means zero times or once
-* \b: word bounder, matches with the beginning or ending of a word
-* {3}: Exactly 3 characters
-* {3,}: At least 3 characters
-* {3,8}: 3 to 8 characters
-* |: Either or
-  * r'apple|banana' mean either of an apple or a banana
-* (): Capture and group
+- []:  A set of characters
+  - [a-c] means, a or b or c
+  - [a-z] means, any letter a to z
+  - [A-Z] means, any character A to Z
+  - [0-3] means, 0 or 1 or 2 or 3
+  - [0-9] means any number 0 to 9
+  - [A-Za-z0-9] any character which is a to z, A to Z, 0 to 9
+- \\:  uses to escape special characters
+  - \d mean: match where the string contains digits (numbers from 0-9)
+  - \D mean: match where the string does not contain digits
+- . : any character except new line character(\n)
+- ^: starts with
+  - r'^substring' eg r'^love', a sentence which starts with a word love
+  - r'[^abc] mean not a, not b, not c.
+- $: ends with
+  - r'substring$' eg r'love$', sentence ends with a word love
+- *: zero or more times
+  - r'[a]*' means a optional or it can occur many times.
+- +: one or more times
+  - r'[a]+' means at least once or more times
+- ?: zero or one times
+  - r'[a]?' means zero times or once
+- \b: word bounder, matches with the beginning or ending of a word
+- {3}: Exactly 3 characters
+- {3,}: At least 3 characters
+- {3,8}: 3 to 8 characters
+- |: Either or
+  - r'apple|banana' mean either of an apple or a banana
+- (): Capture and group
 
 ![Regular Expression cheat sheet](../images/regex.png)
 
@@ -6317,7 +6321,7 @@ It should have ^ starting and $ which is an end.
 
 ```js
 let pattern = /^[A-Z][a-z]{3,12}$/;
-let name = 'Asabeneh';
+let name = 'Effiong';
 let result = pattern.test(name)
 
 console.log(result) // true
@@ -6352,7 +6356,7 @@ distance = 12
 1. Write a function called *tenMostFrequentWords* which get the ten most frequent word from a string?
 
     ```js
-        paragraph = `I love teaching. If you do not love teaching what else can you love. I love Python if you do not love something which can give you all the capabilities to develop an application what else can you love.`
+        paragraph = `I love Sofware enginner. If you do not love Sofware enginner what else can you love. I love Python if you do not love something which can give you all the capabilities to develop an application what else can you love.`
         console.log(tenMostFrequentWords(paragraph))
     ```
 
@@ -6362,7 +6366,7 @@ distance = 12
         {word:'you', count:5},
         {word:'can', count:3},
         {word:'what', count:2},
-        {word:'teaching', count:2},
+        {word:'Sofware enginner', count:2},
         {word:'not', count:2},
         {word:'else', count:2},
         {word:'do', count:2},
@@ -6391,7 +6395,7 @@ distance = 12
     {word:'you', count:5},
     {word:'can', count:3},
     {word:'what', count:2},
-    {word:'teaching', count:2},
+    {word:'Sofware enginner', count:2},
     {word:'not', count:2},
     {word:'else', count:2},
     {word:'do', count:2},
@@ -6410,16 +6414,17 @@ distance = 12
    ```
 
    ```sh
-    I am a teacher and I love teaching There is nothing as more rewarding as educating and empowering people I found teaching more interesting than any other jobs Does this motivate you to be a teacher
+    I am a Software Engineer and I love Sofware enginner There is nothing as more rewarding as educating and empowering people I found Sofware enginner more interesting than any other jobs Does this motivate you to be a Software Engineer
     ```
 2. Write a function which find the most frequent words. After cleaning, count three most frequent words in the string.
 
   ```js
     console.log(mostFrequentWords(cleanedText))
-    [{word:'I', count:3}, {word:'teaching', count:2}, {word:'teacher', count:2}]
+    [{word:'I', count:3}, {word:'Sofware enginner', count:2}, {word:'Software Engineer', count:2}]
   ```
 
 =============================================================================================
+
 ## Console Object Methods
 
 In this section, we will cover about console and console object methods. Absolute beginners usually do not know which to use: console.log(), document.write() or document.getElementById.
@@ -6496,7 +6501,7 @@ The console.table() method display data as a table on the console. Displays tabu
 Let us first start with a simple array. The code below displays a table with two columns. An index column to display the index and value column to display the names
 
 ```js
-const names = ['Asabeneh', 'Brook', 'David', 'John']
+const names = ['Effiong', 'Brook', 'David', 'John']
 console.table(names)
 ```
 
@@ -6504,10 +6509,10 @@ Let us also check the result of an object. This creates table with two columns:a
 
 ```js
 const user = {
-  name: 'Asabeneh',
+  name: 'Effiong',
   title: 'Programmer',
-  country: 'Finland',
-  city: 'Helsinki',
+  country: 'Nigeria',
+  city: 'Akwa Ibom',
   age: 250
 }
 console.table(user)
@@ -6517,7 +6522,7 @@ Check the rest of the examples by copying and paste on the browser console.
 
 ```js
 const countries = [
-  ['Finland', 'Helsinki'],
+  ['Nigeria', 'Akwa Ibom'],
   ['Sweden', 'Stockholm'],
   ['Norway', 'Oslo']
 ]
@@ -6527,15 +6532,15 @@ console.table(countries)
 ```js
 const users = [
   {
-    name: 'Asabeneh',
+    name: 'Effiong',
     title: 'Programmer',
-    country: 'Finland',
-    city: 'Helsinki',
+    country: 'Nigeria',
+    city: 'Akwa Ibom',
     age: 250
   },
   {
     name: 'Eyob',
-    title: 'Teacher',
+    title: 'Software Engineer',
     country: 'Sweden',
     city: 'London',
     age: 25
@@ -6564,7 +6569,7 @@ Starts a timer you can use to track how long an operation takes. You give each t
 
 ```js
 const countries = [
-  ['Finland', 'Helsinki'],
+  ['Nigeria', 'Akwa Ibom'],
   ['Sweden', 'Stockholm'],
   ['Norway', 'Oslo']
 ]
@@ -6589,15 +6594,15 @@ console.timeEnd('forEach loop')
 ```
 
 ```sh
-Finland Helsinki
+Nigeria Akwa Ibom
 Sweden Stockholm
 Norway Oslo
 Regular for loop: 0.34716796875ms
-Finland Helsinki
+Nigeria Akwa Ibom
 Sweden Stockholm
 Norway Oslo
 for of loop: 0.26806640625ms
-Finland Helsinki
+Nigeria Akwa Ibom
 Sweden Stockholm
 Norway Oslo
 forEach loop: 0.358154296875ms
@@ -6635,30 +6640,30 @@ for (let i = 0; i <= 10; i += 1) {
 The console.group() can help to group different log groups. Copy the following code and paste it on browser console to the groups.
 
 ```js
-const names = ['Asabeneh', 'Brook', 'David', 'John']
+const names = ['Effiong', 'Brook', 'David', 'John']
 const countries = [
-  ['Finland', 'Helsinki'],
+  ['Nigeria', 'Akwa Ibom'],
   ['Sweden', 'Stockholm'],
   ['Norway', 'Oslo']
 ]
 const user = {
-  name: 'Asabeneh',
+  name: 'Effiong',
   title: 'Programmer',
-  country: 'Finland',
-  city: 'Helsinki',
+  country: 'Nigeria',
+  city: 'Akwa Ibom',
   age: 250
 }
 const users = [
   {
-    name: 'Asabeneh',
+    name: 'Effiong',
     title: 'Programmer',
-    country: 'Finland',
-    city: 'Helsinki',
+    country: 'Nigeria',
+    city: 'Akwa Ibom',
     age: 250
   },
   {
     name: 'Eyob',
-    title: 'Teacher',
+    title: 'Software Engineer',
     country: 'Sweden',
     city: 'London',
     age: 25
@@ -6722,9 +6727,9 @@ The console.clear() cleans the browser console.
 
 ### Exercises:Level 1
 
-1.  Display the countries array as a table
-2.  Display the countries object as a table
-3.  Use console.group() to group logs
+1. Display the countries array as a table
+2. Display the countries object as a table
+3. Use console.group() to group logs
 
 ### Exercises:Level 2
 
@@ -6735,10 +6740,10 @@ The console.clear() cleans the browser console.
 ### Exercises:Level 3
 
 1. Check the speed difference among the following loops: while, for, for of, forEach
-
 
 =============================================================================================
-## Console Object Methods
+
+## Console Object Methods {#console-object-methods}
 
 In this section, we will cover about console and console object methods. Absolute beginners usually do not know which to use: console.log(), document.write() or document.getElementById.
 
@@ -6746,7 +6751,7 @@ We use console object methods to show output on the browser console and we use d
 
 In addition to the famous, console.log() method, the console provides other more methods.
 
-### console.log()
+### console.log() {#console-log}
 
 We use console.log() to show output on the browser console. We can substitute values and also we can style the logging out put using %c.
 
@@ -6814,7 +6819,7 @@ The console.table() method display data as a table on the console. Displays tabu
 Let us first start with a simple array. The code below displays a table with two columns. An index column to display the index and value column to display the names
 
 ```js
-const names = ['Asabeneh', 'Brook', 'David', 'John']
+const names = ['Effiong', 'Brook', 'David', 'John']
 console.table(names)
 ```
 
@@ -6822,10 +6827,10 @@ Let us also check the result of an object. This creates table with two columns:a
 
 ```js
 const user = {
-  name: 'Asabeneh',
+  name: 'Effiong',
   title: 'Programmer',
-  country: 'Finland',
-  city: 'Helsinki',
+  country: 'Nigeria',
+  city: 'Akwa Ibom',
   age: 250
 }
 console.table(user)
@@ -6835,7 +6840,7 @@ Check the rest of the examples by copying and paste on the browser console.
 
 ```js
 const countries = [
-  ['Finland', 'Helsinki'],
+  ['Nigeria', 'Akwa Ibom'],
   ['Sweden', 'Stockholm'],
   ['Norway', 'Oslo']
 ]
@@ -6845,15 +6850,15 @@ console.table(countries)
 ```js
 const users = [
   {
-    name: 'Asabeneh',
+    name: 'Effiong',
     title: 'Programmer',
-    country: 'Finland',
-    city: 'Helsinki',
+    country: 'Nigeria',
+    city: 'Akwa Ibom',
     age: 250
   },
   {
     name: 'Eyob',
-    title: 'Teacher',
+    title: 'Software Engineer',
     country: 'Sweden',
     city: 'London',
     age: 25
@@ -6882,7 +6887,7 @@ Starts a timer you can use to track how long an operation takes. You give each t
 
 ```js
 const countries = [
-  ['Finland', 'Helsinki'],
+  ['Nigeria', 'Akwa Ibom'],
   ['Sweden', 'Stockholm'],
   ['Norway', 'Oslo']
 ]
@@ -6907,15 +6912,15 @@ console.timeEnd('forEach loop')
 ```
 
 ```sh
-Finland Helsinki
+Nigeria Akwa Ibom
 Sweden Stockholm
 Norway Oslo
 Regular for loop: 0.34716796875ms
-Finland Helsinki
+Nigeria Akwa Ibom
 Sweden Stockholm
 Norway Oslo
 for of loop: 0.26806640625ms
-Finland Helsinki
+Nigeria Akwa Ibom
 Sweden Stockholm
 Norway Oslo
 forEach loop: 0.358154296875ms
@@ -6953,30 +6958,30 @@ for (let i = 0; i <= 10; i += 1) {
 The console.group() can help to group different log groups. Copy the following code and paste it on browser console to the groups.
 
 ```js
-const names = ['Asabeneh', 'Brook', 'David', 'John']
+const names = ['Effiong', 'Brook', 'David', 'John']
 const countries = [
-  ['Finland', 'Helsinki'],
+  ['Nigeria', 'Akwa Ibom'],
   ['Sweden', 'Stockholm'],
   ['Norway', 'Oslo']
 ]
 const user = {
-  name: 'Asabeneh',
+  name: 'Effiong',
   title: 'Programmer',
-  country: 'Finland',
-  city: 'Helsinki',
+  country: 'Nigeria',
+  city: 'Akwa Ibom',
   age: 250
 }
 const users = [
   {
-    name: 'Asabeneh',
+    name: 'Effiong',
     title: 'Programmer',
-    country: 'Finland',
-    city: 'Helsinki',
+    country: 'Nigeria',
+    city: 'Akwa Ibom',
     age: 250
   },
   {
     name: 'Eyob',
-    title: 'Teacher',
+    title: 'Software Engineer',
     country: 'Sweden',
     city: 'London',
     age: 25
@@ -7040,9 +7045,9 @@ The console.clear() cleans the browser console.
 
 ### Exercises:Level 1
 
-1.  Display the countries array as a table
-2.  Display the countries object as a table
-3.  Use console.group() to group logs
+1. Display the countries array as a table
+2. Display the countries object as a table
+3. Use console.group() to group logs
 
 ### Exercises:Level 2
 
@@ -7054,8 +7059,8 @@ The console.clear() cleans the browser console.
 
 1. Check the speed difference among the following loops: while, for, for of, forEach
 
-
 ==============================================================================================
+
 ## Error Handling
 
 JavaScript is a loosely-typed language. Some times you will get a runtime error when you try to access an undefined variable or call undefined function etc.
@@ -7082,7 +7087,7 @@ try {
 
 ```js
 try {
-  let lastName = 'Yetayeh'
+  let lastName = 'samuel'
   let fullName = fistName + ' ' + lastName
 } catch (err) {
   console.log(err)
@@ -7096,7 +7101,7 @@ ReferenceError: fistName is not defined
 
 ```js
 try {
-  let lastName = 'Yetayeh'
+  let lastName = 'samuel'
   let fullName = fistName + ' ' + lastName
 } catch (err) {
   console.error(err) // we can use console.log() or console.error()
@@ -7110,10 +7115,12 @@ ReferenceError: fistName is not defined
     at <anonymous>:4:20
 In any case it  will be executed
 ```
+
 The catch block take a parameter. It is common to pass e, err or error as a parameter to the catch block. This parameter is an object and it has name and message keys. Lets use the name and message.
+
 ```js
 try {
-  let lastName = 'Yetayeh'
+  let lastName = 'samuel'
   let fullName = fistName + ' ' + lastName
 } catch (err) {
   console.log('Name of the error', err.name)
@@ -7122,18 +7129,22 @@ try {
   console.log('In any case I will be executed')
 }
 ```
+
 ```sh
 Name of the error ReferenceError
 Error message fistName is not defined
 In any case I will be executed
 ```
+
 throw: the throw statement allows us to create a custom error. We can through a string, number, boolean or an object. Use the throw statement to throw an exception. When you throw an exception, expression specifies the value of the exception. Each of the following throws an exception:
+
 ```js
 throw 'Error2' // generates an exception with a string value
 throw 42 // generates an exception with the value 42
 throw true // generates an exception with the value true
 throw new Error('Required') // generates an error object with the message of Required
 ```
+
 ```js
 const throwErrorExampleFun = () => {
   let message
@@ -7150,45 +7161,64 @@ const throwErrorExampleFun = () => {
 }
 throwErrorExampleFun()
 ```
+
 ### Error Types
+
 - ReferenceError: An illegal reference has occurred. A ReferenceError is thrown if we use a variable that has not been declared.
+
 ```js
-let firstName = 'Asabeneh'
+let firstName = 'Effiong'
 let fullName = firstName + ' ' + lastName
 console.log(fullName)
 ```
+
 ```sh
 Uncaught ReferenceError: lastName is not defined
     at <anonymous>:2:35
 ```
+
 - SyntaxError: A syntax error has occurred
+
 ```js
 let square = 2 x 2
 console.log(square)
 console.log('Hello, world")
 ```
+
 ```sh
 Uncaught SyntaxError: Unexpected identifier
 ```
+
 - TypeError: A type error has occurred
+
 ```js
 let num = 10
 console.log(num.toLowerCase())
 ```
+
 ```sh
 Uncaught TypeError: num.toLowerCase is not a function
     at <anonymous>:2:17
 ```
+
 These are some of the common error you may face when you write a code. Understanding errors can help you to know what mistakes you made and it will help you to debug your code fast.
 🌕 You are flawless. Now, you knew how to handle errors and you can write robust application which handle unexpected user inputs. You have just completed day 14 challenges and you are 14 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+
 ## Exercises
+
 ### Exercises:Level 1
+
 Practice
+
 ### Exercises: Level 2
+
 Practice
+
 ### Exercises:Level
+
 Practice
 ==============================================================================================
+
 ## Classes
 
 JavaScript is an object oriented programming language. Everything in JavScript is an object, with its properties and methods. We create class to create an object. A Class is like an object constructor, or a "blueprint" for creating objects. We instantiate a class to create an object. The class defines attributes and the behavior of the object, while the object, on the other hand, represents the class.
@@ -7199,7 +7229,7 @@ In the object section, we saw how to create an object literal. Object literal is
 
 ### Defining a classes
 
-To define a class in JavaScript we need the keyword _class_ , the name of a class in **CamelCase** and block code(two curly brackets). Let us create a class name Person.
+To define a class in JavaScript we need the keyword *class* , the name of a class in **CamelCase** and block code(two curly brackets). Let us create a class name Person.
 
 ```sh
 // syntax
@@ -7221,7 +7251,7 @@ We have created an Person class but it does not have any thing inside.
 
 ### Class Instantiation
 
-Instantiation class means creating an object from a class. We need the keyword _new_ and we call the name of the class after the word new.
+Instantiation class means creating an object from a class. We need the keyword *new* and we call the name of the class after the word new.
 
 Let us create a dog object from our Person class.
 
@@ -7243,9 +7273,9 @@ Let use the class constructor to pass different properties for the class.
 
 ### Class Constructor
 
-The constructor is a builtin function which allows as to create a blueprint for our object. The constructor function starts with a keyword constructor followed by a parenthesis. Inside the parenthesis we pass the properties of the object as parameter. We use the _this_ keyword to attach the constructor parameters with the class.
+The constructor is a builtin function which allows as to create a blueprint for our object. The constructor function starts with a keyword constructor followed by a parenthesis. Inside the parenthesis we pass the properties of the object as parameter. We use the *this* keyword to attach the constructor parameters with the class.
 
-The following Person class constructor has firstName and lastName property. These properties are attached to the Person class using _this_ keyword. _This_ refers to the class itself.
+The following Person class constructor has firstName and lastName property. These properties are attached to the Person class using *this* keyword. *This* refers to the class itself.
 
 ```js
 class Person {
@@ -7275,13 +7305,13 @@ class Person {
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh')
+const person1 = new Person('Effiong', 'samuel')
 
 console.log(person1)
 ```
 
 ```sh
-Person {firstName: "Asabeneh", lastName: "Yetayeh"}
+Person {firstName: "Effiong", lastName: "samuel"}
 ```
 
 As we have stated at the very beginning that once we create a class we can create many object using the class. Now, let us create many person objects using the Person class.
@@ -7295,9 +7325,9 @@ class Person {
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh')
+const person1 = new Person('Effiong', 'samuel')
 const person2 = new Person('Lidiya', 'Tekle')
-const person3 = new Person('Abraham', 'Yetayeh')
+const person3 = new Person('Abraham', 'samuel')
 
 console.log(person1)
 console.log(person2)
@@ -7305,9 +7335,9 @@ console.log(person3)
 ```
 
 ```sh
-Person {firstName: "Asabeneh", lastName: "Yetayeh"}
+Person {firstName: "Effiong", lastName: "samuel"}
 Person {firstName: "Lidiya", lastName: "Tekle"}
-Person {firstName: "Abraham", lastName: "Yetayeh"}
+Person {firstName: "Abraham", lastName: "samuel"}
 ```
 
 Using the class Person we created three persons object. As you can see our class did not many properties let us add more properties to the class.
@@ -7324,13 +7354,13 @@ class Person {
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
+const person1 = new Person('Effiong', 'samuel', 250, 'Nigeria', 'Akwa Ibom')
 
 console.log(person1)
 ```
 
 ```sh
-Person {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki"}
+Person {firstName: "Effiong", lastName: "samuel", age: 250, country: "Nigeria", city: "Akwa Ibom"}
 ```
 
 ### Default values with constructor
@@ -7340,11 +7370,11 @@ The constructor function properties may have a default value like other regular 
 ```js
 class Person {
   constructor(
-    firstName = 'Asabeneh',
-    lastName = 'Yetayeh',
+    firstName = 'Effiong',
+    lastName = 'samuel',
     age = 250,
-    country = 'Finland',
-    city = 'Helsinki'
+    country = 'Nigeria',
+    city = 'Akwa Ibom'
   ) {
     this.firstName = firstName
     this.lastName = lastName
@@ -7355,15 +7385,15 @@ class Person {
 }
 
 const person1 = new Person() // it will take the default values
-const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
+const person2 = new Person('Lidiya', 'Tekle', 28, 'Nigeria', 'Espoo')
 
 console.log(person1)
 console.log(person2)
 ```
 
 ```sh
-Person {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki"}
-Person {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", city: "Espoo"}
+Person {firstName: "Effiong", lastName: "samuel", age: 250, country: "Nigeria", city: "Akwa Ibom"}
+Person {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Nigeria", city: "Espoo"}
 ```
 
 ### Class methods
@@ -7385,15 +7415,15 @@ class Person {
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
-const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
+const person1 = new Person('Effiong', 'samuel', 250, 'Nigeria', 'Akwa Ibom')
+const person2 = new Person('Lidiya', 'Tekle', 28, 'Nigeria', 'Espoo')
 
 console.log(person1.getFullName())
 console.log(person2.getFullName())
 ```
 
 ```sh
-Asabeneh Yetayeh
+Effiong samuel
 test.js:19 Lidiya Tekle
 ```
 
@@ -7418,8 +7448,8 @@ class Person {
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
-const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
+const person1 = new Person('Effiong', 'samuel', 250, 'Nigeria', 'Akwa Ibom')
+const person2 = new Person('Lidiya', 'Tekle', 28, 'Nigeria', 'Espoo')
 
 console.log(person1.score)
 console.log(person2.score)
@@ -7439,7 +7469,7 @@ A method could be regular method or a getter or a setter. Let us see, getter and
 
 ### getter
 
-The get method allow us to access value from the object. We write a get method using keyword _get_ followed by a function. Instead of accessing properties directly from the object we use getter to get the value. See the example bellow
+The get method allow us to access value from the object. We write a get method using keyword *get* followed by a function. Instead of accessing properties directly from the object we use getter to get the value. See the example bellow
 
 ```js
 class Person {
@@ -7464,8 +7494,8 @@ class Person {
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
-const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
+const person1 = new Person('Effiong', 'samuel', 250, 'Nigeria', 'Akwa Ibom')
+const person2 = new Person('Lidiya', 'Tekle', 28, 'Nigeria', 'Espoo')
 
 console.log(person1.getScore) // We do not need parenthesis to call a getter method
 console.log(person2.getScore)
@@ -7483,7 +7513,7 @@ console.log(person2.getSkills)
 
 ### setter
 
-The setter method allow us to modify the value of certain properties. We write a setter method using keyword _set_ followed by a function. See the example bellow.
+The setter method allow us to modify the value of certain properties. We write a setter method using keyword *set* followed by a function. See the example bellow.
 
 ```js
 class Person {
@@ -7514,8 +7544,8 @@ class Person {
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
-const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
+const person1 = new Person('Effiong', 'samuel', 250, 'Nigeria', 'Akwa Ibom')
+const person2 = new Person('Lidiya', 'Tekle', 28, 'Nigeria', 'Espoo')
 
 person1.setScore = 1
 person1.setSkill = 'HTML'
@@ -7583,8 +7613,8 @@ class Person {
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
-const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
+const person1 = new Person('Effiong', 'samuel', 250, 'Nigeria', 'Akwa Ibom')
+const person2 = new Person('Lidiya', 'Tekle', 28, 'Nigeria', 'Espoo')
 const person3 = new Person('John', 'Doe', 50, 'Mars', 'Mars city')
 
 person1.setScore = 1
@@ -7615,14 +7645,14 @@ console.log(person3.getPersonInfo())
 ["HTML", "CSS", "JavaScript"]
 ["Planning", "Managing", "Organizing"]
 []
-Asabeneh Yetayeh is 250. He lives Helsinki, Finland. He knows HTML, CSS and JavaScript
-Lidiya Tekle is 28. He lives Espoo, Finland. He knows Planning, Managing and Organizing
+Effiong samuel is 250. He lives Akwa Ibom, Nigeria. He knows HTML, CSS and JavaScript
+Lidiya Tekle is 28. He lives Espoo, Nigeria. He knows Planning, Managing and Organizing
 John Doe is 50. He lives Mars city, Mars.
 ```
 
 ### Static method
 
-The static keyword defines a static method for a class. Static methods are not called on instances of the class. Instead, they are called on the class itself. These are often utility functions, such as functions to create or clone objects. An example of static method is _Date.now()_. The _now_ method is called directly from the class.
+The static keyword defines a static method for a class. Static methods are not called on instances of the class. Instead, they are called on the class itself. These are often utility functions, such as functions to create or clone objects. An example of static method is *Date.now()*. The *now* method is called directly from the class.
 
 ```js
 class Person {
@@ -7720,7 +7750,7 @@ class Student extends Person {
   }
 }
 
-const s1 = new Student('Asabeneh', 'Yetayeh', 'Finland', 250, 'Helsinki')
+const s1 = new Student('Effiong', 'samuel', 'Nigeria', 250, 'Akwa Ibom')
 console.log(s1)
 console.log(s1.saySomething())
 console.log(s1.getFullName())
@@ -7728,11 +7758,11 @@ console.log(s1.getPersonInfo())
 ```
 
 ```sh
-Student {firstName: "Asabeneh", lastName: "Yetayeh", age: "Finland", country: 250, city: "Helsinki", …}
+Student {firstName: "Effiong", lastName: "samuel", age: "Nigeria", country: 250, city: "Akwa Ibom", …}
 I am a child of the person class
-Asabeneh Yetayeh
-Student {firstName: "Asabeneh", lastName: "Yetayeh", age: "Finland", country: 250, city: "Helsinki", …}
-Asabeneh Yetayeh is Finland. He lives Helsinki, 250.
+Effiong samuel
+Student {firstName: "Effiong", lastName: "samuel", age: "Nigeria", country: 250, city: "Akwa Ibom", …}
+Effiong samuel is Nigeria. He lives Akwa Ibom, 250.
 ```
 
 ### Overriding methods
@@ -7765,14 +7795,14 @@ class Student extends Person {
 }
 
 const s1 = new Student(
-  'Asabeneh',
-  'Yetayeh',
+  'Effiong',
+  'samuel',
   250,
-  'Finland',
-  'Helsinki',
+  'Nigeria',
+  'Akwa Ibom',
   'Male'
 )
-const s2 = new Student('Lidiya', 'Tekle', 28, 'Finland', 'Helsinki', 'Female')
+const s2 = new Student('Lidiya', 'Tekle', 28, 'Nigeria', 'Akwa Ibom', 'Female')
 s1.setScore = 1
 s1.setSkill = 'HTML'
 s1.setSkill = 'CSS'
@@ -7795,16 +7825,16 @@ console.log(s2.getPersonInfo())
 ```
 
 ```sh
-Student {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki", …}
-Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", city: "Helsinki", …}
+Student {firstName: "Effiong", lastName: "samuel", age: 250, country: "Nigeria", city: "Akwa Ibom", …}
+Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Nigeria", city: "Akwa Ibom", …}
 I am a child of the person class
-Asabeneh Yetayeh
-Student {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki", …}
-Asabeneh Yetayeh is 250. He lives in Helsinki, Finland. He knows HTML, CSS and JavaScript
+Effiong samuel
+Student {firstName: "Effiong", lastName: "samuel", age: 250, country: "Nigeria", city: "Akwa Ibom", …}
+Effiong samuel is 250. He lives in Akwa Ibom, Nigeria. He knows HTML, CSS and JavaScript
 I am a child of the person class
 Lidiya Tekle
-Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", city: "Helsinki", …}
-Lidiya Tekle is 28. She lives in Helsinki, Finland. He knows Planning, Managing and Organizing
+Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Nigeria", city: "Akwa Ibom", …}
+Lidiya Tekle is 28. She lives in Akwa Ibom, Nigeria. He knows Planning, Managing and Organizing
 ```
 
 Now, the getPersonInfo method has been overridden and it identifies if the person is male or female.
@@ -7861,8 +7891,8 @@ Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34
 
 1. Create a class called PersonAccount. It has firstname, lastname, incomes, expenses properties and it has totalIncome, totalExpense, accountInfo,addIncome, addExpense and accountBalance methods. Incomes is a set of incomes and its description and expenses is also a set of expenses and its description.
 
-
 ==============================================================================================
+
 ## JSON
 
 JSON stands for JavaScript Object Notation. The JSON syntax is derived from JavaScript object notation syntax, but the JSON format is text or string only. JSON is a light weight data format for storing and transporting. JSON is mostly used when data is sent from a server to a client. JSON is an easier-to-use alternative to XML.
@@ -7873,8 +7903,8 @@ JSON stands for JavaScript Object Notation. The JSON syntax is derived from Java
 {
 "users":[
   {
-    "firstName":"Asabeneh",
-    "lastName":"Yetayeh",
+    "firstName":"Effiong",
+    "lastName":"samuel",
     "age":250,
     "email":"asab@asb.com"
   },
@@ -8000,7 +8030,7 @@ Let us see the above example in more detail, it starts with a curly bracket. Ins
 
 ### Converting JSON to JavaScript Object
 
-Mostly we fetch JSON data from HTTP response or from a file, but we can store the JSON as a string and we can change to Object for sake of demonstration. In JavaScript the keyword _JSON_ has _parse()_ and _stringify()_ methods. When we want to change the JSON to an object we parse the JSON using _JSON.parse()_. When we want to change the object to JSON we use _JSON.stringify()_.
+Mostly we fetch JSON data from HTTP response or from a file, but we can store the JSON as a string and we can change to Object for sake of demonstration. In JavaScript the keyword *JSON* has *parse()* and *stringify()* methods. When we want to change the JSON to an object we parse the JSON using *JSON.parse()*. When we want to change the object to JSON we use *JSON.stringify()*.
 
 #### JSON.parse()
 
@@ -8018,8 +8048,8 @@ JSON.parse(json[, reviver])
 const usersText = `{
 "users":[
   {
-    "firstName":"Asabeneh",
-    "lastName":"Yetayeh",
+    "firstName":"Effiong",
+    "lastName":"samuel",
     "age":250,
     "email":"asab@asb.com"
   },
@@ -8050,8 +8080,8 @@ To use the reviver function as a formatter, we put the keys we want to format fi
 const usersText = `{
 "users":[
   {
-    "firstName":"Asabeneh",
-    "lastName":"Yetayeh",
+    "firstName":"Effiong",
+    "lastName":"samuel",
     "age":250,
     "email":"asab@asb.com"
   },
@@ -8078,11 +8108,11 @@ const usersObj = JSON.parse(usersText, (key, value) => {
 console.log(usersObj)
 ```
 
-The _JSON.parse()_ is very handy to use. You do not have to pass optional parameter, you can just use it with the required parameter and you will achieve quite a lot.
+The *JSON.parse()* is very handy to use. You do not have to pass optional parameter, you can just use it with the required parameter and you will achieve quite a lot.
 
 ### Converting Object to JSON
 
-When we want to change the object to JSON we use _JSON.stringify()_. The stringify method takes one required parameter and two optional parameters. The replacer is used as filter and the space is an indentations. If we do not want to filter out any of the keys from the object we can just pass undefined.
+When we want to change the object to JSON we use *JSON.stringify()*. The stringify method takes one required parameter and two optional parameters. The replacer is used as filter and the space is an indentations. If we do not want to filter out any of the keys from the object we can just pass undefined.
 
 ```js
 JSON.stringify(obj, replacer, space)
@@ -8270,10 +8300,10 @@ Now, lets use the replacer as a filter. The user object has long list of keys bu
 
 ```js
 const user = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
-  country: 'Finland',
-  city: 'Helsinki',
+  firstName: 'Effiong',
+  lastName: 'samuel',
+  country: 'Nigeria',
+  city: 'Akwa Ibom',
   email: 'alex@alex.com',
   skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Python'],
   age: 250,
@@ -8287,10 +8317,10 @@ console.log(txt)
 
 ```sh
 {
-    "firstName": "Asabeneh",
-    "lastName": "Yetayeh",
-    "country": "Finland",
-    "city": "Helsinki",
+    "firstName": "Effiong",
+    "lastName": "samuel",
+    "country": "Nigeria",
+    "city": "Akwa Ibom",
     "age": 250
 }
 ```
@@ -8304,8 +8334,8 @@ const skills = ['HTML', 'CSS', 'JS', 'React','Node', 'Python']
 let age = 250;
 let isMarried = true
 const student = {
-  firstName:'Asabeneh',
-  lastName:'Yetayehe',
+  firstName:'Effiong',
+  lastName:'samuele',
   age:250,
   isMarried:true,
   skills:['HTML', 'CSS', 'JS', 'React','Node', 'Python', ]
@@ -8425,6 +8455,7 @@ const txt = `{
 2. Find the user who has many skills from the variable stored in *txt*.
 
 ==============================================================================================
+
 ## HTML5 Web Storage
 
 Web Storage(sessionStorage and localStorage) is a new HTML5 API offering important benefits over traditional cookies. Before HTML5, application data had to be stored in cookies, included in every server request. Web storage is more secure, and large amounts of data can be stored locally, without affecting website performance. The data storage limit of cookies in many web browsers is about 4 KB per cookie. We Storages can store far larger data (at least 5MB) and never transferred to the server. All sites from the same or one origin can store and access the same data.
@@ -8440,7 +8471,7 @@ It should be noted that data stored in either localStorage or sessionStorage is 
 
 The keys and the values are always strings (note that, as with objects, integer keys will be automatically converted to strings).
 
-![web_storage](../images/web_storage.png)
+![web_storage](/pure%20javascript/images/web_storage.png)
 
 ### sessionStorage
 
@@ -8451,7 +8482,7 @@ sessionStorage is only available within the browser tab or window session. It’
 The HTML5 localStorage is the para of the web storage API which is used to store data on the browser with no expiration data. The data will be available on the browser even after the browser is closed. localStorage is kept even between browser sessions. This means data is still available when the browser is closed and reopened, and also instantly between tabs and windows.
 
 Web Storage data is, in both cases, not available between different browsers. For example, storage objects created in Firefox cannot be accessed in Internet Explorer, exactly like cookies. There are five methods to work on local storage:
-_setItem(), getItem(), removeItem(), clear(), key()_
+*setItem(), getItem(), removeItem(), clear(), key()*
 
 ### Use case of Web Storages
 
@@ -8479,20 +8510,20 @@ HTML web storage provides two objects for storing data on the client:
 
 Web Storage objects:
 
-- _localStorage_ - to display the localStorage object
-- _localStorage.clear()_ - to remove everything in the local storage
-- _localStorage.setItem()_ - to store data in the localStorage. It takes a key and a value parameters.
-- _localStorage.getItem()_ - to display data stored in the localStorage. It takes a key as a parameter.
-- _localStorage.removeItem()_ - to remove stored item form a localStorage. It takes key as a parameter.
-- _localStorage.key()_ - to display a data stored in a localStorage. It takes index as a parameter.
+- *localStorage* - to display the localStorage object
+- *localStorage.clear()* - to remove everything in the local storage
+- *localStorage.setItem()* - to store data in the localStorage. It takes a key and a value parameters.
+- *localStorage.getItem()* - to display data stored in the localStorage. It takes a key as a parameter.
+- *localStorage.removeItem()* - to remove stored item form a localStorage. It takes key as a parameter.
+- *localStorage.key()* - to display a data stored in a localStorage. It takes index as a parameter.
 
-![local_storage](../images/local_storage.png)
+![local_storage](/pure%20javascript/images/local_storage.png)
 
 ### Setting item to the localStorage
 
 When we set data to be stored in a localStorage, it will be stored as a string. If we are storing an array or an object, we should stringify it first to keep the format unless otherwise we lose the array structure or the object structure of the original data.
 
-We store data in the localStorage using the _localStorage.setItem_ method.
+We store data in the localStorage using the *localStorage.setItem* method.
 
 ```js
 //syntax
@@ -8502,12 +8533,12 @@ localStorage.setItem('key', 'value')
 - Storing string in a localStorage
 
 ```js
-localStorage.setItem('firstName', 'Asabeneh') // since the value is string we do not stringify it
+localStorage.setItem('firstName', 'Effiong') // since the value is string we do not stringify it
 console.log(localStorage)
 ```
 
 ```sh
-Storage {firstName: 'Asabeneh', length: 1}
+Storage {firstName: 'Effiong', length: 1}
 ```
 
 - Storing number in a local storage
@@ -8518,7 +8549,7 @@ console.log(localStorage)
 ```
 
 ```sh
- Storage {age: '200', firstName: 'Asabeneh', length: 2}
+ Storage {age: '200', firstName: 'Effiong', length: 2}
 ```
 
 - Storing an array in a localStorage. If we are storing an array, an object or object array, we should stringify the object first. See the example below.
@@ -8532,7 +8563,7 @@ console.log(localStorage)
 ```
 
 ```sh
-Storage {age: '200', firstName: 'Asabeneh', skills: 'HTML,CSS,JS,React', length: 3}
+Storage {age: '200', firstName: 'Effiong', skills: 'HTML,CSS,JS,React', length: 3}
 ```
 
 ```js
@@ -8554,7 +8585,7 @@ localStorage.setItem('skills', skillJSON)
 
 ```js
 const user = {
-  firstName: 'Asabeneh',
+  firstName: 'Effiong',
   age: 250,
   skills: ['HTML', 'CSS', 'JS', 'React']
 }
@@ -8565,7 +8596,7 @@ localStorage.setItem('user', userText)
 
 ### Getting item from localStorage
 
-We get data from the local storage using _localStorage.getItem()_ method.
+We get data from the local storage using *localStorage.getItem()* method.
 
 ```js
 //syntax
@@ -8580,7 +8611,7 @@ console.log(firstName, age, skills)
 ```
 
 ```sh
- 'Asabeneh', '200', '['HTML','CSS','JS','React']'
+ 'Effiong', '200', '['HTML','CSS','JS','React']'
 ```
 
 As you can see the skill is in a string format. Let us use JSON.parse() to parse it to normal array.
@@ -8620,6 +8651,7 @@ localStorage.clear()
 1. Create an object called personAccount. It has firstname, lastname, incomes, expenses properties and it has totalIncome, totalExpense, accountInfo,addIncome, addExpense and accountBalance methods. Incomes is a set of incomes and its description and expenses is also a set of expenses and its description.
 
 ==============================================================================================
+
 ## Promise
 
 We human give or receive a promise to do some activity at some point in time. If we keep the promise we make others happy but if we do not keep the promise, it may lead discontentment. Promise in JavaScript has something in common with the above examples.
@@ -8694,7 +8726,7 @@ doSomething((err, result) => {
 
 ### Promise constructor
 
-We can create a promise using the Promise constructor. We can create a new promise using the key word `new` followed by the word `Promise` and followed by a parenthesis. Inside the parenthesis, it takes a `callback` function. The promise callback function has two parameters which are the _`resolve`_ and _`reject`_ functions.
+We can create a promise using the Promise constructor. We can create a new promise using the key word `new` followed by the word `Promise` and followed by a parenthesis. Inside the parenthesis, it takes a `callback` function. The promise callback function has two parameters which are the *`resolve`* and *`reject`* functions.
 
 ```js
 // syntax
@@ -8786,9 +8818,9 @@ square(2)
 Promise {<resolved>: 4}
 ```
 
-The word _async_ in front of a function means that function will return a promise. The above square function instead of a value it returns a promise.
+The word *async* in front of a function means that function will return a promise. The above square function instead of a value it returns a promise.
 
-How do we access the value from the promise? To access the value from the promise, we will use the keyword _await_.
+How do we access the value from the promise? To access the value from the promise, we will use the keyword *await*.
 
 ```js
 const square = async function (n) {
@@ -8858,7 +8890,8 @@ const catsAPI = 'https://api.thecatapi.com/v1/breeds'
 3. Read the countries api and count total number of languages in the world used as officials.
 
 ==============================================================================================
-## Promise
+
+## Promise (Section 1)
 
 We human give or receive a promise to do some activity at some point in time. If we keep the promise we make others happy but if we do not keep the promise, it may lead discontentment. Promise in JavaScript has something in common with the above examples.
 
@@ -8874,7 +8907,7 @@ A pending promise can either be fulfilled with a value, or rejected with a reaso
 
 As the Promise.prototype.then() and Promise.prototype.catch() methods return promises, they can be chained.
 
-## Callbacks
+### Callbacks
 
 To understand promise very well let us understand callback first. Let's see the following callbacks. From the following code blocks you will notice, the difference between callback and promises.
 
@@ -8932,7 +8965,7 @@ doSomething((err, result) => {
 
 ### Promise constructor
 
-We can create a promise using the Promise constructor. We can create a new promise using the key word `new` followed by the word `Promise` and followed by a parenthesis. Inside the parenthesis, it takes a `callback` function. The promise callback function has two parameters which are the _`resolve`_ and _`reject`_ functions.
+We can create a promise using the Promise constructor. We can create a new promise using the key word `new` followed by the word `Promise` and followed by a parenthesis. Inside the parenthesis, it takes a `callback` function. The promise callback function has two parameters which are the *`resolve`* and *`reject`* functions.
 
 ```js
 // syntax
@@ -9024,9 +9057,9 @@ square(2)
 Promise {<resolved>: 4}
 ```
 
-The word _async_ in front of a function means that function will return a promise. The above square function instead of a value it returns a promise.
+The word *async* in front of a function means that function will return a promise. The above square function instead of a value it returns a promise.
 
-How do we access the value from the promise? To access the value from the promise, we will use the keyword _await_.
+How do we access the value from the promise? To access the value from the promise, we will use the keyword *await*.
 
 ```js
 const square = async function (n) {
@@ -9096,6 +9129,7 @@ const catsAPI = 'https://api.thecatapi.com/v1/breeds'
 3. Read the countries api and count total number of languages in the world used as officials.
 
 ==============================================================================================
+
 ## Closure
 
 JavaScript allows writing function inside an outer function. We can write as many inner functions as we want. If inner function access the variables of outer function then it is called closure.
@@ -9170,6 +9204,7 @@ console.log(innerFuncs.minusOne)
 1. Create a personAccount out function. It has firstname, lastname, incomes, expenses  inner variables. It has totalIncome, totalExpense, accountInfo,addIncome, addExpense and accountBalance inner functions. Incomes is a set of incomes and its description and expenses is also a set of expenses and its description.
 
 ===============================================================================================
+
 ## Writing clean code
 
 ### JavaScript Style Guide
@@ -9220,7 +9255,7 @@ Coding conventions includes
 
 #### Conventions use in 30DaysOfJavaScript
 
-In this challenge we follow the regular JavaScript convention but I added also my preference of writing. 
+In this challenge we follow the regular JavaScript convention but I added also my preference of writing.
 
 - We used camelCase for variables and functions.
 - All variable names start with a letter.
@@ -9237,10 +9272,10 @@ In this challenge we follow the regular JavaScript convention but I added also m
 
 ```js
 
-let firstName = 'Asabeneh'
-let lastName = 'Yetayeh'
-let country = 'Finland'
-let city = 'Helsinki'
+let firstName = 'Effiong'
+let lastName = 'samuel'
+let country = 'Nigeria'
+let city = 'Akwa Ibom'
 
 const PI = Math.PI
 const gravity = 9.81
@@ -9260,9 +9295,9 @@ We chose to make array names plural
 
 ```js
 // arrays
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const names = ['Effiong', 'Mathias', 'Elias', 'Brook']
 const numbers = [0, 3.14, 9.81, 37, 98.6, 100]
-const countries = ['Finland', 'Denmark', 'Sweden', 'Norway', 'Iceland']
+const countries = ['Nigeria', 'Denmark', 'Sweden', 'Norway', 'Iceland']
 const languages = ['Amharic', 'Arabic', 'English', 'French', 'Spanish']
 const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Python']
 const fruits = ['banana', 'orange', 'mango', 'lemon']
@@ -9327,7 +9362,7 @@ for (let i = 0; i < n; i++){
 }
 
 // declaring an array variable
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const names = ['Effiong', 'Mathias', 'Elias', 'Brook']
 
 // iterating an array using regular for loop
 let len = names.length;
@@ -9346,11 +9381,11 @@ names.forEach((name) => name.toUpperCase())
 
 
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
+  firstName: 'Effiong',
+  lastName: 'samuel',
   age: 250,
-  country: 'Finland',
-  city: 'Helsinki',
+  country: 'Nigeria',
+  city: 'Akwa Ibom',
   skills: ['HTML','CSS','JavaScript','React','Node','MongoDB','Python','D3.js'],
   isMarried: true
 }
@@ -9367,11 +9402,11 @@ We declare object literal with *const*.
 ```js
 // declaring object literal
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
+  firstName: 'Effiong',
+  lastName: 'samuel',
   age: 250,
-  country: 'Finland',
-  city: 'Helsinki',
+  country: 'Nigeria',
+  city: 'Akwa Ibom',
   skills: ['HTML','CSS','JavaScript','TypeScript', 'React','Node','MongoDB','Python','D3.js'],
   isMarried: true
 }
@@ -9490,13 +9525,14 @@ Whatever style guide you follow be consistent. Follow some programming paradigms
 🌕 You are tidy. Now, you knew how to write clean code, so anyone who know the English language can understand your code.  You are always progressing and you are a head of 20 steps to your way to greatness.
 
 ===============================================================================================
+
 ## Document Object Model (DOM) - Day 1
 
 HTML document is structured as a JavaScript Object. Every HTML element has a different properties which can help to manipulate it. It is possible to get, create, append or remove HTML elements using JavaScript. Check the examples below. Selecting HTML element using JavaScript is similar to selecting using CSS. To select an HTML element, we use tag name, id, class name or other attributes.
 
 ### Getting Element
 
-We can access already created element or elements using JavaScript. To access or get elements we use different methods. The code below has four _h1_ elements. Let us see the different methods to access the _h1_ elements.
+We can access already created element or elements using JavaScript. To access or get elements we use different methods. The code below has four *h1* elements. Let us see the different methods to access the *h1* elements.
 
 ```html
 <!DOCTYPE html>
@@ -9517,7 +9553,7 @@ We can access already created element or elements using JavaScript. To access or
 
 #### Getting elements by tag name
 
-**_getElementsByTagName()_**:takes a tag name as a string parameter and this method returns an HTMLCollection object. An HTMLCollection is an array like object of HTML elements. The length property provides the size of the collection. Whenever we use this method we access the individual elements using index or after loop through each individual items. An HTMLCollection does not support all array methods therefore we should use regular for loop instead of forEach.
+***getElementsByTagName()***:takes a tag name as a string parameter and this method returns an HTMLCollection object. An HTMLCollection is an array like object of HTML elements. The length property provides the size of the collection. Whenever we use this method we access the individual elements using index or after loop through each individual items. An HTMLCollection does not support all array methods therefore we should use regular for loop instead of forEach.
 
 ```js
 // syntax
@@ -9537,7 +9573,7 @@ for (let i = 0; i < allTitles.length; i++) {
 
 #### Getting elements by class name
 
-**_getElementsByClassName()_** method returns an HTMLCollection object. An HTMLCollection is an array like list of HTML elements. The length property provides the size of the collection. It is possible to loop through all the HTMLCollection elements. See the example below
+***getElementsByClassName()*** method returns an HTMLCollection object. An HTMLCollection is an array like list of HTML elements. The length property provides the size of the collection. It is possible to loop through all the HTMLCollection elements. See the example below
 
 ```js
 //syntax
@@ -9557,7 +9593,7 @@ for (let i = 0; i < allTitles.length; i++) {
 
 #### Getting an element by id
 
-**_getElementsById()_** targets a single HTML element. We pass the id without # as an argument.
+***getElementsById()*** targets a single HTML element. We pass the id without # as an argument.
 
 ```js
 //syntax
@@ -9571,9 +9607,9 @@ console.log(firstTitle) // <h1>First Title</h1>
 
 #### Getting elements by using querySelector methods
 
-The _document.querySelector_ method can select an HTML or HTML elements by tag name, by id or by class name.
+The *document.querySelector* method can select an HTML or HTML elements by tag name, by id or by class name.
 
-**_querySelector_**: can be used to select HTML element by its tag name, id or class. If the tag name is used it selects only the first element.
+***querySelector***: can be used to select HTML element by its tag name, id or class. If the tag name is used it selects only the first element.
 
 ```js
 let firstTitle = document.querySelector('h1') // select the first available h1 element
@@ -9581,7 +9617,7 @@ let firstTitle = document.querySelector('#first-title') // select id with first-
 let firstTitle = document.querySelector('.title') // select the first available element with class title
 ```
 
-**_querySelectorAll_**: can be used to select html elements by its tag name or class. It returns a nodeList which is an array like object which supports array methods. We can use **_for loop_** or **_forEach_** to loop through each nodeList elements.
+***querySelectorAll***: can be used to select html elements by its tag name or class. It returns a nodeList which is an array like object which supports array methods. We can use ***for loop*** or ***forEach*** to loop through each nodeList elements.
 
 ```js
 const allTitles = document.querySelectorAll('h1') # selects all the available h1 elements in the page
@@ -9607,7 +9643,7 @@ titles[3].id = 'fourth-title'
 
 #### Adding attribute using setAttribute
 
-The **_setAttribute()_** method set any html attribute. It takes two parameters the type of the attribute and the name of the attribute.
+The ***setAttribute()*** method set any html attribute. It takes two parameters the type of the attribute and the name of the attribute.
 Let's add class and id attribute for the fourth title.
 
 ```js
@@ -9646,11 +9682,11 @@ titles[3].classList.remove('title', 'header-title')
 
 ### Adding Text to HTML element
 
-An HTML is a build block of an opening tag, a closing tag and a text content. We can add a text content using the property _textContent_ or \*innerHTML.
+An HTML is a build block of an opening tag, a closing tag and a text content. We can add a text content using the property *textContent* or \*innerHTML.
 
 #### Adding Text content using textContent
 
-The _textContent_ property is used to add text to an HTML element.
+The *textContent* property is used to add text to an HTML element.
 
 ```js
 const titles = document.querySelectorAll('h1')
@@ -9659,7 +9695,7 @@ titles[3].textContent = 'Fourth Title'
 
 #### Adding Text Content using innerHTML
 
-Most people get confused between _textContent_ and _innerHTML_. _textContent_ is meant to add text to an HTML element, however innerHTML can add a text or HTML element or elements as a child.
+Most people get confused between *textContent* and *innerHTML*. *textContent* is meant to add text to an HTML element, however innerHTML can add a text or HTML element or elements as a child.
 
 ##### Text Content
 
@@ -9683,7 +9719,7 @@ It value we assign is going to be a string of HTML elements.
   </head>
   <body>
     <div class="wrapper">
-        <h1>Asabeneh Yetayeh challenges in 2020</h1>
+        <h1>Effiong samuel challenges in 2020</h1>
         <h2>30DaysOfJavaScript Challenge</h2>
         <ul></ul>
     </div>
@@ -9713,7 +9749,7 @@ The innerHTML property can allow us also to remove all the children of a parent 
   </head>
   <body>
     <div class="wrapper">
-        <h1>Asabeneh Yetayeh challenges in 2020</h1>
+        <h1>Effiong samuel challenges in 2020</h1>
         <h2>30DaysOfJavaScript Challenge</h2>
         <ul>
             <li>30DaysOfPython Challenge Done</li>
@@ -9793,11 +9829,11 @@ As you have notice, the properties of css when we use it in JavaScript is going 
 
 ### Exercise: Level 1
 
-1. Create an index.html file and put four p elements as above: Get the first paragraph by using **_document.querySelector(tagname)_** and tag name
-2. Get each of the the paragraph using **_document.querySelector('#id')_** and by their id
-3. Get all the p as nodeList using **_document.querySelectorAll(tagname)_** and by their tag name
+1. Create an index.html file and put four p elements as above: Get the first paragraph by using ***document.querySelector(tagname)*** and tag name
+2. Get each of the the paragraph using ***document.querySelector('#id')*** and by their id
+3. Get all the p as nodeList using ***document.querySelectorAll(tagname)*** and by their tag name
 4. Loop through the nodeList and get the text content of each paragraph
-5. Set a text content to paragraph the fourth paragraph,**_Fourth Paragraph_**
+5. Set a text content to paragraph the fourth paragraph,***Fourth Paragraph***
 6. Set id and class attribute for all the paragraphs using different attribute setting methods
 
 ### Exercise: Level 2
@@ -9827,7 +9863,7 @@ As you have notice, the properties of css when we use it in JavaScript is going 
   </head>
   <body>
     <div class="wrapper">
-        <h1>Asabeneh Yetayeh challenges in 2020</h1>
+        <h1>Effiong samuel challenges in 2020</h1>
         <h2>30DaysOfJavaScript Challenge</h2>
         <ul>
             <li>30DaysOfPython Challenge Done</li>
@@ -9842,14 +9878,16 @@ As you have notice, the properties of css when we use it in JavaScript is going 
   </body>
 </html>
 ```
+
 =============================================================================================
+
 ## Document Object Model (DOM) - Day 1
 
 HTML document is structured as a JavaScript Object. Every HTML element has a different properties which can help to manipulate it. It is possible to get, create, append or remove HTML elements using JavaScript. Check the examples below. Selecting HTML element using JavaScript is similar to selecting using CSS. To select an HTML element, we use tag name, id, class name or other attributes.
 
 ### Getting Element
 
-We can access already created element or elements using JavaScript. To access or get elements we use different methods. The code below has four _h1_ elements. Let us see the different methods to access the _h1_ elements.
+We can access already created element or elements using JavaScript. To access or get elements we use different methods. The code below has four *h1* elements. Let us see the different methods to access the *h1* elements.
 
 ```html
 <!DOCTYPE html>
@@ -9870,7 +9908,7 @@ We can access already created element or elements using JavaScript. To access or
 
 #### Getting elements by tag name
 
-**_getElementsByTagName()_**:takes a tag name as a string parameter and this method returns an HTMLCollection object. An HTMLCollection is an array like object of HTML elements. The length property provides the size of the collection. Whenever we use this method we access the individual elements using index or after loop through each individual items. An HTMLCollection does not support all array methods therefore we should use regular for loop instead of forEach.
+***getElementsByTagName()***:takes a tag name as a string parameter and this method returns an HTMLCollection object. An HTMLCollection is an array like object of HTML elements. The length property provides the size of the collection. Whenever we use this method we access the individual elements using index or after loop through each individual items. An HTMLCollection does not support all array methods therefore we should use regular for loop instead of forEach.
 
 ```js
 // syntax
@@ -9890,7 +9928,7 @@ for (let i = 0; i < allTitles.length; i++) {
 
 #### Getting elements by class name
 
-**_getElementsByClassName()_** method returns an HTMLCollection object. An HTMLCollection is an array like list of HTML elements. The length property provides the size of the collection. It is possible to loop through all the HTMLCollection elements. See the example below
+***getElementsByClassName()*** method returns an HTMLCollection object. An HTMLCollection is an array like list of HTML elements. The length property provides the size of the collection. It is possible to loop through all the HTMLCollection elements. See the example below
 
 ```js
 //syntax
@@ -9910,7 +9948,7 @@ for (let i = 0; i < allTitles.length; i++) {
 
 #### Getting an element by id
 
-**_getElementsById()_** targets a single HTML element. We pass the id without # as an argument.
+***getElementsById()*** targets a single HTML element. We pass the id without # as an argument.
 
 ```js
 //syntax
@@ -9924,9 +9962,9 @@ console.log(firstTitle) // <h1>First Title</h1>
 
 #### Getting elements by using querySelector methods
 
-The _document.querySelector_ method can select an HTML or HTML elements by tag name, by id or by class name.
+The *document.querySelector* method can select an HTML or HTML elements by tag name, by id or by class name.
 
-**_querySelector_**: can be used to select HTML element by its tag name, id or class. If the tag name is used it selects only the first element.
+***querySelector***: can be used to select HTML element by its tag name, id or class. If the tag name is used it selects only the first element.
 
 ```js
 let firstTitle = document.querySelector('h1') // select the first available h1 element
@@ -9934,7 +9972,7 @@ let firstTitle = document.querySelector('#first-title') // select id with first-
 let firstTitle = document.querySelector('.title') // select the first available element with class title
 ```
 
-**_querySelectorAll_**: can be used to select html elements by its tag name or class. It returns a nodeList which is an array like object which supports array methods. We can use **_for loop_** or **_forEach_** to loop through each nodeList elements.
+***querySelectorAll***: can be used to select html elements by its tag name or class. It returns a nodeList which is an array like object which supports array methods. We can use ***for loop*** or ***forEach*** to loop through each nodeList elements.
 
 ```js
 const allTitles = document.querySelectorAll('h1') # selects all the available h1 elements in the page
@@ -9960,7 +9998,7 @@ titles[3].id = 'fourth-title'
 
 #### Adding attribute using setAttribute
 
-The **_setAttribute()_** method set any html attribute. It takes two parameters the type of the attribute and the name of the attribute.
+The ***setAttribute()*** method set any html attribute. It takes two parameters the type of the attribute and the name of the attribute.
 Let's add class and id attribute for the fourth title.
 
 ```js
@@ -9999,11 +10037,11 @@ titles[3].classList.remove('title', 'header-title')
 
 ### Adding Text to HTML element
 
-An HTML is a build block of an opening tag, a closing tag and a text content. We can add a text content using the property _textContent_ or \*innerHTML.
+An HTML is a build block of an opening tag, a closing tag and a text content. We can add a text content using the property *textContent* or \*innerHTML.
 
 #### Adding Text content using textContent
 
-The _textContent_ property is used to add text to an HTML element.
+The *textContent* property is used to add text to an HTML element.
 
 ```js
 const titles = document.querySelectorAll('h1')
@@ -10012,7 +10050,7 @@ titles[3].textContent = 'Fourth Title'
 
 #### Adding Text Content using innerHTML
 
-Most people get confused between _textContent_ and _innerHTML_. _textContent_ is meant to add text to an HTML element, however innerHTML can add a text or HTML element or elements as a child.
+Most people get confused between *textContent* and *innerHTML*. *textContent* is meant to add text to an HTML element, however innerHTML can add a text or HTML element or elements as a child.
 
 ##### Text Content
 
@@ -10036,7 +10074,7 @@ It value we assign is going to be a string of HTML elements.
   </head>
   <body>
     <div class="wrapper">
-        <h1>Asabeneh Yetayeh challenges in 2020</h1>
+        <h1>Effiong samuel challenges in 2020</h1>
         <h2>30DaysOfJavaScript Challenge</h2>
         <ul></ul>
     </div>
@@ -10066,7 +10104,7 @@ The innerHTML property can allow us also to remove all the children of a parent 
   </head>
   <body>
     <div class="wrapper">
-        <h1>Asabeneh Yetayeh challenges in 2020</h1>
+        <h1>Effiong samuel challenges in 2020</h1>
         <h2>30DaysOfJavaScript Challenge</h2>
         <ul>
             <li>30DaysOfPython Challenge Done</li>
@@ -10146,11 +10184,11 @@ As you have notice, the properties of css when we use it in JavaScript is going 
 
 ### Exercise: Level 1
 
-1. Create an index.html file and put four p elements as above: Get the first paragraph by using **_document.querySelector(tagname)_** and tag name
-2. Get each of the the paragraph using **_document.querySelector('#id')_** and by their id
-3. Get all the p as nodeList using **_document.querySelectorAll(tagname)_** and by their tag name
+1. Create an index.html file and put four p elements as above: Get the first paragraph by using ***document.querySelector(tagname)*** and tag name
+2. Get each of the the paragraph using ***document.querySelector('#id')*** and by their id
+3. Get all the p as nodeList using ***document.querySelectorAll(tagname)*** and by their tag name
 4. Loop through the nodeList and get the text content of each paragraph
-5. Set a text content to paragraph the fourth paragraph,**_Fourth Paragraph_**
+5. Set a text content to paragraph the fourth paragraph,***Fourth Paragraph***
 6. Set id and class attribute for all the paragraphs using different attribute setting methods
 
 ### Exercise: Level 2
@@ -10180,7 +10218,7 @@ As you have notice, the properties of css when we use it in JavaScript is going 
   </head>
   <body>
     <div class="wrapper">
-        <h1>Asabeneh Yetayeh challenges in 2020</h1>
+        <h1>Effiong samuel challenges in 2020</h1>
         <h2>30DaysOfJavaScript Challenge</h2>
         <ul>
             <li>30DaysOfPython Challenge Done</li>
@@ -10195,12 +10233,14 @@ As you have notice, the properties of css when we use it in JavaScript is going 
   </body>
 </html>
 ```
+
 =============================================================================================
+
 ## DOM(Document Object Model)-Day 2
 
 ### Creating an Element
 
-To create an HTML element we use tag name. Creating an HTML element using JavaScript is very simple and straight forward. We use the method _document.createElement()_. The method takes an HTML element tag name as a string parameter.
+To create an HTML element we use tag name. Creating an HTML element using JavaScript is very simple and straight forward. We use the method *document.createElement()*. The method takes an HTML element tag name as a string parameter.
 
 ```js
 // syntax
@@ -10305,7 +10345,7 @@ After creating an HTML, we may want to remove element or elements and we can use
 
 <body>
     <h1>Removing child Node</h1>
-    <h2>Asabeneh Yetayeh challenges in 2020</h1>
+    <h2>Effiong samuel challenges in 2020</h1>
     <ul>
         <li>30DaysOfPython Challenge Done</li>
         <li>30DaysOfJavaScript Challenge Done</li>
@@ -10341,7 +10381,7 @@ As we have see in the previous section there is a better way to eliminate all th
 
 <body>
     <h1>Removing child Node</h1>
-    <h2>Asabeneh Yetayeh challenges in 2020</h1>
+    <h2>Effiong samuel challenges in 2020</h1>
     <ul>
         <li>30DaysOfPython Challenge Done</li>
         <li>30DaysOfJavaScript Challenge Done</li>
@@ -10371,7 +10411,7 @@ The above snippet of code cleared all the child elements.
 
 ### Exercises: Level 1
 
-1. Create a div container on HTML document and create 100 to 100 numbers dynamically and append to the container div. 
+1. Create a div container on HTML document and create 100 to 100 numbers dynamically and append to the container div.
    - Even numbers background is green
    - Odd numbers background is yellow
    - Prime numbers background is red
@@ -10388,14 +10428,14 @@ The above snippet of code cleared all the child elements.
 
 Check the requirement of this project from both images(jpg and gif). All the data and CSS has been implemented using JavaScript only. The data is found on starter folder project_3. The drop down button has been created using [*details*](https://www.w3schools.com/tags/tag_details.asp) HTML element.
 
-
 ===========================================================================================
+
 ## DOM(Document Object Model)-Day 3
 
 ### Event Listeners
 
 Common HTML events:onclick, onchange, onmouseover, onmouseout, onkeydown, onkeyup, onload.
-We can add event listener method to any DOM object. We use **_addEventListener()_** method to listen different event types on HTML elements. The _addEventListener()_ method takes two arguments, an event listener and a callback function.
+We can add event listener method to any DOM object. We use ***addEventListener()*** method to listen different event types on HTML elements. The *addEventListener()* method takes two arguments, an event listener and a callback function.
 
 ```js
 selectedElement.addEventListener('eventlistner', function(e) {
@@ -10584,7 +10624,7 @@ We usually fill forms and forms accept data. Form fields are created using input
 
 #### input event and change
 
-In the above example, we managed to get input values from two input fields by clicking button. How about if we want to get value without click the button. We can use the _change_ or _input_ event type to get data right away from the input field when the field is on focus. Let us see how we will handle that.
+In the above example, we managed to get input values from two input fields by clicking button. How about if we want to get value without click the button. We can use the *change* or *input* event type to get data right away from the input field when the field is on focus. Let us see how we will handle that.
 
 ```html
 <!DOCTYPE html>
@@ -10613,7 +10653,7 @@ In the above example, we managed to get input values from two input fields by cl
 
 #### blur event
 
-In contrast to _input_ or _change_, the _blur_ event occur when the input field is not on focus.
+In contrast to *input* or *change*, the *blur* event occur when the input field is not on focus.
 
 ```js
 <!DOCTYPE html>
@@ -10677,20 +10717,22 @@ We can access all the key numbers of the keyboard using different event listener
 
 1. Generating numbers and marking evens, odds and prime numbers with three different colors. See the image below.
 
-![Number Generator](./../images/projects/dom_min_project_number_generator_day_3.1.gif)
+![Number Generator](/pure%20javascript/images/projects/dom_min_project_number_generator_day_3.1.gif)
 
 1. Generating the keyboard code code using even listener. The image below.
 
-![Keyboard key](./../images/projects/dom_min_project_keycode_day_3.2.gif)
+![Keyboard key](/pure%20javascript/images/projects/dom_min_project_keycode_day_3.2.gif)
 
 ==========================================================================================
+
 ## Exercises
 
 ### Exercise: Level 1
 
 1. Develop a small application which calculate a weight of an object in a certain planet. The gif image is not complete check the video in the starter file.
 
-![Solar System](./../images/projects/dom_min_project_solar_system_day_4.1.gif)
+![Solar System](/pure%20javascript/images/projects/dom_min_project_solar_system_day_4.1.gif)
+
 ===========================================================================================
 
 ## Exercises
@@ -10699,60 +10741,63 @@ We can access all the key numbers of the keyboard using different event listener
 
 1. Visualize the ten most populated countries and the ten most spoken languages in the world using DOM(HTML, CSS, JS)
 
-![Bar Graph](./../images/projects/dom_min_project_bar_graph_day_5.1.gif)
+![Bar Graph](/pure%20javascript/images/projects/dom_min_project_bar_graph_day_5.1.gif)
 
-![Bar Graph](./../images/projects/dom_min_project_bar_graph_day_5.1.png)
-
+![Bar Graph](/pure%20javascript/images/projects/dom_min_project_bar_graph_day_5.1.png)
 
 ===========================================================================================
+
 ## Exercises
 
 ### Exercise: Level 1
 
 1. Visualize the countries array as follows
 
-![Motivation](./../images/projects/dom_mini_project_countries_day_6.1.gif)
+![Motivation](/pure%20javascript/images/projects/dom_mini_project_countries_day_6.1.gif)
+
 =============================================================================================
+
 ## Exercises
 
 ### Exercise: Level 1
 
 1. Create the following using HTML, CSS, and JavaScript
 
-![Slider](./../images/projects/dom_mini_project_slider_day_7.1.gif)
-
 ================================================================================================
+
 ## Exercises
 
 ### Exercise: Level 1
 
 1. Create the following using HTML, CSS, and JavaScript
 
-![Slider](./../images/projects/dom_mini_project_leaderboard_day_8.1.gif)
+![Slider](/pure%20javascript/images/projects/dom_mini_project_leaderboard_day_8.1.png)
 
 ================================================================================================
+
 ## Exercises
 
 ### Exercise: Level 1
 
 1. Create the following using HTML, CSS, and JavaScript
 
-![Slider](./../images/projects/dom_mini_project_leaderboard_day_8.1.gif)
+![Slider](/pure%20javascript/images/projects/dom_mini_project_leaderboard_day_8.1.gif)
 
 ================================================================================================
+
 ## Exercises
 
 ### Exercise: Level 1
 
 1. Create the following animation using (HTML, CSS, JS)
 
-![Countries data](./../images/projects/dom_mini_project_countries_object_day_10.1.gif)
+![Countries data](/pure%20javascript/images/projects/dom_mini_project_countries_object_day_10.1.gif)
 
 2. Validate the following form using regex.
 
-   ![form validation](./../images/projects/dom_mini_project_form_validation_day_10.2.1.png)
+   ![form validation](/pure%20javascript/images/projects/dom_mini_project_form_validation_day_10.2.1.png)
 
-   ![form validation](./../images/projects/dom_mini_project_form_validation_day_10.2.png)
+   ![form validation](/pure%20javascript/images/projects/dom_mini_project_form_validation_day_10.2.png)
 
 ### Exercise: Level 2
 

@@ -883,7 +883,7 @@ const countries_data = [
 	},
 	{
 			"name": "Nigeria",
-			"capital": "Akwa Ibom",
+			"capital": "Nigeria",
 			"languages": [
 					"Finnish",
 					"Swedish"
