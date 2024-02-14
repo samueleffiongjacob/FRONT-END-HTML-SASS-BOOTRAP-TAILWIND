@@ -1,6 +1,6 @@
 # HTML AND CSS
 
-![SAMUEL EFFIONG JACOB HTML AND CSS IMAGE](/FRONTEND/HTML%20,%20CSS,%20BOOTRAP/IMG/samueleffiong%20html%20and%20css%20image.jfif)
+![SAMUEL EFFIONG JACOB HTML AND CSS IMAGE](/IMG/samueleffiong%20html%20and%20css%20image.jfif)
 
 ## HTML: HyperText Markup Language [SEE MORE PRACTICAL HERE](/HTML/README.md)
 
@@ -27,11 +27,16 @@ $ <Title>,
 
 However, the convention and recommended practice is to write tags in lowercase.
 
-## CSS: Cascading Style Sheets [SEE MORE PRACTICAL HERE](/CSS/README.md)
+## [CSS: Cascading Style Sheets](./HTML%20,%20CSS,%20BOOTRAP/CSS/README.md)
 
 Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
 
+## [Pure Javacript](./pure%20javascript/)
+
+Js help u add clean functions to your application
+
 ## [EMAIL TEMPLATE FOR HTML](https://mailchimp.com/)
+
 ## [github hosting](https://github.io/)
 
 ## [CSS ANIMATIONS](https://animate.style/)
@@ -41,19 +46,11 @@ Cascading Style Sheets (CSS) is a stylesheet language used to describe the prese
 ## [FREE TEMPLATE](https://www.creative-tim.com/)
 
 ## [mashup](https://www.producthunt.com/products/mashup-template)
-## REACT
-
-[30 DAYS REACT](/FRONTEND/30-Days-Of-React/)
-
-## [DEVELOPER TEMPLATE PROJECT](/FRONTEND/developerFolio/)
-
-if u are new this template could be of help to you  
-
-![see it](https://user-images.githubusercontent.com/53429438/106779355-e9cd9e80-666c-11eb-9417-8a4b54441bc6.gif)
 
 ## DEVELOPER TOOLS
 
-[![SAMUEL EFFIONG SUBLIME IMAGE](/FRONTEND/HTML%20,%20CSS,%20BOOTRAP//IMG/samuel%20effiong%20subline%20image.png)](https://www.sublimetext.com/)       [![SAMUEL EFFIONG VSCODE IMAGE](/FRONTEND/HTML%20,%20CSS,%20BOOTRAP//IMG/samuel%20effiong%20vs%20code%20transparent%20%20150%20x%20150.png)](https://code.visualstudio.com/) [![YOU RESIZE IMAGE HERE](/FRONTEND/HTML%20,%20CSS,%20BOOTRAP/IMG/imageresizer.com.jpeg)](https://imageresizer.com/)
+[![SAMUEL EFFIONG SUBLIME IMAGE](/IMG/samuel%20effiong%20subline%20image.png)](https://www.sublimetext.com/)       [![SAMUEL EFFIONG VSCODE IMAGE](/IMG/samuel%20effiong%20vs%20code%20transparent%20%20150%20x%20150.png)](https://code.visualstudio.com/) [![YOU RESIZE IMAGE HERE](/IMG/imageresizer.com.jpeg)](https://imageresizer.com/)
 
 Browser Refresh for Sublime Text This plugin adds a keyboard shortcut to Sublime Text that will refresh the browser of your choice. Optionally the plugin can "auto save" your current file and bring the desired browser to the foreground. The default keyboard shortcuts are:
-``` ⌘ + Shift + R (Mac) Ctrl + Shift + R (Windows, Linux)```
+
+```⌘ + Shift + R (Mac) Ctrl + Shift + R (Windows, Linux)```
