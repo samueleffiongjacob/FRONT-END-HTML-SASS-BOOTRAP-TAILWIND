@@ -1,0 +1,303 @@
+
+body{
+    background-color:rgba(224, 236, 236, 0.726);
+}
+.navbar{
+    background-color: antiquewhite;
+}
+.btn-1{
+    background-image: linear-gradient(to right, rgb(233, 38, 38) , rgb(179, 45, 209));
+    
+}
+
+i{
+
+    margin: 2px;
+
+}
+
+.first{
+    background-color:rgba(224, 236, 236, 0.726);
+}
+.follow{
+    background-color: white;
+    border:2px solid white;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+.me{
+    background-image: linear-gradient(to right, rgb(233, 38, 38) , rgb(179, 45, 209));
+}
+.second-1{
+    border:2px solid white;
+    border-radius: 15px;
+    margin-top: 0;
+}
+.third{
+    border:1px solid black;
+    border-radius: 15px;
+    background-color: black;
+    text-align: left;
+    color: white;
+}
+.join{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.get{
+    background-color: black;
+    color: white;
+    border:1px solid white;
+    border-radius: 20px;
+    padding:5px 23px;
+    
+}
+.world{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.one{
+    background-color: red;
+    border:1px solid red;
+    border-radius: 15px;
+}
+.edu{
+    color: white;
+    font-weight: bolder;
+}
+
+.pupil{
+    border:1px solid white;
+    border-radius: 20px;
+    
+}
+.pup{
+    padding-left:3.5em;
+    padding-bottom: 2em;
+}
+.app{
+    color: black;
+    font-weight:bolder;
+}
+.two{
+    background-color: rgba(179, 208, 219, 0.329);
+    border:1px solid rgba(179, 208, 219, 0.329);
+    border-radius: 15px;
+
+}
+.three{
+
+    background-color:rgb(240, 240, 240);
+    border:1px solid rgb(240, 240, 240);
+    border-radius: 15px;
+    
+
+}
+
+.four{
+
+    background-color:blueviolet;
+    border:1px solid blueviolet;
+    border-radius: 15px;
+    
+
+}
+.laptop{
+    border:1px solid white;
+    border-radius: 20px;
+      
+}
+.five{
+
+    background-color:blue;
+    border:1px solid blue;
+    border-radius: 15px;
+}
+.six{
+
+    background-color:rgb(245, 245, 245);
+    border:1px solid rgb(245, 245, 245);
+    border-radius: 15px;
+    }
+.mechandize{
+    justify-items: center;
+    align-items: center;
+}
+
+.stem{
+    background-color: rgb(183, 183, 226);
+    padding: 10px;
+    border: 1px solid rgb(183, 183, 226);
+    border-radius:15px;
+
+}
+.skill{
+    background-color: rgb(165, 161, 161);
+    padding: 10px;
+    border: 1px solid rgb(165, 161, 161);
+    border-radius:15px;
+
+}
+.code{
+    background-color:rgb(98, 98, 143);
+    padding: 10px;
+    border: 1px solid rgb(98, 98, 143);
+    border-radius:15px;
+}
+.design{
+    background-color: rgb(63, 136, 158);
+    padding: 10px;
+    border: 1px solid rgb(63, 136, 158);
+    border-radius:15px;
+    }
+    .comic{
+        background-color: rgb(90, 89, 90);
+        padding: 10px;
+        border: 1px solid rgb(90, 89, 90);
+        border-radius:15px;
+    }
+    .game{
+        background-color: rgb(248, 211, 242);
+        padding: 10px;
+        border: 1px solid rgb(248, 211, 242);
+        border-radius:15px;
+    }
+    .flash{
+        background-color: rgb(192, 194, 65);
+        padding: 10px;
+        border: 1px solid rgb(192, 194, 65);
+        border-radius:15px;
+    
+    }
+    .other{
+        background-color: rgb(206, 151, 206);
+        padding: 10px;
+        border: 1px solid rgb(206, 151, 206);
+        border-radius:15px;
+    }
+    .sixth{
+        background-color:rgb(235, 222, 154);
+        border: 1px solid rgb(235, 222, 154);
+        border-radius: 15px;
+    }
+.kid{
+        padding: 2em;
+        font-size: 1em;
+        }
+.kid-img{
+    padding-top: 3.5em;
+}
+.seven{
+        background-color:rgb(155, 165, 173);
+        border: 1px solid rgb(155, 165, 173);
+        border-radius: 15px;
+    
+    }
+.teach{
+    padding: 2em;
+    font-size: 1em;
+    }
+.create{
+    padding: 3.5em 2em;
+    
+}
+.eight{
+    background-color:rgb(168, 189, 206);
+    border: 1px solid rgb(168, 189, 206);
+    border-radius: 15px;
+
+}
+.nine{
+    background-color:rgba(221, 197, 92, 0.753);
+    border: 1px solid rgba(221, 197, 92, 0.753);
+    border-radius: 15px;
+}
+.soon{
+    color: green;
+}
+.build{
+    padding:1em;
+}
+.text{
+    padding-left: 10px;
+}
+.text-heading{
+    font-size: 1em;
+    font-weight: bolder;
+}
+.text-para{
+    font-size: 14px;
+}
+.built{
+    
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.build-2{
+    padding: 10px;
+}
+
+.mobile-apps{
+    background-color:whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+}
+.more{
+    background-color: black;
+    color: white;
+    border: 0px solid black;
+    border-radius: 15px;
+}
+.more-1{
+    padding:2.5em;
+}
+.more-head{
+    font-size:0.8em;
+    color:rgb(116, 119, 119);
+}
+.more-txt{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.be-more{
+    background-color: white;
+    color: black;
+    border: 0px solid white;
+    border-radius: 15px;
+}
+.students{
+    background-color: black;
+    color: white;
+    border: 0px solid black;
+    border-radius: 15px;
+}
+.amazing{
+    padding-bottom: 10px;
+    font-size: 2.5em;
+}
+.page-footer{
+    background-color: white;
+}
+.footer-socials{
+    margin-top: 6em;
+}
+a{
+    text-decoration: none;
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
+
+
