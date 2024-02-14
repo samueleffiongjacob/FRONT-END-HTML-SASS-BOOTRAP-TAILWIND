@@ -53,7 +53,7 @@ From your command line, first clone this project:
 $ git clone 
 
 # Move into the repository
-$ cd simplefolio
+$ cd MY project
 
 # Remove the current origin repository
 $ git remote remove origin
@@ -323,8 +323,8 @@ I highly recommend to use [Netlify](https://netlify.com) because it is super eas
 
 ## Others versions 👥
 
-[Gatsby Simplefolio](https://github.com/cobiwave/gatsby-simplefolio) by [Jacobo Martinez](https://github.com/cobiwave)\
-[Ember.js Simplefolio](https://github.com/sernadesigns/simplefolio-ember) by [Michael Serna](https://github.com/sernadesigns)
+[Gatsby MY project](https://github.com/cobiwave/gatsby-MY project) by [Samuel Effion](https://github.com/cobiwave)\
+[Ember.js MY project](https://github.com/sernadesigns/MY project-ember) by [Michael Serna](https://github.com/sernadesigns)
 
 ## Technologies used 🛠️
 
@@ -336,11 +336,11 @@ I highly recommend to use [Netlify](https://netlify.com) because it is super eas
 
 ## Authors
 
-- **Samuel Effiong** - [https://github.com/cobiwave](https://github.com/cobiwave)
+- **[Samuel Effiong](https://github.com/samueleffiongjacob/FRONT-END-HTML-SASS-BOOTRAP-TAILWIND)** -
 
 ## Status
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3a029bfd-575c-41e5-8249-c864d482c2e5/deploy-status)](https://app.netlify.com/sites/the-simplefolio/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3a029bfd-575c-41e5-8249-c864d482c2e5/deploy-status)](https://app.netlify.com/sites/the-MY project/deploys)
 
 ## License 📄
 
@@ -349,4 +349,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](../LICENSE
 ## Acknowledgments 🎁
 
 I was motivated to create this project because I wanted to  show case my front end html skils
-

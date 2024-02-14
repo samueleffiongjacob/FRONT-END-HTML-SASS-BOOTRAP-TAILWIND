@@ -1,8 +1,8 @@
 {
-  "name": "simplefolio",
+  "name": "myproject",
   "version": "1.0.1",
   "private": "true",
-  "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "description": "A clean, beautiful and responsive portfolio ",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobiwave/simplefolio"
+    "url": "git+https://github.com/samueleffiongjacob/FRONT-END-HTML-SASS-BOOTRAP-TAILWIND"
   },
   "keywords": [],
-  "author": "Jacobo Martinez",
+  "author": "SAMUEL EFFIONG",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cobiwave/simplefolio/issues"
+    "url": "https://github.com/samueleffiongjacob/FRONT-END-HTML-SASS-BOOTRAP-TAILWIND/issues"
   },
-  "homepage": "https://github.com/cobiwave/simplefolio#readme",
+  "homepage": "https://github.com/samueleffiongjacob/FRONT-END-HTML-SASS-BOOTRAP-TAILWIND#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
     "parcel": "^2.8.2",
