@@ -45,7 +45,7 @@ $ npm i yarn
 
 ## let start working with npm
 
-[clone the below](https://github.com/cobiwave/MY project)
+[clone the below](https://github.com/samueleffiongjacob/FRONT-END-HTML-SASS-BOOTRAP-TAILWIND.git)
 
 ### Always remember remove any job u would not push origin
 
