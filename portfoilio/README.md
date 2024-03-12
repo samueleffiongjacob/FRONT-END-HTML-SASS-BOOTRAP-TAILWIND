@@ -323,9 +323,6 @@ I highly recommend to use [Netlify](https://netlify.com) because it is super eas
 
 ## Others versions 👥
 
-[Gatsby MY project](https://github.com/cobiwave/gatsby-MY project) by [Samuel Effion](https://github.com/cobiwave)\
-[Ember.js MY project](https://github.com/sernadesigns/MY project-ember) by [Michael Serna](https://github.com/sernadesigns)
-
 ## Technologies used 🛠️
 
 - [Parcel](https://parceljs.org/) - Bundler
