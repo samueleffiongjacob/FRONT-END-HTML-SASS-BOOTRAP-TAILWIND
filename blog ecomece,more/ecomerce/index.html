@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ecommerce</title>
+    <script src="https://kit.fontawesome.com/ea07f03bfd.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-500">
+ <div class="container mx-auto mt-10 self-center"> 
+
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between p-4">
+    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">What a Market!</span>
+    </a>
+    <div class="flex">
+      <button type="button" class="text-white me-1 mx-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><i class="fa-solid fa-bars"></i>Categories</button>
+      <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 w-full">
+        <svg class="w-full h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+        </svg>
+        <span class="sr-only w-full">Search</span>
+      </button>
+      <div class="relative hidden md:block">
+        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+          <svg class="w-full h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+          </svg>
+          <span class="sr-only">Search icon</span>
+        </div>
+        <input type="text" id="search-navbar" class="block w-full max-w p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search...">
+      </div>
+      <button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-search" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+        <div class="relative mt-3 md:hidden">
+          <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+            </svg>
+          </div>
+          <input type="text" id="search-navbar" class="block md:w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="DJI Phantom">
+        </div>
+        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 bg-gray-700 rounded md:bg-transparent md:text-gray-700 md:ps-3 md:dark:text-blue-500" aria-current="teams"><i class="fa-brands fa-airbnb"></i> Orders</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:ps-3 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"><i class="fa-solid fa-heart-circle-check"></i>Favourites</a>
+          </li>
+          <li>
+            <a href="#" class="block  py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:ps-3 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"><i class="fa-solid fa-group-arrows-rotate"></i>Carts
+            <span class="absolute right-0 top-1 w-5 h-5 rounded-full items-center justify-center text-red-500 text-white text xs">3</span>
+            </a>
+          </li>
+        </ul>
+        <button disabled type="button" class="py-2.5 px-5 me-2 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 inline-flex items-center">
+    
+            Sign In
+            </button>
+            
+      </div>
+    </div>
+  </nav>
+  <!---second nav-->
+<nav class="bg-white dark:bg-gray-900 w-full top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="https://flowbite.com/" class="flex items-center space-x-3">
+        <span class="self-center text-gray-700 whitespace-nowrap dark:text-white"> <i class="fa-solid fa-location-dot"></i>California</span>
+    </a>
+    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <p class="text-gray-900 font-medium px-4 py-2 text-center ">Becomes a Seller</p>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 bg-gray-100 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Best Sellers</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">New Releases</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Books</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Computers</a>
+        </li>
+        <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Fashion</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Health</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Pharmacy</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Toys and Games</a>
+          </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  
+<div class="flex flex-col  px-6 mx-auto bg-white">
+    <div class="flex mt-10 ">
+      <h1 class=" font-bold text-2xl pt-2"> Found 376 results for <span class="text-blue-700">dji phantom</span></h1>
+        <select class="py-2.5 px-2 ms-auto text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 inline-flex items-center">
+    
+        <option> Sort by Features</option>
+        </select>
+        
+        <span class="ml-2 text-2xl text-gray-900 bg-gray-300 px-2 py-2 rounded-lg">
+            
+            <i class="fa-brands fa-windows"></i>
+        </span>
+        <span class="ml-1 text-2xl text-gray-300 bg-gray-100 px-2 py-2 rounded-lg">
+            <i class="fa-solid fa-bars"></i>
+            
+        </span>
+        
+    </div>
+    <div class="flex flex-col w-full  p-5 md:flex-row">
+        <div class="flex flex-col md:grid grid-cols-4 grid-rows-2  gap-6 md:flex-row">
+            <div class="first p-8  border-l-8 border-transparent rounded shadow-md space-y-4 justify-center items-center">
+                <h5 class="text-xl">Price $</h5>
+                <div class="flex space-x-3">
+                    <input type="text" id="search-navbar" class=" w-1/2 p-2 text-xl text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="min">
+                    <input type="text" id="search-navbar" class=" w-1/2 p-2 text-xl text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="max">
+                </div>
+                <div class="divide divide-y divide-gray-200 space-y-5">
+                    <!--Quadcopter-->
+                    <div>
+                        <h3 class="text-xl text-gray-900 font-medium">Quadcopter Features</h3>
+                        <div class="space-y-2">
+                            <div class="items-center">
+                                <input type="checkbox" name="Features" id="">
+                                <label for="App" class="text-gray-700 ml-3 cursor-pointer">App-Controlled</label>
+                            </div>
+                            <div class="items-center">
+                                <input type="checkbox" name="Features" id="">
+                                <label for="App" class="text-gray-700 ml-3 cursor-pointer">Obstacle Avoidance</label>
+                            </div>
+                            <div class="items-center">
+                                <input type="checkbox" name="Features" id="">
+                                <label for="App" class="text-gray-700 ml-3 cursor-pointer">Video Downlink Capable</label>
+                            </div>
+                            <div class="items-center">
+                                <input type="checkbox" name="Features" id="">
+                                <label for="App" class="text-gray-700 ml-3 cursor-pointer">Wi-Fi</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Quadcopter end-->
+                    <!--video resolution-->
+                    <div class="pt-4">
+                        <h3 class="text-xl text-gray-900 font-medium">Video Capture Resolution</h3>
+                        <div class="space-y-2">
+                            <div class="items-center">
+                                <input type="checkbox" name="Features" id="">
+                                <label for="App" class="text-gray-700 ml-3 cursor-pointer">4k UHD 2160p</label>
+                            </div>
+                            <div class="items-center">
+                                <input type="checkbox" name="Features" id="">
+                                <label for="App" class="text-gray-700 ml-3 cursor-pointer">FHD 1080p</label>
+                            </div>
+                            <div class="items-center">
+                                <input type="checkbox" name="Features" id="">
+                                <label for="App" class="text-gray-700 ml-3 cursor-pointer">HD 720p</label>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!--video end-->
+                    <!--operator-->
+                    <div class="pt-4">
+                        <h3 class="text-xl text-gray-900 font-medium">Operator Skill Level</h3>
+                        <div class="space-y-2">
+                            <div class="items-center">
+                                <input type="checkbox" name="Features" id="">
+                                <label for="App" class="text-gray-700 ml-3 cursor-pointer">Beginner</label>
+                            </div>
+                            <div class="items-center">
+                                <input type="checkbox" name="Features" id="">
+                                <label for="App" class="text-gray-700 ml-3 cursor-pointer">Intermediate</label>
+                            </div>
+                            <div class="items-center">
+                                <input type="checkbox" name="Features" id="">
+                                <label for="App" class="text-gray-700 ml-3 cursor-pointer">Expert</label>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!--operator end-->
+                    <!--Brands-->
+                    <div>
+                        <h3 class="text-xl text-gray-900 font-medium">Brands</h3>
+                        <div class="space-y-2">
+                            <div class="items-center">
+                                <input type="checkbox" name="Features" id="">
+                                <label for="App" class="text-gray-700 ml-3 cursor-pointer">DJI</label>
+                            </div>
+                            <div class="items-center">
+                                <input type="checkbox" name="Features" id="">
+                                <label for="App" class="text-gray-700 ml-3 cursor-pointer">Holy Stone</label>
+                            </div>
+                            <div class="items-center">
+                                <input type="checkbox" name="Features" id="">
+                                <label for="App" class="text-gray-700 ml-3 cursor-pointer">Potensic</label>
+                            </div>
+                            <div class="items-center">
+                                <input type="checkbox" name="Features" id="">
+                                <label for="App" class="text-gray-700 ml-3 cursor-pointer">Ruko</label>
+                            </div>
+                            <div class="items-center">
+                                <input type="checkbox" name="Features" id="">
+                                <label for="App" class="text-gray-700 ml-3 cursor-pointer">aovo</label>
+                            </div>
+                            <div class="items-center">
+                                <input type="checkbox" name="Features" id="">
+                                <label for="App" class="text-gray-700 ml-3 cursor-pointer">OXOXO</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!---Brands end-->
+                </div>
+            </div>
+            <!--product grid-->
+            <div class=" grid-col-3 grid grid-rows-2 md:flex-row">
+                <div class="first py-3">
+                <!--single product-->
+                <div class="bg-white shadow group">
+                    <!--product image-->
+                    <div class="">
+                        <img src="./images/laptop.jpeg" alt="" class="h-full w-full">
+                        
+                    </div>
+                    <!--image end-->
+                    <!--content-->
+                    <div class="pt-4 pb-3 px-4">
+                        <h4 class=" text-xl">
+                            DJI Phantom 2 Vision+
+                        </h4>
+                        <p class="text-2xl font-bold">$599</p>
+                        <div class="flex items-center pt-4">
+                            <div class="flex gap-1 text-sm text-yellow-400">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="text-xs ml-4">243</div>
+                        </div>
+                    </div>
+                    <!--content end-->
+                </div>
+                <!--single product end-->
+                <!--single product-->
+                <div class="bg-white overflow-hidden shadow group">
+                    <!--product image-->
+                    <div class="">
+                        <img src="./images/laptop.jpeg" alt="" class="h-full w-full">
+                        
+                    </div>
+                    <!--image end-->
+                    <!--content-->
+                    <div class="pt-4 pb-3 px-4">
+                        <h4 class=" text-xl">
+                            DJI Phantom 2 Vision+
+                        </h4>
+                        <p class="text-2xl font-bold">$599</p>
+                        <div class="flex items-center pt-4">
+                            <div class="flex gap-1 text-sm text-yellow-400">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="text-xs ml-4">243</div>
+                        </div>
+                    </div>
+                    <!--content end-->
+                </div>
+                <!--single product end-->
+                
+                
+              </div>  
+            </div>
+            <!--product grid end-->
+            <div class="second py-3">
+                <!--single product-->
+                <div class="bg-white overflow-hidden shadow group">
+                    <!--product image-->
+                    <div class="">
+                        <img src="./images/laptop.jpeg" alt="" class="h-full w-full">
+                        
+                    </div>
+                    <!--image end-->
+                    <!--content-->
+                    <div class="pt-4 pb-3 px-4">
+                        <h4 class=" text-xl">
+                            DJI Phantom 2 Vision+
+                        </h4>
+                        <p class="text-2xl font-bold">$599</p>
+                        <div class="flex items-center pt-4">
+                            <div class="flex gap-1 text-sm text-yellow-400">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="text-xs ml-4">243</div>
+                        </div>
+                    </div>
+                    <!--content end-->
+                </div>
+                <!--single product end-->
+                <!--single product-->
+                <div class="bg-white overflow-hidden shadow group">
+                    <!--product image-->
+                    <div class="">
+                        <img src="./images/laptop.jpeg" alt="" class="h-full w-full">
+                        
+                    </div>
+                    <!--image end-->
+                    <!--content-->
+                    <div class="pt-4 pb-3 px-4">
+                        <h4 class=" text-xl">
+                            DJI Phantom 2 Vision+
+                        </h4>
+                        <p class="text-2xl font-bold">$599</p>
+                        <div class="flex items-center pt-4">
+                            <div class="flex gap-1 text-sm text-yellow-400">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="text-xs ml-4">243</div>
+                        </div>
+                    </div>
+                    <!--content end-->
+                </div>
+                <!--single product end-->
+                
+                
+            
+            </div>
+            <div class="third py-3">
+               <!--single product-->
+               <div class="bg-white overflow-hidden shadow group">
+                <!--product image-->
+                <div class="">
+                    <img src="./images/laptop.jpeg" alt="" class="h-full w-full">
+                    
+                </div>
+                <!--image end-->
+                <!--content-->
+                <div class="pt-4 pb-3 px-4">
+                    <h4 class=" text-xl">
+                        DJI Phantom 2 Vision+
+                    </h4>
+                    <p class="text-2xl font-bold">$599</p>
+                    <div class="flex items-center pt-4">
+                        <div class="flex gap-1 text-sm text-yellow-400">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                        </div>
+                        <div class="text-xs ml-4">243</div>
+                    </div>
+                </div>
+                <!--content end-->
+            </div>
+            <!--single product end-->
+            <!--single product-->
+            <div class="bg-white overflow-hidden shadow group">
+                <!--product image-->
+                <div class="">
+                    <img src="./images/laptop.jpeg" alt="" class=" h-full w-full">
+                    
+                </div>
+                <!--image end-->
+                <!--content-->
+                <div class="pt-4 pb-3 px-4">
+                    <h4 class=" text-xl">
+                        DJI Phantom 2 Vision+
+                    </h4>
+                    <p class="text-2xl font-bold">$599</p>
+                    <div class="flex items-center pt-4">
+                        <div class="flex gap-1 text-sm text-yellow-400">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                        </div>
+                        <div class="text-xs ml-4">243</div>
+                    </div>
+                </div>
+                <!--content end-->
+            </div>
+            <!--single product end-->
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+   
+ </div> 
+</body>
+</html>

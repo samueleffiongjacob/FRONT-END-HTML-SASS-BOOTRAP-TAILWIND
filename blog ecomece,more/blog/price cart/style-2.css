@@ -1,0 +1,15 @@
+.icon{
+        font-size: 40px;
+        line-height: 40px;
+        
+        width: 50px;
+        height: 50px;
+    
+    }
+.icon .icon-headset{
+
+  display: inline-block;
+  text-align: center;
+  vertical-align: baseline;
+}
+    
