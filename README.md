@@ -54,3 +54,5 @@ Js help u add clean functions to your application
 Browser Refresh for Sublime Text This plugin adds a keyboard shortcut to Sublime Text that will refresh the browser of your choice. Optionally the plugin can "auto save" your current file and bring the desired browser to the foreground. The default keyboard shortcuts are:
 
 ```⌘ + Shift + R (Mac) Ctrl + Shift + R (Windows, Linux)```
+
+samueleffiongportfolio
