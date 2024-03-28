@@ -1,10 +1,20 @@
-const promiseOne = new Promise((resolve,reject) => 
-        setTimeout(resolve,3000))
-const PromiseTwo = new Promise((resolve,reject)=>
-        setTimeout(reject,3000))
+const urls1 = [
+  "https://dummyjson.com/products/search?q=Laptop",
+  "https://dummyjson.com/carts",
+  "https://dummyjson.com/users/search?q=Jocelyn",
+];
 
+const getData1 = async function () {
+  try {
+    const [users, carts, products] = await Promise.all(
+      urls1.map((url) => fetch(url).then((resp) => resp.json())),
+    );
+    console.log("users", users);
+    console.log("posta", carts);
+    console.log("albums", products);
+  } catch (error) {
+    console.log("oooooops", error);
+  }
+}
 
-const all = Promise.allSettled([promiseOne,PromiseTwo]).then(data => console.log(data))
-                .catch(e => console.log('something fail'))
-
-console.log("promise 1: ",promiseOne,"\n","promise 2: ",PromiseTwo, "\n", "all:", all)
+console.log(getData1());

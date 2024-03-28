@@ -33,7 +33,7 @@ Promise.all(urls.map(url => fetch(url).then(people => people.json())))
     console.log('3', array[2])
     console.log('4', array[3])
   })
-  .catch(err => console.log('ughhhh fix it!', err))
+ .catch(err => console.log('ughhhh fix it!', err))
   .finally(() => console.log('extra action here'))
 
 

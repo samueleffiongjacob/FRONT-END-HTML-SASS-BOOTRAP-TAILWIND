@@ -4,7 +4,9 @@
 
 // #2) Run the above promise and make it console.log "success"
 
-
+promise.then(rep => console.log(rep)).catch((err) => {
+  console.log('failed', err)
+})
 // #3) Read about Promise.resolve() and Promise.reject(). How can you make
 // the above promise shorter with Promise.resolve() and console loggin "success"
 

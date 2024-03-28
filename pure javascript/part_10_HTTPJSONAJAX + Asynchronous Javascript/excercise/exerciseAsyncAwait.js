@@ -25,8 +25,21 @@ const getData = async function () {
 };
 
 // #3)Add a try catch block to the #2 solution in order to catch any errors. // Now, use the given array containing an invalid url, so you console.log  //your error with 'oooooops'.
-const urls = [
-  "https://jsonplaceholder.typicode.com/users",
-  "https://jsonplaceholdeTYPO.typicode.com/posts",
-  "https://jsonplaceholder.typicode.com/albums",
+const urls1 = [
+  "https://dummyjson.com/products/search?q=Laptop",
+  "https://dummyjson.com/carts",
+  "https://dummyjson.com/users",
 ];
+
+const getData1 = async function () {
+  try {
+    const [users, carts, products] = await Promise.all(
+      urls1.map((url) => fetch(url).then((resp) => resp.json())),
+    );
+    console.log("users", users);
+    console.log("posta", carts);
+    console.log("albums", products);
+  } catch (error) {
+    console.log("oooooops", error);
+  }
+}
